@@ -1,0 +1,139 @@
+.eventblock {
+  position: absolute;
+  box-shadow: inset 0px 0px 0px 2px #777;
+  height: 40px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  line-clamp: 2;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  color: #fff;
+}
+
+.eventtextblock {
+  position: absolute;
+  padding-left: 3px;
+  padding-right: 3px;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  height: 38px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  line-clamp: 2;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+
+.schedpool {
+  position: absolute;
+}
+
+#schedulexaxis {
+  position: sticky;
+  z-index: 9;
+  background-color: #333;
+  color: #fff;
+  top: 0px;
+  float: left;
+  min-width: max-content;
+  min-height: max-content;
+}
+
+#scheduleyaxis {
+  position: sticky;
+  width: 200px;
+  z-index: 10;
+  background-color: #333;
+  color: #fff;
+  left: 0px;
+  float: left;
+}
+
+.locationblock {
+  position: relative;
+  box-shadow: inset 0px 0px 0px 2px #777;
+  padding-left: 3px;
+  padding-right: 3px;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  height: 38px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  line-clamp: 2;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+
+.timeblock {
+  float: left;
+  position: relative;
+  box-shadow: inset 0px 0px 0px 2px #777;
+  padding-left: 3px;
+  padding-right: 3px;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  height: 38px;
+  width: 194px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  line-clamp: 2;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+
+body {
+  margin: 0px;
+  background-color: #000;
+  font-family: sans-serif;
+}
+
+#schedulepanel {
+  min-width: max-content;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+
+.vertgridline {
+  position: absolute;
+  outline: 1px dashed #444;
+  width: 0px;
+  z-index: -1;
+}
+
+.horlinegrid {
+  position: absolute;
+  outline: 1px dashed #444;
+  height: 0px;
+  z-index: -1;
+}
+
+#modalcontainer {
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  z-index: 20;
+  color: #fff;
+}
+
+#eventinfomodal {
+  width: 600px;
+  height: 500px;
+  position: relative;
+  background-color: #444;
+  padding: 10px;
+  border: 10px solid #222;
+  border-radius: 10px;
+  min-height: max-content;
+}
+
+#eventinfoname {
+  font-size: 24px;
+}

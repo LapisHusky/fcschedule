@@ -1,0 +1,4777 @@
+{
+  "name": "fc2025 Schedule",
+  "entries": [
+    {
+      "id": "5335-0",
+      "name": "Recharge Room",
+      "startDate": "2025-01-16T10:00:00-08:00",
+      "endDate": "2025-01-17T02:00:00-08:00",
+      "description": "",
+      "presenters": [],
+      "type": "Hours",
+      "location": {
+        "name": "Hilton: Executive Boardroom"
+      }
+    },
+    {
+      "id": "5343-0",
+      "name": "Con Ops",
+      "startDate": "2025-01-16T12:00:00-08:00",
+      "endDate": "2025-01-17T01:00:00-08:00",
+      "description": "The center & home-base of Further Confusion operations. Come here to get information, check lost-and-found, and check in if you're a presenter or panelist. If you're looking to help out, sign up here as a gofur!",
+      "presenters": [],
+      "type": "Hours",
+      "location": {
+        "name": "SJCC: Con Ops / Zookeepers"
+      }
+    },
+    {
+      "id": "5352-0",
+      "name": "Dealer's Den Setup",
+      "startDate": "2025-01-16T13:00:00-08:00",
+      "endDate": "2025-01-16T22:00:00-08:00",
+      "description": "If you're a dealer, your dealer assistants and you may come into the Dealers Den to load in and set up.",
+      "presenters": [],
+      "type": "Hours",
+      "location": {
+        "name": "SJCC: Dealers Den (LL20BCD/LL21BCDEF)"
+      }
+    },
+    {
+      "id": "5358-0",
+      "name": "Pre-Registration Pickup",
+      "startDate": "2025-01-16T14:00:00-08:00",
+      "endDate": "2025-01-16T17:00:00-08:00",
+      "description": "Come pick up your attendee badge early if you've already registered ahead of time!",
+      "presenters": [],
+      "type": "Hours",
+      "location": {
+        "name": "SJCC: Registration (The Hub)"
+      }
+    },
+    {
+      "id": "5349-0",
+      "name": "Zookeepers",
+      "startDate": "2025-01-16T15:00:00-08:00",
+      "endDate": "2025-01-17T02:00:00-08:00",
+      "description": "",
+      "presenters": [],
+      "type": "Hours",
+      "location": {
+        "name": "SJCC: Con Ops / Zookeepers"
+      }
+    },
+    {
+      "id": "5359-0",
+      "name": "Registration",
+      "startDate": "2025-01-16T17:00:00-08:00",
+      "endDate": "2025-01-16T20:00:00-08:00",
+      "description": "Come to registration to get your attendee badge! We look forward to welcoming you to the con.",
+      "presenters": [],
+      "type": "Hours",
+      "location": {
+        "name": "SJCC: Registration (The Hub)"
+      }
+    },
+    {
+      "id": "5285-0",
+      "name": "Art Show: Artist Setup",
+      "startDate": "2025-01-16T17:00:00-08:00",
+      "endDate": "2025-01-16T20:00:00-08:00",
+      "description": "The Art Show is open for artists to hang their pieces. The room is not open to general attendees.",
+      "presenters": [
+        {
+          "name": "binaryfox"
+        }
+      ],
+      "type": "Hours",
+      "location": {
+        "name": "Hilton: Art Show (Almaden Ballroom)"
+      }
+    },
+    {
+      "id": "5364-0",
+      "name": "ANE Portal",
+      "startDate": "2025-01-16T17:00:00-08:00",
+      "endDate": "2025-01-19T16:00:00-08:00",
+      "description": "The mascot of Anthro New England, Copley, has gone missing!  Can you help our friends from Boston find the deer and solve the mystery?",
+      "presenters": [],
+      "type": "Hours",
+      "location": {
+        "name": "Hilton: Santa Clara Foyer"
+      }
+    },
+    {
+      "id": "5187-0",
+      "name": "Advanced Worldbuilding - Science and Culture",
+      "startDate": "2025-01-16T17:00:00-08:00",
+      "endDate": "2025-01-16T18:30:00-08:00",
+      "description": "A panel for creators who are interested in taking their story and worldbuilding schedules beyond the usual tropes seen in a large body of furry writing.  What should a writer worry about when describing advanced technology or magic?  What about maps?  In addition to some useful software that can help flesh out the story, a list of considerations for building cultures will also be discussed.",
+      "presenters": [
+        {
+          "name": "Mama Mel"
+        }
+      ],
+      "type": "Science",
+      "location": {
+        "name": "Hilton: Santa Clara"
+      }
+    },
+    {
+      "id": "5361-0",
+      "name": "VR Portal",
+      "startDate": "2025-01-16T18:00:00-08:00",
+      "endDate": "2025-01-17T00:00:00-08:00",
+      "description": "See your friends in VR! Located in the Santa Clara foyer of the Hilton.",
+      "presenters": [],
+      "type": "Hours",
+      "location": {
+        "name": "Hilton: Santa Clara Foyer"
+      }
+    },
+    {
+      "id": "5318-0",
+      "name": "Krita: Open Source Digital Painting",
+      "startDate": "2025-01-16T18:00:00-08:00",
+      "endDate": "2025-01-16T19:30:00-08:00",
+      "description": "Krita is a free and open source digital painting application. This panel will explore Krita's interface and features with topics like layer types, brush engines and settings, vector shapes, and drawing assistants. We'll also discuss useful customizations, workflow tips, and resources.",
+      "presenters": [
+        {
+          "name": "Quykfox"
+        }
+      ],
+      "type": "Arts",
+      "location": {
+        "name": "Hilton: San Pedro"
+      }
+    },
+    {
+      "id": "5341-0",
+      "name": "Fursuit Lounge",
+      "startDate": "2025-01-16T18:00:00-08:00",
+      "endDate": "2025-01-17T02:30:00-08:00",
+      "description": "Need a place to cool off? Come on in and hang up your head! We have water and fans available for you, so you can fursuit safely.",
+      "presenters": [],
+      "type": "Hours",
+      "location": {
+        "name": "Marriott: Fursuit Lounge (San Carlos)"
+      }
+    },
+    {
+      "id": "5342-0",
+      "name": "Chill Space",
+      "startDate": "2025-01-16T18:00:00-08:00",
+      "endDate": "2025-01-16T20:30:00-08:00",
+      "description": "Open chill area to rest, hang out, or hold games.",
+      "presenters": [],
+      "type": "Hours",
+      "location": {
+        "name": "Marriott: Marriott Stage (Salon I to VI)"
+      }
+    },
+    {
+      "id": "5315-0",
+      "name": "Be Deer, Frolic Safe!",
+      "startDate": "2025-01-16T19:00:00-08:00",
+      "endDate": "2025-01-16T20:30:00-08:00",
+      "description": "A brief overview of harm reduction practices and how furries of all kinds can help their community! Promoting safety, dignity, and education in our fandom.",
+      "presenters": [
+        {
+          "name": "Peppermint Deer"
+        }
+      ],
+      "type": "Science",
+      "location": {
+        "name": "Hilton: San Carlos"
+      },
+      "maturity": "18+"
+    },
+    {
+      "id": "5196-0",
+      "name": "The Banana Chronicles: How Appealing",
+      "startDate": "2025-01-16T19:00:00-08:00",
+      "endDate": "2025-01-16T20:30:00-08:00",
+      "description": "Listen to hilarious stories told by a business casual banana.",
+      "presenters": [
+        {
+          "name": "Sebastian"
+        }
+      ],
+      "type": "Performance",
+      "location": {
+        "name": "Hilton: Santa Clara"
+      },
+      "maturity": "18+"
+    },
+    {
+      "id": "5366-0",
+      "name": "Opening Ceremonies",
+      "startDate": "2025-01-16T20:30:00-08:00",
+      "endDate": "2025-01-16T21:00:00-08:00",
+      "description": "Join us in kicking off Further Confusion 2025: Animal Business\r\n\r\nOur chair, Woofy, and other members of the team will welcome you to San Jose for a weekend of fur and fun.",
+      "presenters": [
+        {
+          "name": "FurCon Executive Team"
+        }
+      ],
+      "type": "Event",
+      "location": {
+        "name": "Marriott: Marriott Stage (Salon I to VI)"
+      }
+    },
+    {
+      "id": "5244-0",
+      "name": "The Joy of Rope",
+      "startDate": "2025-01-16T21:00:00-08:00",
+      "endDate": "2025-01-16T22:30:00-08:00",
+      "description": "Whether you are experienced with shibari or curious about rope, we will show you how to incorporate it into your fursuit expression, private play, or even just as meditative form of self care.",
+      "presenters": [
+        {
+          "name": "FelixFaeWild"
+        }
+      ],
+      "type": "Arts",
+      "location": {
+        "name": "Hilton: Santa Clara"
+      },
+      "maturity": "18+"
+    },
+    {
+      "id": "5276-0",
+      "name": "Mutant on Mutant",
+      "startDate": "2025-01-16T21:00:00-08:00",
+      "endDate": "2025-01-16T22:30:00-08:00",
+      "description": "Mutant on Mutant is a collaborative reading-performance consisting of body contact improv, roleplay, and live and composed sonic elements. As the sixth iteration of this performance, and it's second iteration at Further Confusion, Mutant on Mutant emerges from Smoopa's ongoing research and practice, inviting in other inter-discplinary artists within the fandom to bring their own perspectives and mutations to this durational performance. The invitation is yours to steep within a roughly half hour exploration and abstraction into notions of growing up on the internet as a furry, living as a digital werecreature, and the energy between ourselves and our own original characters.",
+      "presenters": [
+        {
+          "name": "Smoopa"
+        }
+      ],
+      "type": "Performance",
+      "location": {
+        "name": "Hilton: San Carlos"
+      },
+      "maturity": "18+"
+    },
+    {
+      "id": "5407-0",
+      "name": "Bingo Social",
+      "startDate": "2025-01-16T21:00:00-08:00",
+      "endDate": "2025-01-16T22:30:00-08:00",
+      "description": "Come and hang out, meet new people, and play some bingo! There will be prizes!",
+      "presenters": [
+        {
+          "name": "Midori Hound"
+        }
+      ],
+      "type": "Social",
+      "location": {
+        "name": "Hilton: San Pedro"
+      }
+    },
+    {
+      "id": "5255-0",
+      "name": "Immigrant Furs Meet & Greet",
+      "startDate": "2025-01-16T21:00:00-08:00",
+      "endDate": "2025-01-16T22:30:00-08:00",
+      "description": "So you\u2019re here on a visa/green card? Let\u2019s talk about our experiences being an immigrant or temporary in the US, as well as share our stories and get to know each other. US citizens are welcome too!",
+      "presenters": [
+        {
+          "name": "Ignis"
+        }
+      ],
+      "type": "Social",
+      "location": {
+        "name": "Hilton: University"
+      }
+    },
+    {
+      "id": "5376-0",
+      "name": "DJ Dance - EarVelvet",
+      "startDate": "2025-01-16T21:00:00-08:00",
+      "endDate": "2025-01-16T22:00:00-08:00",
+      "description": "Genre: Club, Bass, Electro House\n\nMixcloud: https://www.mixcloud.com/EarVelvet/\nBluesky: https://bsky.app/profile/earvelvet.bsky.social\nTwitter/X: https://x.com/earvelvet",
+      "presenters": [],
+      "type": "Performance",
+      "location": {
+        "name": "Marriott: Marriott Stage (Salon I to VI)"
+      }
+    },
+    {
+      "id": "5365-0",
+      "name": "All Paws HR Onboarding Session",
+      "startDate": "2025-01-16T21:00:00-08:00",
+      "endDate": "2025-01-16T22:00:00-08:00",
+      "description": "This is a brief meeting for volunteers to get up to speed at-con. New volunteers welcome!\r\n\r\nNote that volunteers do not need to attend both sessions; we will present the same info at each one.",
+      "presenters": [
+        {
+          "name": "FurCon Executive Team"
+        }
+      ],
+      "type": "Event",
+      "location": {
+        "name": "Marriott: Blossom Hill"
+      }
+    },
+    {
+      "id": "5311-0",
+      "name": "Green meet",
+      "startDate": "2025-01-16T21:30:00-08:00",
+      "endDate": "2025-01-16T22:30:00-08:00",
+      "description": "All furries of all shades of green, come one come all to this colorful congregation of green. We will talk different shades of green, debate on why green is the best color, and all around just meet other green fellows.",
+      "presenters": [
+        {
+          "name": "Jax Monday"
+        }
+      ],
+      "type": "Social",
+      "location": {
+        "name": "Marriott: Willow Glen III"
+      }
+    },
+    {
+      "id": "5377-0",
+      "name": "DJ Dance - Nifes",
+      "startDate": "2025-01-16T22:00:00-08:00",
+      "endDate": "2025-01-16T23:00:00-08:00",
+      "description": "Genre: Psychadelic Dubstep // Acid Trap // Drum & Bass\n\nMixcloud: https://www.mixcloud.com/NifesTheCat/\nBluesky: https://bsky.app/profile/nifes.bsky.social\nTwitter/X: https://x.com/NifesTheCat",
+      "presenters": [],
+      "type": "Performance",
+      "location": {
+        "name": "Marriott: Marriott Stage (Salon I to VI)"
+      }
+    },
+    {
+      "id": "5289-0",
+      "name": "Furry BDSM 101",
+      "startDate": "2025-01-16T22:30:00-08:00",
+      "endDate": "2025-01-17T00:00:00-08:00",
+      "description": "This Afterdark multimedia panel is intended to be a foundational program to give you the basic nuts and bolts you will need to negotiate the sometimes complex world of BDSM, as well as how it intersects wth the furry fandom.  In this panel we'll cover basics of kink, why people find this sexy, fetishes, consent, scene nefotiation, scene safety, social dynamics, community resources, some history, and much more..   This panel serves as introdutory to more in-depth panels on the previously mentioned topics. We'll intoroduce the basic foundation to lead into other afterdark educational programs.   There are no prerequisites, and this is intended for all levels of experince.  .\r\n\r\n\r\nThis Furry BDSM 101 program will be presented as a guided slide show of concepts.  After the presentation any additional time will be alotted to Q&A.  \r\nNo graphic content is planned but the concepts presented are mature in nature and as such an age restriction of age 18+ is required.\r\n\r\nFollow-on panels/panelists considered (Many of these I have panelists eager to present on):\r\n1.  Latex and rubber fetish in furrry - Intended to be similar to the past \"Rubberfur panel\" but more guided.\r\n2. Dragon panel. - It is hoped that this can hinge into the existing AD panel referred tro as the \"Dragon panel\" and other AD art and appreciation panels./\r\n3. Latex repair panel - Cofirmed I can present this one myself\r\n4. Murrsuits 101.  I'd like to get Gale Frostbane to present her panel from FurFright, if not find someone to do a similar panel, or Ic an do that mysefl.\r\n5. Adult concepts in furry - A historical perspective of adult art and concept throughout furry fandom history. \r\n6. Pup play in the furry fandom\r\n7. Leather fetish and the furry fandom\r\n8. Furry ABDL - Borrowing from well establiushed ABDL furries, an overview of furry ABDL, and a social meet and greet.\r\n9. Dungeon 101 - My first visit to a play space.\r\n10. Dungeon monitor training  - A discussion on what dungeon monitors are expected to know and do, and how to get trained. (Borrowing from DMA handbook)\r\n11. Fursuits and Gear are not consent. -  A presentation on how to navigate consent respectfully, especially in con space or non AD space.\r\nProbably a lot more.",
+      "presenters": [
+        {
+          "name": "Scout Fox"
+        }
+      ],
+      "type": "Social",
+      "location": {
+        "name": "Marriott: Blossom Hill"
+      },
+      "maturity": "18+"
+    },
+    {
+      "id": "5378-0",
+      "name": "DJ Dance - WarneD1",
+      "startDate": "2025-01-16T23:00:00-08:00",
+      "endDate": "2025-01-17T00:00:00-08:00",
+      "description": "Genre: M.L.E.B.S.\n\nMixcloud: https://www.mixcloud.com/WarneD1/\nBluesky: https://bsky.app/profile/warned1.bsky.social\nTwitter/X: https://x.com/DJ_WarneD1",
+      "presenters": [],
+      "type": "Performance",
+      "location": {
+        "name": "Marriott: Marriott Stage (Salon I to VI)"
+      }
+    },
+    {
+      "id": "5379-0",
+      "name": "DJ Dance - RaverLyon",
+      "startDate": "2025-01-17T00:00:00-08:00",
+      "endDate": "2025-01-17T01:00:00-08:00",
+      "description": "Genre: Happy Hardcore // Euphoric Hardstyle // UK Hardcore\n\nMixcloud: https://www.mixcloud.com/raver-lyon/\nTwitter/X: https://x.com/RaverLyon",
+      "presenters": [],
+      "type": "Performance",
+      "location": {
+        "name": "Marriott: Marriott Stage (Salon I to VI)"
+      }
+    },
+    {
+      "id": "5343-1",
+      "name": "Con Ops",
+      "startDate": "2025-01-17T08:30:00-08:00",
+      "endDate": "2025-01-18T02:30:00-08:00",
+      "description": "The center & home-base of Further Confusion operations. Come here to get information, check lost-and-found, and check in if you're a presenter or panelist. If you're looking to help out, sign up here as a gofur!",
+      "presenters": [],
+      "type": "Hours",
+      "location": {
+        "name": "SJCC: Con Ops / Zookeepers"
+      }
+    },
+    {
+      "id": "5359-1",
+      "name": "Registration",
+      "startDate": "2025-01-17T09:00:00-08:00",
+      "endDate": "2025-01-17T20:00:00-08:00",
+      "description": "Come to registration to get your attendee badge! We look forward to welcoming you to the con.",
+      "presenters": [],
+      "type": "Hours",
+      "location": {
+        "name": "SJCC: Registration (The Hub)"
+      }
+    },
+    {
+      "id": "5352-1",
+      "name": "Dealer's Den Setup",
+      "startDate": "2025-01-17T09:00:00-08:00",
+      "endDate": "2025-01-17T11:00:00-08:00",
+      "description": "If you're a dealer, your dealer assistants and you may come into the Dealers Den to load in and set up.",
+      "presenters": [],
+      "type": "Hours",
+      "location": {
+        "name": "SJCC: Dealers Den (LL20BCD/LL21BCDEF)"
+      }
+    },
+    {
+      "id": "5210-0",
+      "name": "Twisted Tails Escape",
+      "startDate": "2025-01-17T10:00:00-08:00",
+      "endDate": "2025-01-17T11:00:00-08:00",
+      "description": "Yarrrrrrr! Reckon ye\u2019ve got what it takes to discover the Secret of the Furbidden Treasure? Or perhaps you want to help Captain Cody Escape from Otter Space! \r\n\r\nTickets are $25 per person with a maximum of 10 players per group. Players by themselves or in a small group will be paired up with other like-minded adventurers to a maximum of 10 players per game. For private bookings, a minimum of 5 tickets must be purchased. Also, a portion of every ticket will go to the convention's charity! If you have any questions, please contact us directly at info@twistedtailsescape.com.",
+      "presenters": [
+        {
+          "name": "Thermo Dragon"
+        }
+      ],
+      "type": "Gaming",
+      "location": {
+        "name": "Hilton: Escape Room (Winchester 1)"
+      }
+    },
+    {
+      "id": "5365-1",
+      "name": "All Paws HR Onboarding Session",
+      "startDate": "2025-01-17T10:00:00-08:00",
+      "endDate": "2025-01-17T11:00:00-08:00",
+      "description": "This is a brief meeting for volunteers to get up to speed at-con. New volunteers welcome!\r\n\r\nNote that volunteers do not need to attend both sessions; we will present the same info at each one.",
+      "presenters": [
+        {
+          "name": "FurCon Executive Team"
+        }
+      ],
+      "type": "Event",
+      "location": {
+        "name": "Marriott: Blossom Hill"
+      }
+    },
+    {
+      "id": "5285-1",
+      "name": "Art Show: Artist Setup",
+      "startDate": "2025-01-17T10:00:00-08:00",
+      "endDate": "2025-01-17T12:00:00-08:00",
+      "description": "The Art Show is open for artists to hang their pieces. The room is not open to general attendees.",
+      "presenters": [
+        {
+          "name": "binaryfox"
+        }
+      ],
+      "type": "Hours",
+      "location": {
+        "name": "Hilton: Art Show (Almaden Ballroom)"
+      }
+    },
+    {
+      "id": "5335-1",
+      "name": "Recharge Room",
+      "startDate": "2025-01-17T10:00:00-08:00",
+      "endDate": "2025-01-18T02:00:00-08:00",
+      "description": "",
+      "presenters": [],
+      "type": "Hours",
+      "location": {
+        "name": "Hilton: Executive Boardroom"
+      }
+    },
+    {
+      "id": "5349-1",
+      "name": "Zookeepers",
+      "startDate": "2025-01-17T10:00:00-08:00",
+      "endDate": "2025-01-18T02:00:00-08:00",
+      "description": "",
+      "presenters": [],
+      "type": "Hours",
+      "location": {
+        "name": "SJCC: Con Ops / Zookeepers"
+      }
+    },
+    {
+      "id": "5337-0",
+      "name": "Gaming",
+      "startDate": "2025-01-17T10:00:00-08:00",
+      "endDate": "2025-01-18T02:00:00-08:00",
+      "description": "Gaming is open; come play with us! Featuring a generous selection of both tabletop and video games, provided by Games of Berkeley, MAGWest, and those that have lent us their games and systems for the convention. There's something here for everyone! Either to waste time between events or as a place to chill, we will be here. Bags will be checked at the door. Learn more: http://furcon.org/programming/gaming/",
+      "presenters": [],
+      "type": "Hours",
+      "location": {
+        "name": "Hilton: Gaming (Market)"
+      }
+    },
+    {
+      "id": "5256-0",
+      "name": "Bouldering for Dogs*",
+      "startDate": "2025-01-17T11:00:00-08:00",
+      "endDate": "2025-01-17T11:30:00-08:00",
+      "description": "Curious about climbing? Ever get the inexorable urge to scrabble up a particularly mesmerizing hunk of stone? Wanna meet other furries who feel the same?\r\n\r\nCome learn about bouldering, then walk with us over to the nearby climbing gym. No experience/gear required!\r\n\r\nIf you plan to climb, please pre-sign the gym waiver: https://touchstone.rphq.com/studio/agreements/waiver",
+      "presenters": [
+        {
+          "name": "Nick"
+        },
+        {
+          "name": "Revel"
+        }
+      ],
+      "type": "Science",
+      "location": {
+        "name": "Hilton: San Carlos"
+      }
+    },
+    {
+      "id": "5341-1",
+      "name": "Fursuit Lounge",
+      "startDate": "2025-01-17T11:00:00-08:00",
+      "endDate": "2025-01-18T02:30:00-08:00",
+      "description": "Need a place to cool off? Come on in and hang up your head! We have water and fans available for you, so you can fursuit safely.",
+      "presenters": [],
+      "type": "Hours",
+      "location": {
+        "name": "SJCC: Fursuit Lounge / Photoshoot (220C)"
+      }
+    },
+    {
+      "id": "5351-0",
+      "name": "Dealer's Den",
+      "startDate": "2025-01-17T11:00:00-08:00",
+      "endDate": "2025-01-17T18:00:00-08:00",
+      "description": "Our Dealer's Den is the place to find excellent artists and craftspeople selling their wares! Come take a look around; you never know what you might find!",
+      "presenters": [],
+      "type": "Hours",
+      "location": {
+        "name": "SJCC: Dealers Den (LL20BCD/LL21BCDEF)"
+      }
+    },
+    {
+      "id": "5211-0",
+      "name": "Aviation Meet & Greet",
+      "startDate": "2025-01-17T11:00:00-08:00",
+      "endDate": "2025-01-17T12:30:00-08:00",
+      "description": "Meet up with fellow pilots and other aviation workers and enthusiasts. Includes a panel portion and a meet & greet portion.",
+      "presenters": [
+        {
+          "name": "Toby SnowWolf"
+        }
+      ],
+      "type": "Social",
+      "location": {
+        "name": "Marriott: Almaden"
+      }
+    },
+    {
+      "id": "5126-0",
+      "name": "Triple Tangram",
+      "startDate": "2025-01-17T11:00:00-08:00",
+      "endDate": "2025-01-17T12:30:00-08:00",
+      "description": "Use the ancient Chinese puzzle to make the convention\u2019s mascots, Almaden the dragon, Berkeley the dog, and Clara the cat.  First 40 will get a kit with one pre-cut tangram and two paper squares for DIY.",
+      "presenters": [
+        {
+          "name": "rich-online"
+        }
+      ],
+      "type": "Arts",
+      "location": {
+        "name": "Hilton: San Pedro"
+      }
+    },
+    {
+      "id": "5177-0",
+      "name": "Cartoon trivia!",
+      "startDate": "2025-01-17T11:00:00-08:00",
+      "endDate": "2025-01-17T12:30:00-08:00",
+      "description": "hey wanna test your knowledge on your favorite cartoons and have a chance to win some amazing prizes? Then why don\u2019t u join us in cartoon trivia! We will have fun and good times!",
+      "presenters": [
+        {
+          "name": "Dashie/milkshake!"
+        }
+      ],
+      "type": "Gaming",
+      "location": {
+        "name": "Marriott: Willow Glen III"
+      }
+    },
+    {
+      "id": "5214-0",
+      "name": "How to make furrends",
+      "startDate": "2025-01-17T11:00:00-08:00",
+      "endDate": "2025-01-17T12:30:00-08:00",
+      "description": "Cons are a magical place where people l can let loose and have fun. Make the magic last all year long with this hybrid style panel to teach you how to make friends, and a meet and greet to get started right away!",
+      "presenters": [
+        {
+          "name": "Pony for Hire"
+        }
+      ],
+      "type": "Social",
+      "location": {
+        "name": "Marriott: Guadalupe"
+      }
+    },
+    {
+      "id": "5341-2",
+      "name": "Fursuit Lounge",
+      "startDate": "2025-01-17T11:00:00-08:00",
+      "endDate": "2025-01-18T02:30:00-08:00",
+      "description": "Need a place to cool off? Come on in and hang up your head! We have water and fans available for you, so you can fursuit safely.",
+      "presenters": [],
+      "type": "Hours",
+      "location": {
+        "name": "Marriott: Fursuit Lounge (San Carlos)"
+      }
+    },
+    {
+      "id": "5298-0",
+      "name": "Fire Prevention - Home Fire Safety",
+      "startDate": "2025-01-17T11:00:00-08:00",
+      "endDate": "2025-01-17T12:30:00-08:00",
+      "description": "Ever thought of changing your smoke detector batteries? What about planning a home escape plan? Then come and join host Jerry Opossum and Skipper the Kit Fox to learn how to make your home fire-safe! Remember, having fire safety in mind now can save a life in the future, so don't delay and join in!",
+      "presenters": [
+        {
+          "name": "Skipper"
+        },
+        {
+          "name": "TheOGJerry"
+        }
+      ],
+      "type": "Science",
+      "location": {
+        "name": "Hilton: Santa Clara"
+      }
+    },
+    {
+      "id": "5210-1",
+      "name": "Twisted Tails Escape",
+      "startDate": "2025-01-17T11:00:00-08:00",
+      "endDate": "2025-01-17T12:00:00-08:00",
+      "description": "Yarrrrrrr! Reckon ye\u2019ve got what it takes to discover the Secret of the Furbidden Treasure? Or perhaps you want to help Captain Cody Escape from Otter Space! \r\n\r\nTickets are $25 per person with a maximum of 10 players per group. Players by themselves or in a small group will be paired up with other like-minded adventurers to a maximum of 10 players per game. For private bookings, a minimum of 5 tickets must be purchased. Also, a portion of every ticket will go to the convention's charity! If you have any questions, please contact us directly at info@twistedtailsescape.com.",
+      "presenters": [
+        {
+          "name": "Thermo Dragon"
+        }
+      ],
+      "type": "Gaming",
+      "location": {
+        "name": "Hilton: Escape Room (Winchester 1)"
+      }
+    },
+    {
+      "id": "5235-0",
+      "name": "Mindfulness and Meditation",
+      "startDate": "2025-01-17T12:00:00-08:00",
+      "endDate": "2025-01-17T13:30:00-08:00",
+      "description": "Being present and mindful is at the heart of nearly every philosophical tradition and is at the core of bringing peace of mind to lives. This workshop will introduce the fundamentals of mindfulness and philosophical ontology, teach practices that are useful for centering ourselves and bringing possibility to everyday situations, discuss letting go of our barriers to create who we want to be, and includes a short mindfulness meditation.",
+      "presenters": [
+        {
+          "name": "Kannik"
+        }
+      ],
+      "type": "Science",
+      "location": {
+        "name": "Hilton: University"
+      }
+    },
+    {
+      "id": "5361-1",
+      "name": "VR Portal",
+      "startDate": "2025-01-17T12:00:00-08:00",
+      "endDate": "2025-01-18T00:00:00-08:00",
+      "description": "See your friends in VR! Located in the Santa Clara foyer of the Hilton.",
+      "presenters": [],
+      "type": "Hours",
+      "location": {
+        "name": "Hilton: Santa Clara Foyer"
+      }
+    },
+    {
+      "id": "5286-0",
+      "name": "Art Show",
+      "startDate": "2025-01-17T12:00:00-08:00",
+      "endDate": "2025-01-17T18:00:00-08:00",
+      "description": "The Art Show is a gallery and silent auction for anthropomorphic art.",
+      "presenters": [
+        {
+          "name": "binaryfox"
+        }
+      ],
+      "type": "Hours",
+      "location": {
+        "name": "Hilton: Art Show (Almaden Ballroom)"
+      }
+    },
+    {
+      "id": "5203-0",
+      "name": "Fursuit Dance Comp Prelims",
+      "startDate": "2025-01-17T12:00:00-08:00",
+      "endDate": "2025-01-17T14:00:00-08:00",
+      "description": "It's time to audition for the Fursuit Dance Comp! Note, this is a closed event; please sign up on the FC website beforehand if you want to audition.",
+      "presenters": [
+        {
+          "name": "Brenda Banks"
+        }
+      ],
+      "type": "Event",
+      "location": {
+        "name": "Marriott: Marriott Stage (Salon I to VI)"
+      }
+    },
+    {
+      "id": "5148-0",
+      "name": "Magic: The Gathering - Cube Draft",
+      "startDate": "2025-01-17T12:00:00-08:00",
+      "endDate": "2025-01-17T16:00:00-08:00",
+      "description": "Do you enjoy Magic: The Gathering but didn't bring your cards?  No problem!  Come for a cube draft where the cards are supplied for you!\r\nEight players maximum -- first come, first registered!  Event registration opens one hour before the event begins.\r\nPrize support will be supplied.",
+      "presenters": [
+        {
+          "name": "Luxemburg Skunk"
+        }
+      ],
+      "type": "Gaming",
+      "location": {
+        "name": "Hilton: Gaming (Market)"
+      }
+    },
+    {
+      "id": "5210-2",
+      "name": "Twisted Tails Escape",
+      "startDate": "2025-01-17T12:00:00-08:00",
+      "endDate": "2025-01-17T13:00:00-08:00",
+      "description": "Yarrrrrrr! Reckon ye\u2019ve got what it takes to discover the Secret of the Furbidden Treasure? Or perhaps you want to help Captain Cody Escape from Otter Space! \r\n\r\nTickets are $25 per person with a maximum of 10 players per group. Players by themselves or in a small group will be paired up with other like-minded adventurers to a maximum of 10 players per game. For private bookings, a minimum of 5 tickets must be purchased. Also, a portion of every ticket will go to the convention's charity! If you have any questions, please contact us directly at info@twistedtailsescape.com.",
+      "presenters": [
+        {
+          "name": "Thermo Dragon"
+        }
+      ],
+      "type": "Gaming",
+      "location": {
+        "name": "Hilton: Escape Room (Winchester 1)"
+      }
+    },
+    {
+      "id": "5274-0",
+      "name": "HELP WITH SHYNESS",
+      "startDate": "2025-01-17T12:00:00-08:00",
+      "endDate": "2025-01-17T13:30:00-08:00",
+      "description": "Shyness is the emotional fear that can hold back any furry. Either they are new or just have a difficult time getting out of their shell. This panel will offer tips and advice on how to get out of your shyness comfortable shell. Hiding in the corner or watching others can be fun. But won\u2019t getting involved bring more excitement? Come see what tips can help you.",
+      "presenters": [
+        {
+          "name": "Myishi PandaLion"
+        }
+      ],
+      "type": "Social",
+      "location": {
+        "name": "Marriott: Blossom Hill"
+      }
+    },
+    {
+      "id": "5323-0",
+      "name": "Transhumanism, Cybernetics, and Furry Ergonomics",
+      "startDate": "2025-01-17T13:00:00-08:00",
+      "endDate": "2025-01-17T15:00:00-08:00",
+      "description": "Do you want a real, functional tail? Or at least a robotic one? Dream of being more than human, err, less human? Relevant technologies, both biological and robotic, are progressing rapidly, with many not that far off. We will review some more developments in the heavily intertwined topics of AI, neuroscience, robotics, medicine, and more that are foundational to these ambitions. We will also have a light-hearted discussion of what challenges and opportunities might await a society of augmented humans and anthropomorphic creatures.",
+      "presenters": [
+        {
+          "name": "Doktor Wulf"
+        }
+      ],
+      "type": "Science",
+      "location": {
+        "name": "Hilton: Santa Clara"
+      }
+    },
+    {
+      "id": "5357-0",
+      "name": "Photoshoot",
+      "startDate": "2025-01-17T13:00:00-08:00",
+      "endDate": "2025-01-17T17:30:00-08:00",
+      "description": "Strike a pose! Our expert convention photographers will make you look great. Stop by to get some professional photos taken, of you or your whole group!\r\n\r\nIf you are organizing a large group photo, please reserve a time on furcon.org/meetups.",
+      "presenters": [],
+      "type": "Hours",
+      "location": {
+        "name": "SJCC: Photoshoot (220C Hours Only)"
+      }
+    },
+    {
+      "id": "5188-0",
+      "name": "Chinese Language 101",
+      "startDate": "2025-01-17T13:00:00-08:00",
+      "endDate": "2025-01-17T14:30:00-08:00",
+      "description": "\u5927\u5bb6\u597d (D\u00e0ji\u0101 h\u01ceo)! Want to learn a few words for yipping and yapping in Chinese with fellow furries? Curious about how to describe your fursona\u2019s species, make animal sounds, or call your friends cute in Chinese? Join this panel and learn all about it! All levels welcome; no prior experience needed!",
+      "presenters": [
+        {
+          "name": "Au Fay \u7ff1\u975e"
+        }
+      ],
+      "type": "Social",
+      "location": {
+        "name": "Marriott: Almaden"
+      }
+    },
+    {
+      "id": "5232-0",
+      "name": "Dungeons and Dining",
+      "startDate": "2025-01-17T13:00:00-08:00",
+      "endDate": "2025-01-17T14:30:00-08:00",
+      "description": "Learn how to make tasty cost efficient meals with dragon host \u201cStale Rice\u201d",
+      "presenters": [
+        {
+          "name": "Stale Rice"
+        }
+      ],
+      "type": "Social",
+      "location": {
+        "name": "Marriott: Willow Glen III"
+      }
+    },
+    {
+      "id": "5210-3",
+      "name": "Twisted Tails Escape",
+      "startDate": "2025-01-17T13:00:00-08:00",
+      "endDate": "2025-01-17T14:00:00-08:00",
+      "description": "Yarrrrrrr! Reckon ye\u2019ve got what it takes to discover the Secret of the Furbidden Treasure? Or perhaps you want to help Captain Cody Escape from Otter Space! \r\n\r\nTickets are $25 per person with a maximum of 10 players per group. Players by themselves or in a small group will be paired up with other like-minded adventurers to a maximum of 10 players per game. For private bookings, a minimum of 5 tickets must be purchased. Also, a portion of every ticket will go to the convention's charity! If you have any questions, please contact us directly at info@twistedtailsescape.com.",
+      "presenters": [
+        {
+          "name": "Thermo Dragon"
+        }
+      ],
+      "type": "Gaming",
+      "location": {
+        "name": "Hilton: Escape Room (Winchester 1)"
+      }
+    },
+    {
+      "id": "5225-0",
+      "name": "Fursuit Repair: Sew If You Dare",
+      "startDate": "2025-01-17T13:00:00-08:00",
+      "endDate": "2025-01-17T14:30:00-08:00",
+      "description": "If you want to learn how to repair and maintain fursuits, but have never used a sewing needle or hot glue gun before, then this panel is for you!  Learn the tools, techniques, and rizz it takes to have your current or future suits last for many years. This panel will be informative, interactive, and full of memes.  No experience is required.  Goodie bags will be provided for those who come early",
+      "presenters": [
+        {
+          "name": "Dozer"
+        }
+      ],
+      "type": "Costuming",
+      "location": {
+        "name": "Hilton: San Carlos"
+      }
+    },
+    {
+      "id": "5304-0",
+      "name": "Harper's Swapmeet",
+      "startDate": "2025-01-17T13:00:00-08:00",
+      "endDate": "2025-01-17T14:30:00-08:00",
+      "description": "Bring your fursuits, fursuit parts, props, plushies, fandom merch, and other goodies to trade with other furries!! Well have a table for any freebies you want to just put out there.\r\n\r\nPlease note, we do not allow the exchange of products via money. Trades ONLY.",
+      "presenters": [
+        {
+          "name": "Harper"
+        }
+      ],
+      "type": "Social",
+      "location": {
+        "name": "Hilton: San Pedro"
+      }
+    },
+    {
+      "id": "5330-0",
+      "name": "Red Panda Union Meet",
+      "startDate": "2025-01-17T13:30:00-08:00",
+      "endDate": "2025-01-17T14:30:00-08:00",
+      "description": "Tired of all the business talk at the con? Wanna make your worker rights heard? Come join the Red Panda Union, we have bamboo, we perform forbidden rituals, and we offer insurance against Snow Leopards. Prepare for a nice photo shoot too!",
+      "presenters": [
+        {
+          "name": "Burbley"
+        },
+        {
+          "name": "Koda"
+        }
+      ],
+      "type": "Species",
+      "location": {
+        "name": "SJCC: Rehearsal Area (220B)"
+      }
+    },
+    {
+      "id": "5325-0",
+      "name": "Coffee with Our Charity",
+      "startDate": "2025-01-17T14:00:00-08:00",
+      "endDate": "2025-01-17T15:30:00-08:00",
+      "description": "Join us for coffee and donuts while you get familiar with The Furcon Charity: The LGBTQ Youth Center",
+      "presenters": [
+        {
+          "name": "FC Charity Team"
+        }
+      ],
+      "type": "Event",
+      "location": {
+        "name": "Marriott: Guadalupe"
+      }
+    },
+    {
+      "id": "5300-0",
+      "name": "Emotional First Aid for Fursuiters",
+      "startDate": "2025-01-17T14:00:00-08:00",
+      "endDate": "2025-01-17T15:30:00-08:00",
+      "description": "Have you ever wondered what to do when you see your friend in distress? Come chat with AshenPanda about how to recognize signs of an emergency and what you can do to help keep the fandom safe.",
+      "presenters": [
+        {
+          "name": "Ashen Panda"
+        }
+      ],
+      "type": "Social",
+      "location": {
+        "name": "Marriott: Blossom Hill"
+      },
+      "maturity": "18+"
+    },
+    {
+      "id": "5237-0",
+      "name": "The Art of Storytelling",
+      "startDate": "2025-01-17T14:00:00-08:00",
+      "endDate": "2025-01-17T15:30:00-08:00",
+      "description": "The ability to craft wonderful stories is one of our greatest gifts. Come and explore some of the finer points of storytelling expertise, including delves into the storytelling wisdoms of Zootopia, Watership Down, Totoro, and a pair that feature raccoons.",
+      "presenters": [
+        {
+          "name": "Kannik"
+        }
+      ],
+      "type": "Arts",
+      "location": {
+        "name": "Hilton: University"
+      }
+    },
+    {
+      "id": "5324-0",
+      "name": "Sticker Making and Trading Panel",
+      "startDate": "2025-01-17T15:00:00-08:00",
+      "endDate": "2025-01-17T16:30:00-08:00",
+      "description": "Love stickers? We do too! Come make and trade stickers! We\u2019ll have some pre-printed designs, color markers and blank sheets for all levels of sticker makers! Bring your sticker collection to trade with other sticker heads!",
+      "presenters": [
+        {
+          "name": "Ramen Raptor"
+        }
+      ],
+      "type": "Arts",
+      "location": {
+        "name": "Hilton: San Pedro"
+      }
+    },
+    {
+      "id": "5322-0",
+      "name": "Furry Found Footage",
+      "startDate": "2025-01-17T15:00:00-08:00",
+      "endDate": "2025-01-17T16:00:00-08:00",
+      "description": "Furry Found Footage is a glutted amalgamation of ancient VHS tapes, featuring forgotten cartoons, unseen movies, and old furry con footage, all spliced together to make you laugh, cry, and appreciate the un-famous. Includes some (blur-censored) mature content.",
+      "presenters": [
+        {
+          "name": "Aurelina"
+        }
+      ],
+      "type": "Arts",
+      "location": {
+        "name": "Marriott: Marriott Stage (Salon I to VI)"
+      }
+    },
+    {
+      "id": "5193-0",
+      "name": "Bat meet and squeak",
+      "startDate": "2025-01-17T15:00:00-08:00",
+      "endDate": "2025-01-17T16:30:00-08:00",
+      "description": "Come and share your love of sky puppies! Bats and bat friends welcome to come and say haiiiiii - possibly at frequencies above what most furries can hear",
+      "presenters": [
+        {
+          "name": "Aatheus"
+        }
+      ],
+      "type": "Social",
+      "location": {
+        "name": "Hilton: San Carlos"
+      }
+    },
+    {
+      "id": "5198-0",
+      "name": "The Art of the Con Badge",
+      "startDate": "2025-01-17T15:00:00-08:00",
+      "endDate": "2025-01-17T16:30:00-08:00",
+      "description": "Unique to the furry fandom, con badges are how we express ourselves and identify each other! Come learn how this art form began in the Long Long Ago, learn the basics on getting your own, and explore the many creative mediums people have used to craft their own!",
+      "presenters": [
+        {
+          "name": "Maly"
+        }
+      ],
+      "type": "Arts",
+      "location": {
+        "name": "Marriott: Willow Glen III"
+      }
+    },
+    {
+      "id": "5210-4",
+      "name": "Twisted Tails Escape",
+      "startDate": "2025-01-17T15:00:00-08:00",
+      "endDate": "2025-01-17T16:00:00-08:00",
+      "description": "Yarrrrrrr! Reckon ye\u2019ve got what it takes to discover the Secret of the Furbidden Treasure? Or perhaps you want to help Captain Cody Escape from Otter Space! \r\n\r\nTickets are $25 per person with a maximum of 10 players per group. Players by themselves or in a small group will be paired up with other like-minded adventurers to a maximum of 10 players per game. For private bookings, a minimum of 5 tickets must be purchased. Also, a portion of every ticket will go to the convention's charity! If you have any questions, please contact us directly at info@twistedtailsescape.com.",
+      "presenters": [
+        {
+          "name": "Thermo Dragon"
+        }
+      ],
+      "type": "Gaming",
+      "location": {
+        "name": "Hilton: Escape Room (Winchester 1)"
+      }
+    },
+    {
+      "id": "5174-0",
+      "name": "Fur The Grey - We Ain\u2019t Old Yet!",
+      "startDate": "2025-01-17T15:00:00-08:00",
+      "endDate": "2025-01-17T16:30:00-08:00",
+      "description": "Joe Bear and \u2018Mama Mel\u2019 return for the seventh year hosting this insightful panel geared toward older furries. All of you kids get off the lawn - this is for Greymuzzles who want to look at the latest research in \u201csuccessful aging.\u201d Topics covered include \u201ctrain your brain\u201d and social strategies to get the best out of the second half of your life.",
+      "presenters": [
+        {
+          "name": "Joe G. Bear"
+        },
+        {
+          "name": "Mama Mel"
+        }
+      ],
+      "type": "Social",
+      "location": {
+        "name": "Marriott: Almaden"
+      }
+    },
+    {
+      "id": "5202-0",
+      "name": "Bay Battle Prelims",
+      "startDate": "2025-01-17T15:00:00-08:00",
+      "endDate": "2025-01-17T16:00:00-08:00",
+      "description": "Want to be in Bay Battle? Come audition! Note: Sign-ups are supposed to be done online; if you're just now getting to the con, go to the FC website to sign up.",
+      "presenters": [
+        {
+          "name": "Brenda Banks"
+        }
+      ],
+      "type": "Performance",
+      "location": {
+        "name": "SJCC: Main Stage (220A)"
+      }
+    },
+    {
+      "id": "5161-0",
+      "name": "Blue fur meet and greet",
+      "startDate": "2025-01-17T15:00:00-08:00",
+      "endDate": "2025-01-17T16:30:00-08:00",
+      "description": "Blue fursuiters and blue furred characters meet and chat in the social event.",
+      "presenters": [
+        {
+          "name": "Flash Hound"
+        }
+      ],
+      "type": "Social",
+      "location": {
+        "name": "SJCC: Rehearsal Area (220B)"
+      }
+    },
+    {
+      "id": "5125-0",
+      "name": "University Furs Meetup",
+      "startDate": "2025-01-17T15:30:00-08:00",
+      "endDate": "2025-01-17T17:00:00-08:00",
+      "description": "Furries? At my university? It's more likely than you think!\r\n\r\nDo you go to university? Want to talk and connect with furries of similar majors? Or maybe you'd like to ask for advice for college or start a furry club at your school! If so, this is the panel for you!",
+      "presenters": [
+        {
+          "name": "Carbon"
+        }
+      ],
+      "type": "Social",
+      "location": {
+        "name": "Hilton: Santa Clara"
+      }
+    },
+    {
+      "id": "5201-0",
+      "name": "Bay Battle Dance-Off",
+      "startDate": "2025-01-17T16:00:00-08:00",
+      "endDate": "2025-01-17T18:00:00-08:00",
+      "description": "Returning for its 4th year, Bay Battle is back at FC! Dancers get a say in the first round songs, as fursuiters and non-suiters alike climb a tournament style bracket, to achieve ultimate victory on the dance floor!",
+      "presenters": [
+        {
+          "name": "Brenda Banks"
+        }
+      ],
+      "type": "Performance",
+      "location": {
+        "name": "SJCC: Main Stage (220A)"
+      }
+    },
+    {
+      "id": "5205-0",
+      "name": "DJ Meetup",
+      "startDate": "2025-01-17T16:00:00-08:00",
+      "endDate": "2025-01-17T17:30:00-08:00",
+      "description": "Meetup with fellow DJs, share stories and experiences, and ask FC's DJ Coordinator what it's all about!  Don't forget your USB!",
+      "presenters": [
+        {
+          "name": "EAR"
+        }
+      ],
+      "type": "Music",
+      "location": {
+        "name": "Hilton: University"
+      }
+    },
+    {
+      "id": "5210-5",
+      "name": "Twisted Tails Escape",
+      "startDate": "2025-01-17T16:00:00-08:00",
+      "endDate": "2025-01-17T17:00:00-08:00",
+      "description": "Yarrrrrrr! Reckon ye\u2019ve got what it takes to discover the Secret of the Furbidden Treasure? Or perhaps you want to help Captain Cody Escape from Otter Space! \r\n\r\nTickets are $25 per person with a maximum of 10 players per group. Players by themselves or in a small group will be paired up with other like-minded adventurers to a maximum of 10 players per game. For private bookings, a minimum of 5 tickets must be purchased. Also, a portion of every ticket will go to the convention's charity! If you have any questions, please contact us directly at info@twistedtailsescape.com.",
+      "presenters": [
+        {
+          "name": "Thermo Dragon"
+        }
+      ],
+      "type": "Gaming",
+      "location": {
+        "name": "Hilton: Escape Room (Winchester 1)"
+      }
+    },
+    {
+      "id": "5310-0",
+      "name": "An Intro To Vore",
+      "startDate": "2025-01-17T16:00:00-08:00",
+      "endDate": "2025-01-17T17:30:00-08:00",
+      "description": "The corporate world can be pretty dog-eat-dog, and this panel aims to explain how to navigate that competitive environment! Pillowtummy breaks down the origins and reasons for why so many furs enjoy vore in this 18+ edutainment presentation.",
+      "presenters": [
+        {
+          "name": "Pillowtummy"
+        }
+      ],
+      "type": "Arts",
+      "location": {
+        "name": "Marriott: Blossom Hill"
+      },
+      "maturity": "18+"
+    },
+    {
+      "id": "5301-0",
+      "name": "Break the Design Concert",
+      "startDate": "2025-01-17T16:00:00-08:00",
+      "endDate": "2025-01-17T17:00:00-08:00",
+      "description": "Come see the metalcore band, Break the Design, debut their first album live at Further Confusion 2025!",
+      "presenters": [
+        {
+          "name": "Phoenix, Jesse"
+        }
+      ],
+      "type": "Performance",
+      "location": {
+        "name": "Marriott: Marriott Stage (Salon I to VI)"
+      },
+      "maturity": "18+"
+    },
+    {
+      "id": "5160-0",
+      "name": "Boof's N Goof's Meet",
+      "startDate": "2025-01-17T17:00:00-08:00",
+      "endDate": "2025-01-17T18:30:00-08:00",
+      "description": "Are you a boof. Are u a lil goof..y? Well then this meet is right for you! Boof's N Goof's will be a chance for big dog's like Saint Bernards, Bernese Mountain Dog's, Samoyed's, And so much more to get to know eachother and have a goofy time. Anyone is welcome and can even be an Honorary Boof!",
+      "presenters": [
+        {
+          "name": "MatchaBernard"
+        }
+      ],
+      "type": "Social",
+      "location": {
+        "name": "Marriott: Almaden"
+      }
+    },
+    {
+      "id": "5157-0",
+      "name": "Furry Nerds",
+      "startDate": "2025-01-17T17:00:00-08:00",
+      "endDate": "2025-01-17T18:30:00-08:00",
+      "description": "Are you interested in Science, Technology, Engineering and/or Mathematics? Come join in to ask a panel of different furries across different STEM fields to answer your burning questions.",
+      "presenters": [
+        {
+          "name": "Carbon"
+        },
+        {
+          "name": "Zed Shirogane"
+        }
+      ],
+      "type": "Science",
+      "location": {
+        "name": "Hilton: Santa Clara"
+      }
+    },
+    {
+      "id": "5219-0",
+      "name": "Furries vs Bronies (a roast)",
+      "startDate": "2025-01-17T17:00:00-08:00",
+      "endDate": "2025-01-17T18:00:00-08:00",
+      "description": "It's the the host \"Pony for Hire\" vs the audience vs each other? We will see how many undercover ponies are hiding out there /)(\\.\r\nSo bring your hottest takes but no bigotry, hatred or profanity. (Pg13)",
+      "presenters": [
+        {
+          "name": "Pony for Hire"
+        }
+      ],
+      "type": "Performance",
+      "location": {
+        "name": "Marriott: Marriott Stage (Salon I to VI)"
+      }
+    },
+    {
+      "id": "5332-0",
+      "name": "SCPs of the 90s",
+      "startDate": "2025-01-17T17:00:00-08:00",
+      "endDate": "2025-01-17T18:30:00-08:00",
+      "description": "Most people think that SCP began in 2007, turns out that the 90s had it too. Join Rascal and Clover by experiencing [or re-experiencing] the f%#cked up parts of a decade that are better off forgetting.",
+      "presenters": [
+        {
+          "name": "Rascal Jackal"
+        }
+      ],
+      "type": "Performance",
+      "location": {
+        "name": "Hilton: San Carlos"
+      }
+    },
+    {
+      "id": "5210-6",
+      "name": "Twisted Tails Escape",
+      "startDate": "2025-01-17T17:00:00-08:00",
+      "endDate": "2025-01-17T18:00:00-08:00",
+      "description": "Yarrrrrrr! Reckon ye\u2019ve got what it takes to discover the Secret of the Furbidden Treasure? Or perhaps you want to help Captain Cody Escape from Otter Space! \r\n\r\nTickets are $25 per person with a maximum of 10 players per group. Players by themselves or in a small group will be paired up with other like-minded adventurers to a maximum of 10 players per game. For private bookings, a minimum of 5 tickets must be purchased. Also, a portion of every ticket will go to the convention's charity! If you have any questions, please contact us directly at info@twistedtailsescape.com.",
+      "presenters": [
+        {
+          "name": "Thermo Dragon"
+        }
+      ],
+      "type": "Gaming",
+      "location": {
+        "name": "Hilton: Escape Room (Winchester 1)"
+      }
+    },
+    {
+      "id": "5309-0",
+      "name": "I Feel Weird: Strange Desires from the Golden Age of Animation",
+      "startDate": "2025-01-17T17:00:00-08:00",
+      "endDate": "2025-01-17T18:30:00-08:00",
+      "description": "Join us for a screening of \"those\" cartoons - you know the ones. The Looney Tunes that stirred up uncanny desires you'd never felt before, and gave you uncomfortable feelings that didn\u2019t have a name. A loveless lovebird wants desperately to be swallowed whole by a voracious puddy tat. A potion is consumed, and a tiny mouse begins expanding his horizons. There are wolves in sheep\u2019s lingerie, bunnies beyond binaries, and bears under the thrall of mesmerizing emanations.  Do you remember the double-bind of Ferdie Fox\u2019s resurrection? Do you remember when existential fear first felt warm? \r\n\r\nTonight, the glow of the TV will be our full moon, as we unwind tight coils of 16mm film and VHS tape to unleash lost memories of transformative Saturday mornings. Your host Auryn will overshare stories from childhood while guiding you through the classic cartoons that launched a million kinks. This is where you came from, remember? \r\n\r\nAfter successfully corrupting America\u2019s precious youth at FWA and MFF, this new presentation for FC features permanent audience hypnosis, new HD transfers of rare films, a delicious homage to Laurie Anderson, and 300% more personal vulnerability! \r\n\r\nSo bring your sublimated desire and your PJs!",
+      "presenters": [
+        {
+          "name": "Auryn"
+        }
+      ],
+      "type": "Performance",
+      "location": {
+        "name": "Hilton: San Pedro"
+      },
+      "maturity": "18+"
+    },
+    {
+      "id": "5135-0",
+      "name": "Final Fantasy XIV Meetup",
+      "startDate": "2025-01-17T17:00:00-08:00",
+      "endDate": "2025-01-17T18:30:00-08:00",
+      "description": "Calling all adventurers from across Eorzea & beyond! Join us at the \"Final Fantasy XIV Meetup\" panel, a purr-fect gathering of Final Fantasy XIV fans who also happen to be part of the furry community. This panel offers a unique opportunity to celebrate the intersection of two vibrant worlds: the captivating realm of Eorzea and the diverse, creative world of furry fandom.",
+      "presenters": [
+        {
+          "name": "Ezriana Anmut"
+        }
+      ],
+      "type": "Gaming",
+      "location": {
+        "name": "Hilton: Plaza"
+      }
+    },
+    {
+      "id": "5242-0",
+      "name": "Furs Do Film",
+      "startDate": "2025-01-17T17:00:00-08:00",
+      "endDate": "2025-01-17T18:30:00-08:00",
+      "description": "I play movie scenes, with loud audio.  Furs then emote them -- ideally in suit!  Imagine your favorite furs acting out Pulp Fiction, Fight Club, or Star Wars!",
+      "presenters": [
+        {
+          "name": "Rabscuttle"
+        }
+      ],
+      "type": "Performance",
+      "location": {
+        "name": "Marriott: Guadalupe"
+      }
+    },
+    {
+      "id": "5268-0",
+      "name": "Bird Meetup",
+      "startDate": "2025-01-17T17:00:00-08:00",
+      "endDate": "2025-01-17T18:30:00-08:00",
+      "description": "Feathered friends and friends of feathered friends, come along to meet fellow bird furries! Snacks will be provided.",
+      "presenters": [
+        {
+          "name": "Teratto"
+        }
+      ],
+      "type": "Social",
+      "location": {
+        "name": "Marriott: Willow Glen III"
+      }
+    },
+    {
+      "id": "5293-0",
+      "name": "Anti-Glomp; Self-Defense for Unwanted Touch",
+      "startDate": "2025-01-17T17:00:00-08:00",
+      "endDate": "2025-01-17T18:30:00-08:00",
+      "description": "A practical panel with self defense techniques against unwanted touch. From accidentally-too-excited hugs without consent, to overly aggressive grabbing, learn to remove yourself safely -- in or out of fursuit! Singles or groups welcome.",
+      "presenters": [
+        {
+          "name": "ideamutt - Seth"
+        },
+        {
+          "name": "Jinei - Joshua"
+        }
+      ],
+      "type": "Social",
+      "location": {
+        "name": "SJCC: Rehearsal Area (220B)"
+      }
+    },
+    {
+      "id": "5329-0",
+      "name": "\"Fabulous Beasts\" of Chinese Mythology",
+      "startDate": "2025-01-17T18:00:00-08:00",
+      "endDate": "2025-01-17T19:30:00-08:00",
+      "description": "Are you a fan of \u6709\u517d\u7109 (YouShouYan) aka Fabulous Beasts? Would you like to see creatures of Chinese Mythology turned furry? Come see some amazing Chinese furry animated shows/manhua, meet other fans of the series, and perhaps learn something about the fascinating lore of mythological creatures! (Also giving away official merch of the shows)",
+      "presenters": [
+        {
+          "name": "Kraith"
+        }
+      ],
+      "type": "Arts",
+      "location": {
+        "name": "Hilton: University"
+      }
+    },
+    {
+      "id": "5179-0",
+      "name": "Are They Cheating? \ud83d\ude33",
+      "startDate": "2025-01-17T18:00:00-08:00",
+      "endDate": "2025-01-17T19:30:00-08:00",
+      "description": "Our friend suspects that their partner is having an affair. Join us as we find out the truth in a Jerry Springer inspired reality show!",
+      "presenters": [
+        {
+          "name": "Vince"
+        }
+      ],
+      "type": "Performance",
+      "location": {
+        "name": "Marriott: Blossom Hill"
+      }
+    },
+    {
+      "id": "5353-0",
+      "name": "Dealer's Den Closing",
+      "startDate": "2025-01-17T18:00:00-08:00",
+      "endDate": "2025-01-17T19:00:00-08:00",
+      "description": "Closing time! One last call to\u2026 make your final selections and leave.",
+      "presenters": [],
+      "type": "Hours",
+      "location": {
+        "name": "SJCC: Dealers Den (LL20BCD/LL21BCDEF)"
+      }
+    },
+    {
+      "id": "5210-7",
+      "name": "Twisted Tails Escape",
+      "startDate": "2025-01-17T18:00:00-08:00",
+      "endDate": "2025-01-17T19:00:00-08:00",
+      "description": "Yarrrrrrr! Reckon ye\u2019ve got what it takes to discover the Secret of the Furbidden Treasure? Or perhaps you want to help Captain Cody Escape from Otter Space! \r\n\r\nTickets are $25 per person with a maximum of 10 players per group. Players by themselves or in a small group will be paired up with other like-minded adventurers to a maximum of 10 players per game. For private bookings, a minimum of 5 tickets must be purchased. Also, a portion of every ticket will go to the convention's charity! If you have any questions, please contact us directly at info@twistedtailsescape.com.",
+      "presenters": [
+        {
+          "name": "Thermo Dragon"
+        }
+      ],
+      "type": "Gaming",
+      "location": {
+        "name": "Hilton: Escape Room (Winchester 1)"
+      }
+    },
+    {
+      "id": "5139-0",
+      "name": "VRChat IRL Meetup",
+      "startDate": "2025-01-17T19:00:00-08:00",
+      "endDate": "2025-01-17T21:00:00-08:00",
+      "description": "IRL Friends+ World: Free-for-all meetup & mingle. Full body tracking and colliders enabled. Can we request a mirror for the room please?",
+      "presenters": [
+        {
+          "name": "Ezriana Anmut"
+        }
+      ],
+      "type": "Social",
+      "location": {
+        "name": "SJCC: Rehearsal Area (220B)"
+      }
+    },
+    {
+      "id": "5405-0",
+      "name": "DIY Your Own Silicone Toy!",
+      "startDate": "2025-01-17T19:00:00-08:00",
+      "endDate": "2025-01-17T20:30:00-08:00",
+      "description": "The 101 for making your own silicone fun.  This panel will cover the design and manufacturing of silicone toys for *personal use*.  From design, refinement, moldmaking, and casting, the fun of making toys is almost more than using them!",
+      "presenters": [
+        {
+          "name": "pawbs"
+        }
+      ],
+      "type": "Arts",
+      "location": {
+        "name": "Hilton: Santa Clara"
+      },
+      "maturity": "18+"
+    },
+    {
+      "id": "5222-0",
+      "name": "The Terrible, No-Good Game Show",
+      "startDate": "2025-01-17T19:00:00-08:00",
+      "endDate": "2025-01-17T20:30:00-08:00",
+      "description": "Are you ready for the worst, most scuffed game show of your life? Prepare for multiple games with twists, turns, and surprises. With enough perseverance, you can beat the unfair host at his own game and win! This game show is also 18+, and will feature adult content.",
+      "presenters": [
+        {
+          "name": "Teratto"
+        }
+      ],
+      "type": "Gaming",
+      "location": {
+        "name": "Hilton: San Carlos"
+      },
+      "maturity": "18+"
+    },
+    {
+      "id": "5144-0",
+      "name": "Astrophotography In\u2019s & Out\u2019s: An amateur\u2019s view!",
+      "startDate": "2025-01-17T19:00:00-08:00",
+      "endDate": "2025-01-17T20:30:00-08:00",
+      "description": "An overview and discussion of how to get involved with Astrophotography, from the simplest gear to the more complex. I\u2019ll look at manual operation as well as automation. And what I\u2019ve learned to expect and not to expect in the hobby.",
+      "presenters": [
+        {
+          "name": "Muddypaws"
+        }
+      ],
+      "type": "Science",
+      "location": {
+        "name": "Hilton: San Pedro"
+      }
+    },
+    {
+      "id": "5200-0",
+      "name": "Sergal Merp-n-Derp",
+      "startDate": "2025-01-17T19:00:00-08:00",
+      "endDate": "2025-01-17T20:30:00-08:00",
+      "description": "A social hangout and photo shoot for sergals and other vilous creatures! Similar cryptids are welcome too.\r\n\r\nWe will convene, socialize for a little while, and then run the usual gauntlet of photos.",
+      "presenters": [
+        {
+          "name": "Kel the Sergal"
+        }
+      ],
+      "type": "Social",
+      "location": {
+        "name": "Marriott: Willow Glen III"
+      }
+    },
+    {
+      "id": "5215-0",
+      "name": "WHYoming (Stand up comedy)",
+      "startDate": "2025-01-17T19:00:00-08:00",
+      "endDate": "2025-01-17T20:30:00-08:00",
+      "description": "Wyoming is like the badlands of Texas with the majesticism of Siberia. A land with the least amount of laws and most amount of guns. What stories come from this strange land? Come laugh at the strangest luck Pony for Hire has to say about this place-",
+      "presenters": [
+        {
+          "name": "Pony for Hire"
+        }
+      ],
+      "type": "Performance",
+      "location": {
+        "name": "Marriott: Guadalupe"
+      }
+    },
+    {
+      "id": "5308-0",
+      "name": "Dr Blimpyroo\u2019s Very Serious Lecture",
+      "startDate": "2025-01-17T19:00:00-08:00",
+      "endDate": "2025-01-17T20:30:00-08:00",
+      "description": "Dr Blimpyroo and friends present a demonstration of their recent work in reality modification, which will *definitely not* result in toony chaos unfolding, such as: latex, PVC, inflation, flattening, berrification, and more! Warning: Audience members in the first row may get TFed...",
+      "presenters": [
+        {
+          "name": "Giz"
+        },
+        {
+          "name": "Nero"
+        }
+      ],
+      "type": "Performance",
+      "location": {
+        "name": "Marriott: Almaden"
+      },
+      "maturity": "18+"
+    },
+    {
+      "id": "5269-0",
+      "name": "Improv Theatre: Beginners",
+      "startDate": "2025-01-17T20:00:00-08:00",
+      "endDate": "2025-01-17T22:00:00-08:00",
+      "description": "What if Improv is about creating moments instead of presenting jokes in rapid fire? Step inside the dojo and learn how to use mindfulness- and presence-based techniques to create compelling theatre from nothing! Anyone is welcome to imagine.\r\n\r\nPresented by The Fists of Improv, a local diverse AF improv troupe.",
+      "presenters": [
+        {
+          "name": "passLion"
+        }
+      ],
+      "type": "Performance",
+      "location": {
+        "name": "Hilton: University"
+      }
+    },
+    {
+      "id": "5210-8",
+      "name": "Twisted Tails Escape",
+      "startDate": "2025-01-17T20:00:00-08:00",
+      "endDate": "2025-01-17T21:00:00-08:00",
+      "description": "Yarrrrrrr! Reckon ye\u2019ve got what it takes to discover the Secret of the Furbidden Treasure? Or perhaps you want to help Captain Cody Escape from Otter Space! \r\n\r\nTickets are $25 per person with a maximum of 10 players per group. Players by themselves or in a small group will be paired up with other like-minded adventurers to a maximum of 10 players per game. For private bookings, a minimum of 5 tickets must be purchased. Also, a portion of every ticket will go to the convention's charity! If you have any questions, please contact us directly at info@twistedtailsescape.com.",
+      "presenters": [
+        {
+          "name": "Thermo Dragon"
+        }
+      ],
+      "type": "Gaming",
+      "location": {
+        "name": "Hilton: Escape Room (Winchester 1)"
+      }
+    },
+    {
+      "id": "5357-1",
+      "name": "Photoshoot",
+      "startDate": "2025-01-17T20:00:00-08:00",
+      "endDate": "2025-01-17T23:00:00-08:00",
+      "description": "Strike a pose! Our expert convention photographers will make you look great. Stop by to get some professional photos taken, of you or your whole group!\r\n\r\nIf you are organizing a large group photo, please reserve a time on furcon.org/meetups.",
+      "presenters": [],
+      "type": "Hours",
+      "location": {
+        "name": "SJCC: Photoshoot (220C Hours Only)"
+      }
+    },
+    {
+      "id": "5299-0",
+      "name": "Polyamory 201: Now What?",
+      "startDate": "2025-01-17T20:00:00-08:00",
+      "endDate": "2025-01-17T21:30:00-08:00",
+      "description": "So you've opened your relationship, now what? \r\nCome join your fellow poly furs in an open discussion on how to build and maintain successful open relationships. \r\n\r\nthis is an 18+ panel",
+      "presenters": [
+        {
+          "name": "AshenPanda"
+        }
+      ],
+      "type": "Social",
+      "location": {
+        "name": "Marriott: Blossom Hill"
+      },
+      "maturity": "18+"
+    },
+    {
+      "id": "5362-0",
+      "name": "Casual Friday",
+      "startDate": "2025-01-17T20:00:00-08:00",
+      "endDate": "2025-01-17T22:30:00-08:00",
+      "description": "Kinda long, but it's fun:\r\n\r\nFancy Friday? Nah, none of that this year. We're doing Business Casual Friday and blending in with upper management! Join us for after-dinner delights alongside the myriad of engaging discussion topics FC Inc. has to offer. Our pastries and caffeinated beverages are as exquisite as can be for our employees, and our fine selection of liquors is available at our cash bar with valid ID. We shall permit admittance only to our most esteemed colleagues \u2014 our stock-holders. Our lovely employees can procure evidence of their stock ownership by purchasing tickets online at http://reg.furcon.org in advance, or purchasing them at the door. To our employees of the month \u2014 our Super-Sponsors \u2014 your registration serves as testament to your dedication and comes with a ticket for the event. Don't miss this exclusive event!",
+      "presenters": [],
+      "type": "Hours",
+      "location": {
+        "name": "Marriott: Marriott Stage (Salon I to VI)"
+      }
+    },
+    {
+      "id": "5406-0",
+      "name": "Modern Jazz Lounge \u2014 Casual Friday",
+      "startDate": "2025-01-17T20:30:00-08:00",
+      "endDate": "2025-01-17T21:30:00-08:00",
+      "description": "Patrick Talesfore, Jr. is a drum set artist from Sunnyvale, CA. his playing has been described as \u201c...cognizant, deliberate, musical...like facing a life or death moment. Passion personified.\u201d Patrick is most recognized for his work with Cerce, Space Devil Rest in Peace, and #FREEJAZZHOUSEPARTY. Patrick has made positive connections in the fandom through his music and it has been a dream of his to perform at Further Confusion. \r\n\r\n#FREEJAZZHOUSEPARTY, featuring Jackson Levin on trumpet and Jes\u00fas Ramos on synthesizers and electronics, plays an eclectic mix of music rooted in the jazz tradition with sets consisting of contemplative lo-fi, fiery free-jazz, ambient minimalism, and the avant-garde creating an atmospheric, soulful refuge for those willing to listen\u2026\r\n\r\nThis performance is exclusive to Fancy Friday attendees. For more jazz funk, you can also catch us on Sunday night.",
+      "presenters": [
+        {
+          "name": "Patrick Talesfore, Jr."
+        }
+      ],
+      "type": "Music",
+      "location": {
+        "name": "Marriott: Marriott Stage (Salon I to VI)"
+      }
+    },
+    {
+      "id": "5199-0",
+      "name": "Mostly Mammals: Debut Concert",
+      "startDate": "2025-01-17T20:30:00-08:00",
+      "endDate": "2025-01-17T21:00:00-08:00",
+      "description": "Mostly Mammals is a new furry alternative/indie band. Our sound blends elements from Rock, Pop, R&B, Jazz, and more! Come witness our debut as we play original songs, plus one cover for all the fox lovers out there. \ud83d\ude09",
+      "presenters": [
+        {
+          "name": "It's.just.V"
+        },
+        {
+          "name": "Mojito"
+        },
+        {
+          "name": "Niko Fox"
+        },
+        {
+          "name": "Pebble"
+        },
+        {
+          "name": "Zae the Cool Dragon"
+        }
+      ],
+      "type": "Performance",
+      "location": {
+        "name": "SJCC: Main Stage (220A)"
+      }
+    },
+    {
+      "id": "5295-0",
+      "name": "Wings of Fire Fan Panel",
+      "startDate": "2025-01-17T20:30:00-08:00",
+      "endDate": "2025-01-17T21:30:00-08:00",
+      "description": "An all ages fan panel to celebrate the book series Wings of Fire by Tui T. Sutherland. We will have games to test your knowledge of Pyrrhia so come down to meet your fellow dragonets!",
+      "presenters": [
+        {
+          "name": "Siggy Sea Otter"
+        }
+      ],
+      "type": "Social",
+      "location": {
+        "name": "Hilton: Plaza"
+      }
+    },
+    {
+      "id": "5138-0",
+      "name": "Transgender Furs Meet & Greet",
+      "startDate": "2025-01-17T21:00:00-08:00",
+      "endDate": "2025-01-17T22:30:00-08:00",
+      "description": "Curious about connecting with other transgender furries?\r\n\r\nJoin the Trans Furry Meet & Greet at Further Confusion! \r\n\r\nNon-Binary, questioning/curious, and cisgendered furs are welcome! \u2764\ufe0f\r\n\r\nBring friends and family \u2013 all allies are welcome!",
+      "presenters": [
+        {
+          "name": "Ezriana Anmut"
+        },
+        {
+          "name": "Wembly"
+        }
+      ],
+      "type": "Social",
+      "location": {
+        "name": "Hilton: San Carlos"
+      }
+    },
+    {
+      "id": "5265-0",
+      "name": "Transformation Meet",
+      "startDate": "2025-01-17T21:00:00-08:00",
+      "endDate": "2025-01-17T22:30:00-08:00",
+      "description": "Looking to connect with other shapeshifters? Perhaps engage in a discussion on what the best form is to be in? Come on down to the TF meet! Everyone from werewolves to transformed objects are welcome to this fun and wholesome chat.",
+      "presenters": [
+        {
+          "name": "Cassidy Civet"
+        }
+      ],
+      "type": "Social",
+      "location": {
+        "name": "Marriott: Guadalupe"
+      }
+    },
+    {
+      "id": "5226-0",
+      "name": "Balryk's Unfurtunate GameShow and Team Social",
+      "startDate": "2025-01-17T21:00:00-08:00",
+      "endDate": "2025-01-17T22:30:00-08:00",
+      "description": "Office life got you down? Lacking the action to fulfill your mid-life crisis in your mid-20s?\r\nThen come participate in my gameshow! I'll laugh at you. Maybe you'll win cash money! \r\nIt's not a lot, so don't expect too much, but it'll cover lunch if you win it, at least.",
+      "presenters": [
+        {
+          "name": "Balryk"
+        }
+      ],
+      "type": "Social",
+      "location": {
+        "name": "Marriott: Willow Glen III"
+      }
+    },
+    {
+      "id": "5210-9",
+      "name": "Twisted Tails Escape",
+      "startDate": "2025-01-17T21:00:00-08:00",
+      "endDate": "2025-01-17T22:00:00-08:00",
+      "description": "Yarrrrrrr! Reckon ye\u2019ve got what it takes to discover the Secret of the Furbidden Treasure? Or perhaps you want to help Captain Cody Escape from Otter Space! \r\n\r\nTickets are $25 per person with a maximum of 10 players per group. Players by themselves or in a small group will be paired up with other like-minded adventurers to a maximum of 10 players per game. For private bookings, a minimum of 5 tickets must be purchased. Also, a portion of every ticket will go to the convention's charity! If you have any questions, please contact us directly at info@twistedtailsescape.com.",
+      "presenters": [
+        {
+          "name": "Thermo Dragon"
+        }
+      ],
+      "type": "Gaming",
+      "location": {
+        "name": "Hilton: Escape Room (Winchester 1)"
+      }
+    },
+    {
+      "id": "5229-0",
+      "name": "Building Real Community in the Furry Fandom",
+      "startDate": "2025-01-17T21:00:00-08:00",
+      "endDate": "2025-01-17T22:30:00-08:00",
+      "description": "Are you interested in building a found family to call home? Tired of fandom discourse prioritizing clout over communication and conflict resolution? In this fun and fully illustrated talk, we\u2019ll talk about building communities of care to better support one another and ourselves. Q&A at the end!",
+      "presenters": [
+        {
+          "name": "Sasha R. Jones"
+        }
+      ],
+      "type": "Social",
+      "location": {
+        "name": "Marriott: Almaden"
+      }
+    },
+    {
+      "id": "5383-0",
+      "name": "DJ Dance - RoWdY RazzKatt",
+      "startDate": "2025-01-17T21:00:00-08:00",
+      "endDate": "2025-01-17T22:00:00-08:00",
+      "description": "Genre: Funk 'N Breaks\n\nMixcloud: https://www.mixcloud.com/RazzKatt/\nTwitter/X: https://x.com/RoWdYRazzKatt",
+      "presenters": [],
+      "type": "Performance",
+      "location": {
+        "name": "SJCC: Main Stage (220A)"
+      }
+    },
+    {
+      "id": "5320-0",
+      "name": "Hacking and Networking Adult Toys",
+      "startDate": "2025-01-17T21:30:00-08:00",
+      "endDate": "2025-01-17T23:00:00-08:00",
+      "description": "Following the progression of other consumer devices, it's now entirely typical for adult toys to have USB charging, bluetooth-connected mobile apps, and cloud interfaces, many with APIs. But why suffer with the limited experience these companies offer and the numerous associated privacy concerns? This panel will cover some of the exciting recent developments in the homebrew and small-business kink community and showcase several specific devices as in-depth case studies. LIVE DEMOS ARE TENTATIVELY PLANNED!",
+      "presenters": [
+        {
+          "name": "Doktor Gnaw"
+        }
+      ],
+      "type": "Science",
+      "location": {
+        "name": "Hilton: Santa Clara"
+      },
+      "maturity": "18+"
+    },
+    {
+      "id": "5296-0",
+      "name": "Wings of Fire After Dark",
+      "startDate": "2025-01-17T21:30:00-08:00",
+      "endDate": "2025-01-17T22:30:00-08:00",
+      "description": "An 18+ only panel for Wings of Fire fans who love the adult side of the fandom. Expect to see a group reading of popular fan works, plenty of shipping, and lots of fun!",
+      "presenters": [
+        {
+          "name": "Siggy Sea Otter"
+        }
+      ],
+      "type": "Social",
+      "location": {
+        "name": "Hilton: Plaza"
+      },
+      "maturity": "18+"
+    },
+    {
+      "id": "5130-0",
+      "name": "Vore Furries Meatup",
+      "startDate": "2025-01-17T21:30:00-08:00",
+      "endDate": "2025-01-17T23:00:00-08:00",
+      "description": "Hello, all my palatable friends and fellow voracious connoisseurs! Hope you're all ready to meet up with your fellow hunger-enthralled enthusiasts, because the vore meetup is back again! Serving up friends new and old and some memorable badges, you won't want to miss this event.",
+      "presenters": [
+        {
+          "name": "Blake"
+        }
+      ],
+      "type": "Social",
+      "location": {
+        "name": "SJCC: Rehearsal Area (220B)"
+      },
+      "maturity": "18+"
+    },
+    {
+      "id": "5227-0",
+      "name": "Furry Burners: Attending Burning Man",
+      "startDate": "2025-01-17T22:00:00-08:00",
+      "endDate": "2025-01-17T23:30:00-08:00",
+      "description": "Panel hosted by seasoned Burners who can share their experiences about visiting Burning Man for the first time, or for other seasoned burners who want to meet and greet and share their experiences as well! We show photos and videos of former Burns and can answer all your questions about attending this wonderful event!",
+      "presenters": [
+        {
+          "name": "Amenophis"
+        },
+        {
+          "name": "NeonBunny"
+        },
+        {
+          "name": "Pepe Mapache"
+        },
+        {
+          "name": "Relay Raccoon"
+        },
+        {
+          "name": "Zarafa Giraffe"
+        },
+        {
+          "name": "Ziggy"
+        }
+      ],
+      "type": "Social",
+      "location": {
+        "name": "Hilton: San Pedro"
+      }
+    },
+    {
+      "id": "5189-0",
+      "name": "The Most Smashable: Pokemon Gen 2",
+      "startDate": "2025-01-17T22:00:00-08:00",
+      "endDate": "2025-01-17T23:30:00-08:00",
+      "description": "18+ Only: Would you smash or be smashed by a Pokemon? Come help determine which is the most smash-able in a head-2-head bracket elimination. Fill to the brim with adult furry art for your voting pleasure. May the sexiest Pokemon take the crown.",
+      "presenters": [
+        {
+          "name": "Ripple"
+        }
+      ],
+      "type": "Social",
+      "location": {
+        "name": "Marriott: Blossom Hill"
+      },
+      "maturity": "18+"
+    },
+    {
+      "id": "5384-0",
+      "name": "DJ Dance - Avian Invasion",
+      "startDate": "2025-01-17T22:00:00-08:00",
+      "endDate": "2025-01-17T23:00:00-08:00",
+      "description": "Genre: Progressive House // Trance // Techno\n\nMixcloud: https://www.mixcloud.com/avianinvasion/\nBluesky: https://bsky.app/profile/avianinvasion.com\nTwitter/X: https://x.com/avianinvasion",
+      "presenters": [],
+      "type": "Performance",
+      "location": {
+        "name": "SJCC: Main Stage (220A)"
+      }
+    },
+    {
+      "id": "5380-0",
+      "name": "Low Sensory Dance - Bleatr",
+      "startDate": "2025-01-17T22:30:00-08:00",
+      "endDate": "2025-01-17T23:30:00-08:00",
+      "description": "Genre: Melodic Techno\n\nBluesky: https://bsky.app/profile/windythedeer.bsky.social\nTwitter/X: https://x.com/bleatrbeats",
+      "presenters": [],
+      "type": "Performance",
+      "location": {
+        "name": "Marriott: Marriott Stage (Salon I to VI)"
+      }
+    },
+    {
+      "id": "5385-0",
+      "name": "DJ Dance - RIALTO",
+      "startDate": "2025-01-17T23:00:00-08:00",
+      "endDate": "2025-01-18T00:00:00-08:00",
+      "description": "Genre: Bass House // Electro\n\nSoundcloud: https://soundcloud.com/rialtolion\nBluesky: https://bsky.app/profile/rialto.bsky.social",
+      "presenters": [],
+      "type": "Performance",
+      "location": {
+        "name": "SJCC: Main Stage (220A)"
+      }
+    },
+    {
+      "id": "5238-0",
+      "name": "Storytelling After Dark",
+      "startDate": "2025-01-17T23:00:00-08:00",
+      "endDate": "2025-01-18T00:30:00-08:00",
+      "description": "Can storytelling still be present when the material turns towards things often considered risqu\u00e9 or intense?  Come and explore some of the points of storytelling expertise that can be maintained even as the lights are turned down low.",
+      "presenters": [
+        {
+          "name": "Kannik"
+        }
+      ],
+      "type": "Arts",
+      "location": {
+        "name": "Hilton: Plaza"
+      },
+      "maturity": "18+"
+    },
+    {
+      "id": "5195-0",
+      "name": "Furry Karaoke",
+      "startDate": "2025-01-17T23:00:00-08:00",
+      "endDate": "2025-01-18T00:30:00-08:00",
+      "description": "Let your 'sona sing at Furry Karaoke! Bring your friends, sing your favorite songs, enjoy the atmosphere and sing along with the other furries. You already know what's up!",
+      "presenters": [
+        {
+          "name": "Slam"
+        }
+      ],
+      "type": "Music",
+      "location": {
+        "name": "Hilton: San Carlos"
+      }
+    },
+    {
+      "id": "5381-0",
+      "name": "Low Sensory Dance - DJ Ajax Pup",
+      "startDate": "2025-01-17T23:30:00-08:00",
+      "endDate": "2025-01-18T00:30:00-08:00",
+      "description": "Genre: Circuit // Tech House // Funky House\n\nSoundcloud: https://soundcloud.com/dj_ajax_pup\nBluesky: https://bsky.app/profile/ajaxpup.bsky.social",
+      "presenters": [],
+      "type": "Performance",
+      "location": {
+        "name": "Marriott: Marriott Stage (Salon I to VI)"
+      }
+    },
+    {
+      "id": "5257-0",
+      "name": "Speed Dating (18+)",
+      "startDate": "2025-01-18T00:00:00-08:00",
+      "endDate": "2025-01-18T01:30:00-08:00",
+      "description": "Let's connect! This is a 5-minute rapid-fire friends-first event. Come respectful, hygienic (for real, ya'll) and hydrated. Also *please* come early so you can learn the rules! No guarantee for a smooth experience if you're late.",
+      "presenters": [
+        {
+          "name": "Dawdle"
+        }
+      ],
+      "type": "Social",
+      "location": {
+        "name": "Marriott: Blossom Hill"
+      },
+      "maturity": "18+"
+    },
+    {
+      "id": "5386-0",
+      "name": "DJ Dance - Nautilus",
+      "startDate": "2025-01-18T00:00:00-08:00",
+      "endDate": "2025-01-18T01:00:00-08:00",
+      "description": "Genre: PsyTrance\n\nBluesky: https://bsky.app/profile/otter.gg\nTwitter/X: https://x.com/UFOtekkie",
+      "presenters": [],
+      "type": "Performance",
+      "location": {
+        "name": "SJCC: Main Stage (220A)"
+      }
+    },
+    {
+      "id": "5382-0",
+      "name": "Low Sensory Dance - lapin.blanc",
+      "startDate": "2025-01-18T00:30:00-08:00",
+      "endDate": "2025-01-18T01:30:00-08:00",
+      "description": "Genre: Multi-Genre Dance\n\nSoundcloud: https://soundcloud.com/lapin-blanc-geant\nBluesky: https://bsky.app/profile/lapinblanc.bsky.social\nTwitter/X: https://x.com/lapinblancgeant",
+      "presenters": [],
+      "type": "Performance",
+      "location": {
+        "name": "Marriott: Marriott Stage (Salon I to VI)"
+      }
+    },
+    {
+      "id": "5343-2",
+      "name": "Con Ops",
+      "startDate": "2025-01-18T08:30:00-08:00",
+      "endDate": "2025-01-19T03:00:00-08:00",
+      "description": "The center & home-base of Further Confusion operations. Come here to get information, check lost-and-found, and check in if you're a presenter or panelist. If you're looking to help out, sign up here as a gofur!",
+      "presenters": [],
+      "type": "Hours",
+      "location": {
+        "name": "SJCC: Con Ops / Zookeepers"
+      }
+    },
+    {
+      "id": "5359-2",
+      "name": "Registration",
+      "startDate": "2025-01-18T09:00:00-08:00",
+      "endDate": "2025-01-18T17:30:00-08:00",
+      "description": "Come to registration to get your attendee badge! We look forward to welcoming you to the con.",
+      "presenters": [],
+      "type": "Hours",
+      "location": {
+        "name": "SJCC: Registration (The Hub)"
+      }
+    },
+    {
+      "id": "5352-2",
+      "name": "Dealer's Den Setup",
+      "startDate": "2025-01-18T10:00:00-08:00",
+      "endDate": "2025-01-18T11:00:00-08:00",
+      "description": "If you're a dealer, your dealer assistants and you may come into the Dealers Den to load in and set up.",
+      "presenters": [],
+      "type": "Hours",
+      "location": {
+        "name": "SJCC: Dealers Den (LL20BCD/LL21BCDEF)"
+      }
+    },
+    {
+      "id": "5335-2",
+      "name": "Recharge Room",
+      "startDate": "2025-01-18T10:00:00-08:00",
+      "endDate": "2025-01-19T02:00:00-08:00",
+      "description": "",
+      "presenters": [],
+      "type": "Hours",
+      "location": {
+        "name": "Hilton: Executive Boardroom"
+      }
+    },
+    {
+      "id": "5363-0",
+      "name": "Sponsor Brunch",
+      "startDate": "2025-01-18T10:00:00-08:00",
+      "endDate": "2025-01-18T12:00:00-08:00",
+      "description": "Super Sponsors AND Sponsors are invited to our exclusive brunch!\r\n\r\nCome enjoy a hot buffet of American brunch standards.",
+      "presenters": [],
+      "type": "Event",
+      "location": {
+        "name": "Marriott: Marriott Stage (Salon I to VI)"
+      }
+    },
+    {
+      "id": "5349-2",
+      "name": "Zookeepers",
+      "startDate": "2025-01-18T10:00:00-08:00",
+      "endDate": "2025-01-19T02:00:00-08:00",
+      "description": "",
+      "presenters": [],
+      "type": "Hours",
+      "location": {
+        "name": "SJCC: Con Ops / Zookeepers"
+      }
+    },
+    {
+      "id": "5337-1",
+      "name": "Gaming",
+      "startDate": "2025-01-18T10:00:00-08:00",
+      "endDate": "2025-01-19T02:00:00-08:00",
+      "description": "Gaming is open; come play with us! Featuring a generous selection of both tabletop and video games, provided by Games of Berkeley, MAGWest, and those that have lent us their games and systems for the convention. There's something here for everyone! Either to waste time between events or as a place to chill, we will be here. Bags will be checked at the door. Learn more: http://furcon.org/programming/gaming/",
+      "presenters": [],
+      "type": "Hours",
+      "location": {
+        "name": "Hilton: Gaming (Market)"
+      }
+    },
+    {
+      "id": "5210-10",
+      "name": "Twisted Tails Escape",
+      "startDate": "2025-01-18T10:00:00-08:00",
+      "endDate": "2025-01-18T11:00:00-08:00",
+      "description": "Yarrrrrrr! Reckon ye\u2019ve got what it takes to discover the Secret of the Furbidden Treasure? Or perhaps you want to help Captain Cody Escape from Otter Space! \r\n\r\nTickets are $25 per person with a maximum of 10 players per group. Players by themselves or in a small group will be paired up with other like-minded adventurers to a maximum of 10 players per game. For private bookings, a minimum of 5 tickets must be purchased. Also, a portion of every ticket will go to the convention's charity! If you have any questions, please contact us directly at info@twistedtailsescape.com.",
+      "presenters": [
+        {
+          "name": "Thermo Dragon"
+        }
+      ],
+      "type": "Gaming",
+      "location": {
+        "name": "Hilton: Escape Room (Winchester 1)"
+      }
+    },
+    {
+      "id": "5305-0",
+      "name": "Furry Movies 2024 -- A Look Back, A Look Forward",
+      "startDate": "2025-01-18T11:00:00-08:00",
+      "endDate": "2025-01-18T12:30:00-08:00",
+      "description": "From mixed emotions to caring robots, let's have a look back at what Hollywood (and other movie-makers!) had to offer in terms of furry content last year. And then, let's have a look forward at what's up in 2025, and why all eyes are on November...",
+      "presenters": [
+        {
+          "name": "Rod O'Riley"
+        }
+      ],
+      "type": "Arts",
+      "location": {
+        "name": "Marriott: Guadalupe"
+      }
+    },
+    {
+      "id": "5286-1",
+      "name": "Art Show",
+      "startDate": "2025-01-18T11:00:00-08:00",
+      "endDate": "2025-01-18T18:30:00-08:00",
+      "description": "The Art Show is a gallery and silent auction for anthropomorphic art.",
+      "presenters": [
+        {
+          "name": "binaryfox"
+        }
+      ],
+      "type": "Hours",
+      "location": {
+        "name": "Hilton: Art Show (Almaden Ballroom)"
+      }
+    },
+    {
+      "id": "5166-0",
+      "name": "An Introduction to ART FIGHT!",
+      "startDate": "2025-01-18T11:00:00-08:00",
+      "endDate": "2025-01-18T12:30:00-08:00",
+      "description": "Ever heard of ART FIGHT? It's an online art game! The game takes place during July, but there's lots of prep to do and tips to learn before then. This panel will go over the basics of ART FIGHT and help you set up an account that's ready to fight!",
+      "presenters": [
+        {
+          "name": "elpir"
+        }
+      ],
+      "type": "Arts",
+      "location": {
+        "name": "Marriott: Willow Glen III"
+      }
+    },
+    {
+      "id": "5341-3",
+      "name": "Fursuit Lounge",
+      "startDate": "2025-01-18T11:00:00-08:00",
+      "endDate": "2025-01-18T18:00:00-08:00",
+      "description": "Need a place to cool off? Come on in and hang up your head! We have water and fans available for you, so you can fursuit safely.",
+      "presenters": [],
+      "type": "Hours",
+      "location": {
+        "name": "Marriott: Fursuit Lounge (San Carlos)"
+      }
+    },
+    {
+      "id": "5156-0",
+      "name": "Yoga with a Tail",
+      "startDate": "2025-01-18T11:00:00-08:00",
+      "endDate": "2025-01-18T12:30:00-08:00",
+      "description": "Join certified Yoga instructor Anjel for a gentle beginner Yoga practice using your tail as a prop. Class will be 1 hr. Bring a mat, water and any yoga props. Please wear comfortable clothing and if wearing a fur suit please ensure you can breath deeply wearing it.",
+      "presenters": [
+        {
+          "name": "Anjel"
+        }
+      ],
+      "type": "Social",
+      "location": {
+        "name": "Hilton: San Carlos"
+      }
+    },
+    {
+      "id": "5273-0",
+      "name": "Furry Sticker Exchange",
+      "startDate": "2025-01-18T11:00:00-08:00",
+      "endDate": "2025-01-18T12:30:00-08:00",
+      "description": "Do you like stickers? Are you perhaps confused if you like stickers? Then come on down to the coolest furry sticker trading/swap event of the century to figure it out! If you are interested in participating please bring stickers for trade. At the event start, participants will be encouraged to place stickers on a table to be able to be traded and swapped! Of course, we highly encourage folks to directly trade/swap with each other as well! More guidelines and expectations will be shared at the day of the event.",
+      "presenters": [
+        {
+          "name": "Dill Pickle"
+        }
+      ],
+      "type": "Arts",
+      "location": {
+        "name": "Hilton: San Pedro"
+      }
+    },
+    {
+      "id": "5252-0",
+      "name": "Phoenix Wright: What's a Furry?",
+      "startDate": "2025-01-18T11:00:00-08:00",
+      "endDate": "2025-01-18T12:00:00-08:00",
+      "description": "A comedic panel, where I cosplay as Phoenix Wright and discuss through power point with either an associate or witnesses from the audience as to what a \"furry\" is!\r\nmy intention is for it to be entertaining and fun for everyon!",
+      "presenters": [
+        {
+          "name": "Nar Egano"
+        }
+      ],
+      "type": "Performance",
+      "location": {
+        "name": "Hilton: University"
+      }
+    },
+    {
+      "id": "5277-0",
+      "name": "How to design Kemono",
+      "startDate": "2025-01-18T11:00:00-08:00",
+      "endDate": "2025-01-18T12:30:00-08:00",
+      "description": "Wanted to learn more about making kemono suits?\r\nJoin aerobun for a panel on how to make them",
+      "presenters": [
+        {
+          "name": "Aerobun"
+        }
+      ],
+      "type": "Costuming",
+      "location": {
+        "name": "Marriott: Almaden"
+      }
+    },
+    {
+      "id": "5253-0",
+      "name": "FC: Unleashed Auditions",
+      "startDate": "2025-01-18T11:00:00-08:00",
+      "endDate": "2025-01-18T13:00:00-08:00",
+      "description": "For live FC: Unleashed participants to demonstrated their performance readiness.",
+      "presenters": [
+        {
+          "name": "wolfe_guardian"
+        }
+      ],
+      "type": "Event",
+      "location": {
+        "name": "Marriott: Blossom Hill"
+      }
+    },
+    {
+      "id": "5236-0",
+      "name": "Silk and Steel: Tai Chi",
+      "startDate": "2025-01-18T11:00:00-08:00",
+      "endDate": "2025-01-18T12:30:00-08:00",
+      "description": "Experience the peace of mind, balance, and strength that comes through the practice of tai chi. Though soft on the outside it possesses a powerful core. No experience necessary, come and learn the basics with us. Fursuits welcome!",
+      "presenters": [
+        {
+          "name": "Kannik"
+        }
+      ],
+      "type": "Science",
+      "location": {
+        "name": "SJCC: Rehearsal Area (220B)"
+      }
+    },
+    {
+      "id": "5313-0",
+      "name": "The Compu-Taur Lab",
+      "startDate": "2025-01-18T11:00:00-08:00",
+      "endDate": "2025-01-18T12:30:00-08:00",
+      "description": "Are you a fan of retro tech? Join us at the Compu-Taur Lab for a hands-on experience with a collection provided by local enthusiasts! Come by and take photos with our machines, play some games, and learn about some unique & interesting devices.",
+      "presenters": [
+        {
+          "name": "Meros Rabbit"
+        },
+        {
+          "name": "Rogue Wereshep"
+        }
+      ],
+      "type": "Gaming",
+      "location": {
+        "name": "Hilton: Plaza"
+      }
+    },
+    {
+      "id": "5351-1",
+      "name": "Dealer's Den",
+      "startDate": "2025-01-18T11:00:00-08:00",
+      "endDate": "2025-01-18T18:00:00-08:00",
+      "description": "Our Dealer's Den is the place to find excellent artists and craftspeople selling their wares! Come take a look around; you never know what you might find!",
+      "presenters": [],
+      "type": "Hours",
+      "location": {
+        "name": "SJCC: Dealers Den (LL20BCD/LL21BCDEF)"
+      }
+    },
+    {
+      "id": "5158-0",
+      "name": "Sea Otter Trivia Game",
+      "startDate": "2025-01-18T11:00:00-08:00",
+      "endDate": "2025-01-18T12:30:00-08:00",
+      "description": "A kahoot quiz game to test your knowledge on sea otters, hosted by a sea otter ecologist! There will be physical and digital prizes such as stickers, stuffed animals, and free art commissions. Make sure to bring your phone fully charged and conected to the internet!",
+      "presenters": [
+        {
+          "name": "Zed Shirogane"
+        }
+      ],
+      "type": "Science",
+      "location": {
+        "name": "Hilton: Santa Clara"
+      }
+    },
+    {
+      "id": "5341-4",
+      "name": "Fursuit Lounge",
+      "startDate": "2025-01-18T11:00:00-08:00",
+      "endDate": "2025-01-19T02:30:00-08:00",
+      "description": "Need a place to cool off? Come on in and hang up your head! We have water and fans available for you, so you can fursuit safely.",
+      "presenters": [],
+      "type": "Hours",
+      "location": {
+        "name": "SJCC: Fursuit Lounge / Photoshoot (220C)"
+      }
+    },
+    {
+      "id": "5210-11",
+      "name": "Twisted Tails Escape",
+      "startDate": "2025-01-18T11:00:00-08:00",
+      "endDate": "2025-01-18T12:00:00-08:00",
+      "description": "Yarrrrrrr! Reckon ye\u2019ve got what it takes to discover the Secret of the Furbidden Treasure? Or perhaps you want to help Captain Cody Escape from Otter Space! \r\n\r\nTickets are $25 per person with a maximum of 10 players per group. Players by themselves or in a small group will be paired up with other like-minded adventurers to a maximum of 10 players per game. For private bookings, a minimum of 5 tickets must be purchased. Also, a portion of every ticket will go to the convention's charity! If you have any questions, please contact us directly at info@twistedtailsescape.com.",
+      "presenters": [
+        {
+          "name": "Thermo Dragon"
+        }
+      ],
+      "type": "Gaming",
+      "location": {
+        "name": "Hilton: Escape Room (Winchester 1)"
+      }
+    },
+    {
+      "id": "5150-0",
+      "name": "Magic: The Gathering - Commander (EDH)",
+      "startDate": "2025-01-18T12:00:00-08:00",
+      "endDate": "2025-01-18T16:00:00-08:00",
+      "description": "Let's get together for two rounds of Commander!\r\nPlayers will compete in four pods of four with the winner of each pod competing for the top spot!\r\n16 players max.  First come, first registered.  Registration opens one hour before the event begins.\r\nPrize support will be supplied.",
+      "presenters": [
+        {
+          "name": "Luxemburg Skunk"
+        }
+      ],
+      "type": "Gaming",
+      "location": {
+        "name": "Hilton: Gaming (Market)"
+      }
+    },
+    {
+      "id": "5361-2",
+      "name": "VR Portal",
+      "startDate": "2025-01-18T12:00:00-08:00",
+      "endDate": "2025-01-18T18:00:00-08:00",
+      "description": "See your friends in VR! Located in the Santa Clara foyer of the Hilton.",
+      "presenters": [],
+      "type": "Hours",
+      "location": {
+        "name": "Hilton: Santa Clara Foyer"
+      }
+    },
+    {
+      "id": "5210-12",
+      "name": "Twisted Tails Escape",
+      "startDate": "2025-01-18T12:00:00-08:00",
+      "endDate": "2025-01-18T13:00:00-08:00",
+      "description": "Yarrrrrrr! Reckon ye\u2019ve got what it takes to discover the Secret of the Furbidden Treasure? Or perhaps you want to help Captain Cody Escape from Otter Space! \r\n\r\nTickets are $25 per person with a maximum of 10 players per group. Players by themselves or in a small group will be paired up with other like-minded adventurers to a maximum of 10 players per game. For private bookings, a minimum of 5 tickets must be purchased. Also, a portion of every ticket will go to the convention's charity! If you have any questions, please contact us directly at info@twistedtailsescape.com.",
+      "presenters": [
+        {
+          "name": "Thermo Dragon"
+        }
+      ],
+      "type": "Gaming",
+      "location": {
+        "name": "Hilton: Escape Room (Winchester 1)"
+      }
+    },
+    {
+      "id": "5371-0",
+      "name": "Fursuit Photo/Parade Gathering",
+      "startDate": "2025-01-18T12:30:00-08:00",
+      "endDate": "2025-01-18T13:00:00-08:00",
+      "description": "Fursuiters! Gather here before the parade at the start of the parade route for the group photo.",
+      "presenters": [],
+      "type": "Event",
+      "location": {
+        "name": "SJCC: SJCC Courtyard"
+      }
+    },
+    {
+      "id": "5210-13",
+      "name": "Twisted Tails Escape",
+      "startDate": "2025-01-18T13:00:00-08:00",
+      "endDate": "2025-01-18T14:00:00-08:00",
+      "description": "Yarrrrrrr! Reckon ye\u2019ve got what it takes to discover the Secret of the Furbidden Treasure? Or perhaps you want to help Captain Cody Escape from Otter Space! \r\n\r\nTickets are $25 per person with a maximum of 10 players per group. Players by themselves or in a small group will be paired up with other like-minded adventurers to a maximum of 10 players per game. For private bookings, a minimum of 5 tickets must be purchased. Also, a portion of every ticket will go to the convention's charity! If you have any questions, please contact us directly at info@twistedtailsescape.com.",
+      "presenters": [
+        {
+          "name": "Thermo Dragon"
+        }
+      ],
+      "type": "Gaming",
+      "location": {
+        "name": "Hilton: Escape Room (Winchester 1)"
+      }
+    },
+    {
+      "id": "5372-0",
+      "name": "Fursuit Group Photo",
+      "startDate": "2025-01-18T13:00:00-08:00",
+      "endDate": "2025-01-18T14:00:00-08:00",
+      "description": "Fursuiters! We will be taking a group photo right before the parade. Photo will take place in the SJCC courtyard, near the Idea Tree.\r\n\r\nLine up early to guarantee you don\u2019t miss it! We will try to take the picture at 1:55 PM.",
+      "presenters": [],
+      "type": "Event",
+      "location": {
+        "name": "SJCC: SJCC Courtyard"
+      }
+    },
+    {
+      "id": "5373-0",
+      "name": "Fursuit Parade",
+      "startDate": "2025-01-18T14:00:00-08:00",
+      "endDate": "2025-01-18T15:00:00-08:00",
+      "description": "Animals on Parade! Our costumed attendees will parade through the convention center. Gather along the route to catch a glimpse! We will take a photo of the gathered suiters just before the parade. For the latest parade route, visit: http://furcon.org/programming/parade/",
+      "presenters": [],
+      "type": "Event",
+      "location": {
+        "name": "SJCC: SJCC Courtyard"
+      }
+    },
+    {
+      "id": "5231-0",
+      "name": "young furries meetup!",
+      "startDate": "2025-01-18T15:00:00-08:00",
+      "endDate": "2025-01-18T16:30:00-08:00",
+      "description": "A fun and interactive place for younger furries to draw, trade pins, stickers, and other things, and have fun! Don\u2019t be afraid to talk to people and have an amazing time! Enjoy it!",
+      "presenters": [
+        {
+          "name": "komet"
+        }
+      ],
+      "type": "Social",
+      "location": {
+        "name": "Hilton: Plaza"
+      }
+    },
+    {
+      "id": "5151-0",
+      "name": "Cosplay Wrestling Federation: Further Collision",
+      "startDate": "2025-01-18T15:00:00-08:00",
+      "endDate": "2025-01-18T16:30:00-08:00",
+      "description": "CWF, a professional wrestling-style show like no other, finally makes its way into the furry scene! Characters from all over the map compete for your cheers and boos and even awoos! Who will be crowned our first Further Collision champ?",
+      "presenters": [
+        {
+          "name": "Cosplay Wrestling Federation"
+        },
+        {
+          "name": "Dag Spambone"
+        }
+      ],
+      "type": "Performance",
+      "location": {
+        "name": "SJCC: Rehearsal Area (220B)"
+      }
+    },
+    {
+      "id": "5270-0",
+      "name": "Improv Theatre Class: Long-Form",
+      "startDate": "2025-01-18T15:00:00-08:00",
+      "endDate": "2025-01-18T17:00:00-08:00",
+      "description": "Imagine there's no \"happily ever after\", but multiple prequels and sequels. In this panel, we'll learn to support each other, explore the magic of time in improv theater and create fascinating stories in the OG long-form format The Harold.\r\n\r\nPresented by The Fists of Improv, a local diverse AF improv troupe.",
+      "presenters": [
+        {
+          "name": "passLion"
+        }
+      ],
+      "type": "Performance",
+      "location": {
+        "name": "Hilton: University"
+      }
+    },
+    {
+      "id": "5170-0",
+      "name": "Dinomasker Meet & Greet",
+      "startDate": "2025-01-18T15:00:00-08:00",
+      "endDate": "2025-01-18T16:30:00-08:00",
+      "description": "@3:00 pm!\r\nKiddos who wear Jurassic World(s) Dinosaur Mask (produced by Mattel) and have customized them to their will! Come along and play! Get to know eachother with some activities such as dancing, or doing some crafty stuff, or sharing tips and sharing tips/tricks or even taking photos! A commemorative tiktok video will be made at the end! \r\n\r\nSnacks end Drinks will be provided! (So long as we keep clean!)",
+      "presenters": [
+        {
+          "name": "The Royal Rebellion"
+        }
+      ],
+      "type": "Social",
+      "location": {
+        "name": "Marriott: Almaden"
+      }
+    },
+    {
+      "id": "5240-0",
+      "name": "Mascha and the Swingin\u2019 Tails",
+      "startDate": "2025-01-18T15:00:00-08:00",
+      "endDate": "2025-01-18T16:00:00-08:00",
+      "description": "Let Mascha and the Swingin\u2019 Tails transport you to amazing places with their mix of jazz, standards, and the occasional surprise. Feel free to dance in the aisles -- our audiences often do!",
+      "presenters": [
+        {
+          "name": "Mascha and the Swingin\u2019 Tails"
+        }
+      ],
+      "type": "Performance",
+      "location": {
+        "name": "Marriott: Marriott Stage (Salon I to VI)"
+      }
+    },
+    {
+      "id": "5186-0",
+      "name": "Smash Ultimate Tournament",
+      "startDate": "2025-01-18T15:00:00-08:00",
+      "endDate": "2025-01-18T19:00:00-08:00",
+      "description": "Yknow that 1v1 no items final destination meme? Yea it's that. Come see how good at smash you really are >:3",
+      "presenters": [
+        {
+          "name": "Arti"
+        }
+      ],
+      "type": "Gaming",
+      "location": {
+        "name": "Hilton: Gaming (Market)"
+      }
+    },
+    {
+      "id": "5261-0",
+      "name": "Riichi Mahjong Furs Meetup and Beginner Class!",
+      "startDate": "2025-01-18T15:00:00-08:00",
+      "endDate": "2025-01-18T16:30:00-08:00",
+      "description": "Are you a fan of Japanese Riichi Mahjong? Or perhaps you've always been interested to learn? Join us for some tile slamming action! Meet furs and play some games! For new players we'll provide teaching and coaching.\r\n\r\nJoin the Furry Mahjong Telegram group too for games outside of panel hours: https://t.me/furrymahjong",
+      "presenters": [
+        {
+          "name": "Hailey Leotaur"
+        }
+      ],
+      "type": "Gaming",
+      "location": {
+        "name": "Hilton: San Pedro"
+      }
+    },
+    {
+      "id": "5210-14",
+      "name": "Twisted Tails Escape",
+      "startDate": "2025-01-18T15:00:00-08:00",
+      "endDate": "2025-01-18T16:00:00-08:00",
+      "description": "Yarrrrrrr! Reckon ye\u2019ve got what it takes to discover the Secret of the Furbidden Treasure? Or perhaps you want to help Captain Cody Escape from Otter Space! \r\n\r\nTickets are $25 per person with a maximum of 10 players per group. Players by themselves or in a small group will be paired up with other like-minded adventurers to a maximum of 10 players per game. For private bookings, a minimum of 5 tickets must be purchased. Also, a portion of every ticket will go to the convention's charity! If you have any questions, please contact us directly at info@twistedtailsescape.com.",
+      "presenters": [
+        {
+          "name": "Thermo Dragon"
+        }
+      ],
+      "type": "Gaming",
+      "location": {
+        "name": "Hilton: Escape Room (Winchester 1)"
+      }
+    },
+    {
+      "id": "5262-0",
+      "name": "SurviFur: Further Confusion 2025 (Season 31)",
+      "startDate": "2025-01-18T15:00:00-08:00",
+      "endDate": "2025-01-18T17:00:00-08:00",
+      "description": "Returning to FC for it's 31st season, SurviFur is back! 2 hours of live strategy, twists and turns! Based on famous competition shows like Survivor and Total Drama Island, see for yourself what makes this game so special. Arrive early for your best chance to play!",
+      "presenters": [
+        {
+          "name": "Cassidy Civet"
+        }
+      ],
+      "type": "Gaming",
+      "location": {
+        "name": "Marriott: Willow Glen III"
+      }
+    },
+    {
+      "id": "5350-0",
+      "name": "Fursuit Dance Competition Rehearsal",
+      "startDate": "2025-01-18T15:30:00-08:00",
+      "endDate": "2025-01-18T17:00:00-08:00",
+      "description": "Rehearsal for the Dance Competition. Closed to attendees, only participants chosen for the finals please.",
+      "presenters": [
+        {
+          "name": "Brenda Banks"
+        }
+      ],
+      "type": "Event",
+      "location": {
+        "name": "SJCC: Main Stage (220A)"
+      }
+    },
+    {
+      "id": "5356-0",
+      "name": "[Placeholder] Marten Microbiology",
+      "startDate": "2025-01-18T16:00:00-08:00",
+      "endDate": "2025-01-18T17:30:00-08:00",
+      "description": "",
+      "presenters": [],
+      "type": "Science",
+      "location": {
+        "name": "Hilton: Santa Clara"
+      }
+    },
+    {
+      "id": "5145-0",
+      "name": "Charity Poker Tournament",
+      "startDate": "2025-01-18T16:00:00-08:00",
+      "endDate": "2025-01-18T21:00:00-08:00",
+      "description": "Come play in the annual FC charity poker tournament! Texas Hold'Em is the game. Come show off your poker prowess; players of all skill levels are welcome. We have a variety of prizes up for grabs, including art and memberships for next year. All proceeds raised go directly to the charity; the recommended donation is $20 per player. Registration will open 30 minutes prior to start time.",
+      "presenters": [
+        {
+          "name": "Tabbicus"
+        }
+      ],
+      "type": "Gaming",
+      "location": {
+        "name": "Marriott: Blossom Hill"
+      }
+    },
+    {
+      "id": "5210-15",
+      "name": "Twisted Tails Escape",
+      "startDate": "2025-01-18T16:00:00-08:00",
+      "endDate": "2025-01-18T17:00:00-08:00",
+      "description": "Yarrrrrrr! Reckon ye\u2019ve got what it takes to discover the Secret of the Furbidden Treasure? Or perhaps you want to help Captain Cody Escape from Otter Space! \r\n\r\nTickets are $25 per person with a maximum of 10 players per group. Players by themselves or in a small group will be paired up with other like-minded adventurers to a maximum of 10 players per game. For private bookings, a minimum of 5 tickets must be purchased. Also, a portion of every ticket will go to the convention's charity! If you have any questions, please contact us directly at info@twistedtailsescape.com.",
+      "presenters": [
+        {
+          "name": "Thermo Dragon"
+        }
+      ],
+      "type": "Gaming",
+      "location": {
+        "name": "Hilton: Escape Room (Winchester 1)"
+      }
+    },
+    {
+      "id": "5137-0",
+      "name": "Puppy Play Panel & Social",
+      "startDate": "2025-01-18T16:30:00-08:00",
+      "endDate": "2025-01-18T19:30:00-08:00",
+      "description": "Do you identify closely with real puppies, kitties, or ponies? Do you envy how puppies live for the moment & let go of all inhibitions with a head pat, kind word, or treat!? Come learn about what pup play is, what you do and don't need, and how much fun you can have. After the panel, you can join in on the fun as we host a mosh! If you've never been to a mosh, picture a dog park but full of human puppies, and maybe a few kitties, too! Hosted by BAY-PAH! For more information about BAY-PAH: https://bay-pah.com!",
+      "presenters": [
+        {
+          "name": "Ezriana Anmut"
+        },
+        {
+          "name": "Michael Thomas"
+        },
+        {
+          "name": "Tanuski (Steve)"
+        }
+      ],
+      "type": "Social",
+      "location": {
+        "name": "Hilton: San Carlos"
+      },
+      "maturity": "18+"
+    },
+    {
+      "id": "5357-2",
+      "name": "Photoshoot",
+      "startDate": "2025-01-18T16:30:00-08:00",
+      "endDate": "2025-01-18T18:00:00-08:00",
+      "description": "Strike a pose! Our expert convention photographers will make you look great. Stop by to get some professional photos taken, of you or your whole group!\r\n\r\nIf you are organizing a large group photo, please reserve a time on furcon.org/meetups.",
+      "presenters": [],
+      "type": "Hours",
+      "location": {
+        "name": "SJCC: Photoshoot (220C Hours Only)"
+      }
+    },
+    {
+      "id": "5152-0",
+      "name": "Space Business!  The NewSpace Economy",
+      "startDate": "2025-01-18T16:30:00-08:00",
+      "endDate": "2025-01-18T18:00:00-08:00",
+      "description": "Lunar mining, capturing asteroids potentially worth billions or even trillions, and casual space tourism - all previously distant fantasies, but now major business aspirations! On top of all this, a new space race is brewing, infusing nationalist passion and significant funding from governments. Let's talk about this world of \"New Space\" ventures, recent ups and downs in the market, and where this may all be headed.",
+      "presenters": [
+        {
+          "name": "Doktor Wulf"
+        }
+      ],
+      "type": "Science",
+      "location": {
+        "name": "Marriott: Guadalupe"
+      }
+    },
+    {
+      "id": "5290-0",
+      "name": "Latex costume repair 101",
+      "startDate": "2025-01-18T17:00:00-08:00",
+      "endDate": "2025-01-18T18:30:00-08:00",
+      "description": "This panel is a discussion covering the repair and maintenance of latex fetish gear aimed at furry latex fetishists.  Furry latex outfits can be extremely expensive, and can garner a lot of anxiety to the owner, which may curb the time they wear it. Latex is just tree sap, as such , it is actually perishable.   THis panel is intended to lower the anxiety over wearign these immensely expensive creations by arming the owners with the knowledge to repair and maintain them.  There will be a short slide show presentation followed by a practical demonstration.  If time allows a hands-on opportunity may be presented.\r\n\r\nNo mature content will be presented, this is all ages.",
+      "presenters": [
+        {
+          "name": "Scout Fox"
+        }
+      ],
+      "type": "Costuming",
+      "location": {
+        "name": "Hilton: San Pedro"
+      }
+    },
+    {
+      "id": "5331-0",
+      "name": "Saturdaii's Shibari Slam",
+      "startDate": "2025-01-18T17:00:00-08:00",
+      "endDate": "2025-01-18T18:30:00-08:00",
+      "description": "A group meet up for Rope Tops and rope bottoms to meet up and do Shibari! Ropes will not be provided, please bring your own if you wish to participate! \r\n\r\nPeople who wish to watch and learn only are welcome to come by!",
+      "presenters": [
+        {
+          "name": "Saturdaii"
+        }
+      ],
+      "type": "Performance",
+      "location": {
+        "name": "SJCC: Rehearsal Area (220B)"
+      },
+      "maturity": "18+"
+    },
+    {
+      "id": "5213-0",
+      "name": "Ham Radio Exam",
+      "startDate": "2025-01-18T17:00:00-08:00",
+      "endDate": "2025-01-18T18:30:00-08:00",
+      "description": "Come score your amateur radio license from the comfort of the con! Be sure to bring:\r\n\r\n1. A legal photo ID or two forms of identification (non-photo ID, birth certificate, library card, social security card, current student ID, and/or postmarked utility bill).\r\n2. An FCC Federal Registration Number (FRN). Obtain one by registering at https://apps.fcc.gov/cores\r\n3. If upgrading, a photocopy of your current license, or the originals and photocopies of any Certificates of Successful Completion of Examination (CSCE) from previous exam sessions if credit is required.\r\n4. A calculator with memory erased and formulas cleared is allowed. Cell phones must be silenced or turned off during the exam session and the phones' calculator function may not be used.\r\n5. A check, money order, or cash to cover the $15 exam fee.",
+      "presenters": [
+        {
+          "name": "Rechner Fox"
+        }
+      ],
+      "type": "Science",
+      "location": {
+        "name": "Hilton: Plaza"
+      }
+    },
+    {
+      "id": "5210-16",
+      "name": "Twisted Tails Escape",
+      "startDate": "2025-01-18T17:00:00-08:00",
+      "endDate": "2025-01-18T18:00:00-08:00",
+      "description": "Yarrrrrrr! Reckon ye\u2019ve got what it takes to discover the Secret of the Furbidden Treasure? Or perhaps you want to help Captain Cody Escape from Otter Space! \r\n\r\nTickets are $25 per person with a maximum of 10 players per group. Players by themselves or in a small group will be paired up with other like-minded adventurers to a maximum of 10 players per game. For private bookings, a minimum of 5 tickets must be purchased. Also, a portion of every ticket will go to the convention's charity! If you have any questions, please contact us directly at info@twistedtailsescape.com.",
+      "presenters": [
+        {
+          "name": "Thermo Dragon"
+        }
+      ],
+      "type": "Gaming",
+      "location": {
+        "name": "Hilton: Escape Room (Winchester 1)"
+      }
+    },
+    {
+      "id": "5241-0",
+      "name": "Animation Production 101",
+      "startDate": "2025-01-18T17:00:00-08:00",
+      "endDate": "2025-01-18T18:30:00-08:00",
+      "description": "Ever wondered how your favorite animated films got made? Want to know what it takes to get a job making drawings come alive? Then join this panel where we'll cover the production pipeline for all types of animation, from \"All Dogs Go To Heaven\" to \"Zootopia+\" and explore career paths in the animation industry.",
+      "presenters": [
+        {
+          "name": "Dani Yuan"
+        }
+      ],
+      "type": "Arts",
+      "location": {
+        "name": "Marriott: Almaden"
+      }
+    },
+    {
+      "id": "5194-0",
+      "name": "Furries in Indie Comics",
+      "startDate": "2025-01-18T17:30:00-08:00",
+      "endDate": "2025-01-18T19:00:00-08:00",
+      "description": "Join indie comic artist Lonnie Garcia, author of Putty Pygmalion, and radical indie cartoonists Iggy Craig, author of Sad Girl Space Lizard and Ice Cream and Beast, and Eddy Atoms, author of Pinky and Pepper Forever and Making Comic Zines, to talk about their experiences in making, pitching, and publishing comics with indie presses, particularly the San Francisco indie publisher Silver Sprocket Press. We will cover DIY publishing, networking, and how to present yourself to publishers while also being true to yourself and your artistic practice. \r\nPanel will end with a Q&A and a book signing with the cartoonists.",
+      "presenters": [
+        {
+          "name": "Lonnie Garcia"
+        }
+      ],
+      "type": "Arts",
+      "location": {
+        "name": "Hilton: University"
+      }
+    },
+    {
+      "id": "5341-5",
+      "name": "Fursuit Lounge",
+      "startDate": "2025-01-18T18:00:00-08:00",
+      "endDate": "2025-01-19T02:00:00-08:00",
+      "description": "Need a place to cool off? Come on in and hang up your head! We have water and fans available for you, so you can fursuit safely.",
+      "presenters": [],
+      "type": "Hours",
+      "location": {
+        "name": "Marriott: 3B Conference Room"
+      }
+    },
+    {
+      "id": "5204-0",
+      "name": "Fursuit Dance Competition",
+      "startDate": "2025-01-18T18:00:00-08:00",
+      "endDate": "2025-01-18T20:00:00-08:00",
+      "description": "It's back for yet another year! Come watch a fantastic cast of fuzzy dancers show you their moves and passion, and see who has what it takes to rise above the rest, and snatch that crown!",
+      "presenters": [
+        {
+          "name": "Brenda Banks"
+        }
+      ],
+      "type": "Event",
+      "location": {
+        "name": "SJCC: Main Stage (220A)"
+      }
+    },
+    {
+      "id": "5326-0",
+      "name": "Speak Dog! A Dog Behavior 101 Guide",
+      "startDate": "2025-01-18T18:00:00-08:00",
+      "endDate": "2025-01-18T19:30:00-08:00",
+      "description": "Do you have a dog? Are you passionate about dogs? Join Benny in this educational panel on dog behavior and body language to learn the basics of how better to understand the dogs in our lives and learn their own unique language.",
+      "presenters": [
+        {
+          "name": "Benny"
+        }
+      ],
+      "type": "Science",
+      "location": {
+        "name": "Hilton: Santa Clara"
+      }
+    },
+    {
+      "id": "5210-17",
+      "name": "Twisted Tails Escape",
+      "startDate": "2025-01-18T18:00:00-08:00",
+      "endDate": "2025-01-18T19:00:00-08:00",
+      "description": "Yarrrrrrr! Reckon ye\u2019ve got what it takes to discover the Secret of the Furbidden Treasure? Or perhaps you want to help Captain Cody Escape from Otter Space! \r\n\r\nTickets are $25 per person with a maximum of 10 players per group. Players by themselves or in a small group will be paired up with other like-minded adventurers to a maximum of 10 players per game. For private bookings, a minimum of 5 tickets must be purchased. Also, a portion of every ticket will go to the convention's charity! If you have any questions, please contact us directly at info@twistedtailsescape.com.",
+      "presenters": [
+        {
+          "name": "Thermo Dragon"
+        }
+      ],
+      "type": "Gaming",
+      "location": {
+        "name": "Hilton: Escape Room (Winchester 1)"
+      }
+    },
+    {
+      "id": "5353-1",
+      "name": "Dealer's Den Closing",
+      "startDate": "2025-01-18T18:00:00-08:00",
+      "endDate": "2025-01-18T19:00:00-08:00",
+      "description": "Closing time! One last call to\u2026 make your final selections and leave.",
+      "presenters": [],
+      "type": "Hours",
+      "location": {
+        "name": "SJCC: Dealers Den (LL20BCD/LL21BCDEF)"
+      }
+    },
+    {
+      "id": "5287-0",
+      "name": "Art Show: Rolling Close",
+      "startDate": "2025-01-18T18:30:00-08:00",
+      "endDate": "2025-01-18T19:30:00-08:00",
+      "description": "The Art Show will close one panel at a time. This is your last chance to bid before art is sold or sent to auction!",
+      "presenters": [
+        {
+          "name": "binaryfox"
+        }
+      ],
+      "type": "Hours",
+      "location": {
+        "name": "Hilton: Art Show (Almaden Ballroom)"
+      }
+    },
+    {
+      "id": "5357-3",
+      "name": "Photoshoot",
+      "startDate": "2025-01-18T19:00:00-08:00",
+      "endDate": "2025-01-19T00:00:00-08:00",
+      "description": "Strike a pose! Our expert convention photographers will make you look great. Stop by to get some professional photos taken, of you or your whole group!\r\n\r\nIf you are organizing a large group photo, please reserve a time on furcon.org/meetups.",
+      "presenters": [],
+      "type": "Hours",
+      "location": {
+        "name": "SJCC: Photoshoot (220C Hours Only)"
+      }
+    },
+    {
+      "id": "5303-0",
+      "name": "Far Below Perfect Live",
+      "startDate": "2025-01-18T19:00:00-08:00",
+      "endDate": "2025-01-18T20:00:00-08:00",
+      "description": "Did you grow up listening Pop Punk Music? Do some of your childhood memories include the soundtracks from Tony Hawk Pro Skater, Burn Out, or any OTHER action sports game? Wanna see one of your very own perform original music in the same style?! Far Below Perfect is a one man (Wolf to be exact) Pop Punk Band!",
+      "presenters": [
+        {
+          "name": "Fritz The Pop Punk Wolf"
+        }
+      ],
+      "type": "Performance",
+      "location": {
+        "name": "Marriott: Almaden"
+      }
+    },
+    {
+      "id": "5129-0",
+      "name": "Macro/Micro Meet & Greet",
+      "startDate": "2025-01-18T19:00:00-08:00",
+      "endDate": "2025-01-18T20:30:00-08:00",
+      "description": "Come show us what makes your size your own and enjoy props big and small to help better express your size. Catering to those too small to be seen to those too big to comprehend all are welcome!",
+      "presenters": [
+        {
+          "name": "Skyite Ovexion"
+        }
+      ],
+      "type": "Social",
+      "location": {
+        "name": "SJCC: Rehearsal Area (220B)"
+      }
+    },
+    {
+      "id": "5127-0",
+      "name": "Red Dragon Inn Game",
+      "startDate": "2025-01-18T19:00:00-08:00",
+      "endDate": "2025-01-18T20:00:00-08:00",
+      "description": "Teaching others to play and enjoy the boardgame Red Dragon Inn, a game about adventurers enjoying the downtime after a quest and the spoils have been split.",
+      "presenters": [
+        {
+          "name": "Zarek Kayne"
+        }
+      ],
+      "type": "Gaming",
+      "location": {
+        "name": "Hilton: Gaming (Market)"
+      }
+    },
+    {
+      "id": "5292-0",
+      "name": "Furry Sticker Swap (18+)",
+      "startDate": "2025-01-18T19:00:00-08:00",
+      "endDate": "2025-01-18T20:30:00-08:00",
+      "description": "Do you like furry stickers? Do you want to drop off, swap, or collect stickers from other furries? Well, come on over by the sticker swap panel! Bring your stickers, share sticker books, chat about sticker artwork, where your stickers were made, etc. This is a sticker-focused panel, so it will be very unlikely to find other furry-themed item swaps here. \r\n\r\nNOTICE: There will most likely be adult / 18+ themed stickers. IDs will be checked, so please bring them!",
+      "presenters": [
+        {
+          "name": "Chips"
+        }
+      ],
+      "type": "Social",
+      "location": {
+        "name": "Hilton: Plaza"
+      },
+      "maturity": "18+"
+    },
+    {
+      "id": "5172-0",
+      "name": "Trans/Queer Bay Area Littlefurs",
+      "startDate": "2025-01-18T19:30:00-08:00",
+      "endDate": "2025-01-18T21:00:00-08:00",
+      "description": "A meetup of Trans and genderqueer littles to mingle and be smol! Come out and be yourself while you meet other furry kiddos! We especially invite littles from the SF Bay Area to come and build community, though this meetup is open to everyone regardless of residence! <3",
+      "presenters": [
+        {
+          "name": "PuppySkye"
+        }
+      ],
+      "type": "Social",
+      "location": {
+        "name": "Hilton: University"
+      },
+      "maturity": "18+"
+    },
+    {
+      "id": "5345-0",
+      "name": "Pool Toy Party After Dark",
+      "startDate": "2025-01-18T20:00:00-08:00",
+      "endDate": "2025-01-19T02:00:00-08:00",
+      "description": "Come vibe and chill talk with friends and bop balloons in this sensory decompression space!",
+      "presenters": [
+        {
+          "name": "Phenod"
+        }
+      ],
+      "type": "Event",
+      "location": {
+        "name": "Marriott: Willow Glen I-II"
+      }
+    },
+    {
+      "id": "5404-0",
+      "name": "Night Market Fursuit Lounge",
+      "startDate": "2025-01-18T20:00:00-08:00",
+      "endDate": "2025-01-19T02:00:00-08:00",
+      "description": "Need a place to cool off? Come on in and hang up your head! We have water and fans available for you, so you can fursuit safely.\r\n\r\nNote: This lounge is for Night Market attendees. If you need a lounge outside the Night Market during this time, a temporary lounge is set up in 3B, on the third floor.",
+      "presenters": [
+        {
+          "name": "Aatheus"
+        }
+      ],
+      "type": "Hours",
+      "location": {
+        "name": "Marriott: Fursuit Lounge (San Carlos)"
+      }
+    },
+    {
+      "id": "5387-0",
+      "name": "Night Market DJ - NeonBunny",
+      "startDate": "2025-01-18T20:00:00-08:00",
+      "endDate": "2025-01-18T21:00:00-08:00",
+      "description": "Genre: Dance and House\n\nMixcloud: https://www.mixcloud.com/neonbunny/\nBluesky: https://bsky.app/profile/neonbunny.bsky.social",
+      "presenters": [],
+      "type": "Performance",
+      "location": {
+        "name": "Marriott: Marriott Stage (Salon I to VI)"
+      },
+      "maturity": "18+"
+    },
+    {
+      "id": "5210-18",
+      "name": "Twisted Tails Escape",
+      "startDate": "2025-01-18T20:00:00-08:00",
+      "endDate": "2025-01-18T21:00:00-08:00",
+      "description": "Yarrrrrrr! Reckon ye\u2019ve got what it takes to discover the Secret of the Furbidden Treasure? Or perhaps you want to help Captain Cody Escape from Otter Space! \r\n\r\nTickets are $25 per person with a maximum of 10 players per group. Players by themselves or in a small group will be paired up with other like-minded adventurers to a maximum of 10 players per game. For private bookings, a minimum of 5 tickets must be purchased. Also, a portion of every ticket will go to the convention's charity! If you have any questions, please contact us directly at info@twistedtailsescape.com.",
+      "presenters": [
+        {
+          "name": "Thermo Dragon"
+        }
+      ],
+      "type": "Gaming",
+      "location": {
+        "name": "Hilton: Escape Room (Winchester 1)"
+      }
+    },
+    {
+      "id": "5250-0",
+      "name": "Worst Case Office Scenario (The Game Show)",
+      "startDate": "2025-01-18T20:00:00-08:00",
+      "endDate": "2025-01-18T22:00:00-08:00",
+      "description": "You been hired by Deweycheatu and Howe, LLC as a new employee. One issue you need to survive the worst case scenarios and get your paperwork done in time or be fired. Come join in and answer some questions about office scenarios and win employee of the month and hundred dollars* plus a trophy.\r\n*hundred dollars to change without notice.",
+      "presenters": [
+        {
+          "name": "Eira Greentail"
+        },
+        {
+          "name": "JJ Husk"
+        }
+      ],
+      "type": "Gaming",
+      "location": {
+        "name": "Hilton: Santa Clara"
+      }
+    },
+    {
+      "id": "5344-0",
+      "name": "Night Market",
+      "startDate": "2025-01-18T20:00:00-08:00",
+      "endDate": "2025-01-19T02:00:00-08:00",
+      "description": "",
+      "presenters": [],
+      "type": "Hours",
+      "location": {
+        "name": "Marriott: Marriott Stage (Salon I to VI)"
+      }
+    },
+    {
+      "id": "5260-0",
+      "name": "Pok\u00e9mon Meet and Greet",
+      "startDate": "2025-01-18T20:30:00-08:00",
+      "endDate": "2025-01-18T22:00:00-08:00",
+      "description": "Join us on an exciting adventure of fun Pok\u00e9mon themed games and prizes, Pok\u00e9mon card trading and much more.",
+      "presenters": [
+        {
+          "name": "Guardian Beast"
+        }
+      ],
+      "type": "Social",
+      "location": {
+        "name": "Hilton: San Pedro"
+      }
+    },
+    {
+      "id": "5233-0",
+      "name": "(18+) Price is Right: Depths of the Internet",
+      "startDate": "2025-01-18T20:30:00-08:00",
+      "endDate": "2025-01-18T22:00:00-08:00",
+      "description": "How much would you pay for cologne that smells like Play-Doh? Or how about a Sirenhead pleasure doll? Here at The Price is Right: Depths of the Internet, join your hosts Vermont and Nekumei as we present you with various cursed and horrifying objects we've found for sale across the web! Using audience participation, come on and find out if the price is indeed right! Prizes available!!",
+      "presenters": [
+        {
+          "name": "Vermont the Seagull & Nekumei"
+        }
+      ],
+      "type": "Performance",
+      "location": {
+        "name": "Hilton: San Carlos"
+      },
+      "maturity": "18+"
+    },
+    {
+      "id": "5393-0",
+      "name": "DJ Dance - Foxhound",
+      "startDate": "2025-01-18T21:00:00-08:00",
+      "endDate": "2025-01-18T22:00:00-08:00",
+      "description": "Genre: Deep, Bass & Funky House",
+      "presenters": [],
+      "type": "Performance",
+      "location": {
+        "name": "SJCC: Main Stage (220A)"
+      }
+    },
+    {
+      "id": "5210-19",
+      "name": "Twisted Tails Escape",
+      "startDate": "2025-01-18T21:00:00-08:00",
+      "endDate": "2025-01-18T22:00:00-08:00",
+      "description": "Yarrrrrrr! Reckon ye\u2019ve got what it takes to discover the Secret of the Furbidden Treasure? Or perhaps you want to help Captain Cody Escape from Otter Space! \r\n\r\nTickets are $25 per person with a maximum of 10 players per group. Players by themselves or in a small group will be paired up with other like-minded adventurers to a maximum of 10 players per game. For private bookings, a minimum of 5 tickets must be purchased. Also, a portion of every ticket will go to the convention's charity! If you have any questions, please contact us directly at info@twistedtailsescape.com.",
+      "presenters": [
+        {
+          "name": "Thermo Dragon"
+        }
+      ],
+      "type": "Gaming",
+      "location": {
+        "name": "Hilton: Escape Room (Winchester 1)"
+      }
+    },
+    {
+      "id": "5281-0",
+      "name": "The Dusty Furs of BRC.",
+      "startDate": "2025-01-18T21:00:00-08:00",
+      "endDate": "2025-01-18T22:30:00-08:00",
+      "description": "Ever heard stories of the Man that rises from the dust each year just to light on fire and burn away again to leave not a trace? Well aside from the memories all of us who visited him carry after exodus. Yeah we\u2019re talking about Burning Man. About our memories and experiences, along with comparing and contrasting some of the Similarities and Differences with the Furry Fandom and how both Burning Man and Furry principles create such wonderful Immediacy.",
+      "presenters": [
+        {
+          "name": "Zoren"
+        }
+      ],
+      "type": "Social",
+      "location": {
+        "name": "Hilton: Plaza"
+      }
+    },
+    {
+      "id": "5388-0",
+      "name": "Night Market DJ - EAR",
+      "startDate": "2025-01-18T21:00:00-08:00",
+      "endDate": "2025-01-18T22:00:00-08:00",
+      "description": "Genre: Bunny Music\n\nMixcloud: https://www.mixcloud.com/TheDJEAR/\nBluesky: https://bsky.app/profile/djear.bsky.social\nTwitter/X: https://x.com/Huepow00",
+      "presenters": [],
+      "type": "Performance",
+      "location": {
+        "name": "Marriott: Marriott Stage (Salon I to VI)"
+      },
+      "maturity": "18+"
+    },
+    {
+      "id": "5140-0",
+      "name": "Protogen/Primagen Meet & Greet",
+      "startDate": "2025-01-18T21:30:00-08:00",
+      "endDate": "2025-01-18T23:00:00-08:00",
+      "description": "Are you interested in meeting other Protogens or Primagens? Please come to the Protogen/Primagen Meet & Greet! Make some amazing friends with fellow beepers or toasters!",
+      "presenters": [
+        {
+          "name": "Ezriana Anmut"
+        }
+      ],
+      "type": "Species",
+      "location": {
+        "name": "Marriott: Blossom Hill"
+      }
+    },
+    {
+      "id": "5374-0",
+      "name": "Smut Redux: Improvised Adult Film Remake",
+      "startDate": "2025-01-18T21:30:00-08:00",
+      "endDate": "2025-01-18T23:30:00-08:00",
+      "description": "Let's watch and critique a classic adult film, and remake it into a smutty masterpiece for modern audiences with The Fists of Improv! (as seen @ SF Eagle, and Fluid510)\r\nW\ufeffe are a BIPOC-forward LGBTQ+ improv troupe!\r\n\r\nCheck us out on IG, YT and FB @ TheFistsofImprov",
+      "presenters": [
+        {
+          "name": "passLion"
+        }
+      ],
+      "type": "Performance",
+      "location": {
+        "name": "Hilton: University"
+      },
+      "maturity": "18+"
+    },
+    {
+      "id": "5394-0",
+      "name": "DJ Dance - Big Salamander",
+      "startDate": "2025-01-18T22:00:00-08:00",
+      "endDate": "2025-01-18T23:00:00-08:00",
+      "description": "Genre: Bass, Color & Hybrid House\n\nMixcloud: https://www.mixcloud.com/djbigsalamander/\nTwitter/X: https://x.com/Luckydeetwenty",
+      "presenters": [],
+      "type": "Performance",
+      "location": {
+        "name": "SJCC: Main Stage (220A)"
+      }
+    },
+    {
+      "id": "5389-0",
+      "name": "Night Market DJ - Canidae",
+      "startDate": "2025-01-18T22:00:00-08:00",
+      "endDate": "2025-01-18T23:00:00-08:00",
+      "description": "Genre: Acid // IDM // Oldschool Techno\n\nBluesky: https://bsky.app/profile/ykkaj.bsky.social\nTwitter/X: https://x.com/plsnojakky",
+      "presenters": [],
+      "type": "Performance",
+      "location": {
+        "name": "Marriott: Marriott Stage (Salon I to VI)"
+      },
+      "maturity": "18+"
+    },
+    {
+      "id": "5190-0",
+      "name": "The Most Smashable: Pokemon Gen 3",
+      "startDate": "2025-01-18T22:30:00-08:00",
+      "endDate": "2025-01-19T00:00:00-08:00",
+      "description": "18+ Only: Would you smash or be smashed by a Pokemon? Come help determine which is the most smash-able in a head-2-head bracket elimination. Fill to the brim with adult furry art for your voting pleasure. May the sexiest Pokemon take the crown.",
+      "presenters": [
+        {
+          "name": "Ripple"
+        }
+      ],
+      "type": "Social",
+      "location": {
+        "name": "Hilton: San Carlos"
+      },
+      "maturity": "18+"
+    },
+    {
+      "id": "5209-0",
+      "name": "Floppy Disks, Not Floppy Dicks",
+      "startDate": "2025-01-18T22:30:00-08:00",
+      "endDate": "2025-01-19T00:00:00-08:00",
+      "description": "Have you ever wondered what looking at adult furry art on DOS 3.0 would have looked like? Would you like a 5.25\" floppy disk with your image of choice immortalized in spinning rust? Look no further, we have the solution for you!",
+      "presenters": [
+        {
+          "name": "Kilte Fox"
+        }
+      ],
+      "type": "Arts",
+      "location": {
+        "name": "Hilton: Santa Clara"
+      },
+      "maturity": "18+"
+    },
+    {
+      "id": "5307-0",
+      "name": "Movie: Wolf Children",
+      "startDate": "2025-01-18T22:30:00-08:00",
+      "endDate": "2025-01-19T00:30:00-08:00",
+      "description": "Come join us tonight to watch Mamoru Hosoda\u2019s Wolf Children!: After her werewolf lover unexpectedly dies in an accident, a woman must find a way to raise the son and daughter that she had with him. However, their inheritance of their father's traits prove to be a challenge for her.",
+      "presenters": [
+        {
+          "name": "The Royal Rebellion"
+        }
+      ],
+      "type": "Performance",
+      "location": {
+        "name": "Marriott: Almaden"
+      }
+    },
+    {
+      "id": "5375-0",
+      "name": "Hackin Your Relationships Part Two: More than 10\u2082",
+      "startDate": "2025-01-18T22:30:00-08:00",
+      "endDate": "2025-01-19T00:00:00-08:00",
+      "description": "Steve (Tanuski) and Junaos\r\nJoin us for an enlightening and lively talk by Junaos & Tanuski (Steve) as they dive into the world of non-monogamy, attachment theory, and becoming your best self in a polyamorous relationship! Discover the intricacies of maintaining multiple loving relationships, understand your attachment style, and learn practical tips on fostering healthy connections. Whether you're poly-curious or a seasoned polyamorous pro, this talk promises to offer valuable insights and a fun, engaging experience. Don't miss out on this chance to grow and thrive in your relationships!",
+      "presenters": [
+        {
+          "name": "Junaos"
+        },
+        {
+          "name": "Tanuski"
+        }
+      ],
+      "type": "Social",
+      "location": {
+        "name": "Hilton: San Pedro"
+      },
+      "maturity": "18+"
+    },
+    {
+      "id": "5390-0",
+      "name": "Night Market DJ - #MUSHPAK",
+      "startDate": "2025-01-18T23:00:00-08:00",
+      "endDate": "2025-01-19T00:00:00-08:00",
+      "description": "Genre: Breaks // Dub // Leftfield Tech\n\nMixcloud: https://www.mixcloud.com/mushpak/\nTwitter/X: https://x.com/_mushpak",
+      "presenters": [],
+      "type": "Performance",
+      "location": {
+        "name": "Marriott: Marriott Stage (Salon I to VI)"
+      },
+      "maturity": "18+"
+    },
+    {
+      "id": "5395-0",
+      "name": "DJ Dance - Ru",
+      "startDate": "2025-01-18T23:00:00-08:00",
+      "endDate": "2025-01-19T00:00:00-08:00",
+      "description": "Genre: Progressive House // Trance\n\nMixcloud: https://www.mixcloud.com/transversewithru/\nTwitter/X: https://x.com/RuTransverse",
+      "presenters": [],
+      "type": "Performance",
+      "location": {
+        "name": "SJCC: Main Stage (220A)"
+      }
+    },
+    {
+      "id": "5133-0",
+      "name": "BabyFur Meet & Greet",
+      "startDate": "2025-01-18T23:30:00-08:00",
+      "endDate": "2025-01-19T01:00:00-08:00",
+      "description": "Meet fellow babyfurs and connect with old friends and new! Learn more about what it's like to be a little/babyfur, and wag that crinkle butt in a judgement free zone!",
+      "presenters": [
+        {
+          "name": "Ezriana Anmut"
+        },
+        {
+          "name": "Panda"
+        }
+      ],
+      "type": "Social",
+      "location": {
+        "name": "Marriott: Blossom Hill"
+      },
+      "maturity": "18+"
+    },
+    {
+      "id": "5396-0",
+      "name": "DJ Dance - Genki",
+      "startDate": "2025-01-19T00:00:00-08:00",
+      "endDate": "2025-01-19T01:00:00-08:00",
+      "description": "Genre: Drum & Bass // Hardcore\n\nSoundcloud: https://soundcloud.com/djgenki\nTwitter/X: https://x.com/DjGenki",
+      "presenters": [],
+      "type": "Performance",
+      "location": {
+        "name": "SJCC: Main Stage (220A)"
+      }
+    },
+    {
+      "id": "5391-0",
+      "name": "Night Market DJ - DJ Vulp",
+      "startDate": "2025-01-19T00:00:00-08:00",
+      "endDate": "2025-01-19T01:00:00-08:00",
+      "description": "Genre: Top 40 // Dance // House\n\nMixcloud: https://www.mixcloud.com/djvulp/\nBluesky: https://bsky.app/profile/djvulp.bsky.social\nTwitter/X: https://x.com/DJVulp",
+      "presenters": [],
+      "type": "Performance",
+      "location": {
+        "name": "Marriott: Marriott Stage (Salon I to VI)"
+      },
+      "maturity": "18+"
+    },
+    {
+      "id": "5392-0",
+      "name": "Night Market DJ - Sawtooth",
+      "startDate": "2025-01-19T01:00:00-08:00",
+      "endDate": "2025-01-19T02:00:00-08:00",
+      "description": "Genre: Jungle // Oldschool Hardcore\n\nMixcloud: https://www.mixcloud.com/SawtoothPennanti/\nBluesky: https://bsky.app/profile/sawtooth.bsky.social",
+      "presenters": [],
+      "type": "Performance",
+      "location": {
+        "name": "Marriott: Marriott Stage (Salon I to VI)"
+      },
+      "maturity": "18+"
+    },
+    {
+      "id": "5343-3",
+      "name": "Con Ops",
+      "startDate": "2025-01-19T08:30:00-08:00",
+      "endDate": "2025-01-20T03:00:00-08:00",
+      "description": "The center & home-base of Further Confusion operations. Come here to get information, check lost-and-found, and check in if you're a presenter or panelist. If you're looking to help out, sign up here as a gofur!",
+      "presenters": [],
+      "type": "Hours",
+      "location": {
+        "name": "SJCC: Con Ops / Zookeepers"
+      }
+    },
+    {
+      "id": "5335-3",
+      "name": "Recharge Room",
+      "startDate": "2025-01-19T10:00:00-08:00",
+      "endDate": "2025-01-20T02:00:00-08:00",
+      "description": "",
+      "presenters": [],
+      "type": "Hours",
+      "location": {
+        "name": "Hilton: Executive Boardroom"
+      }
+    },
+    {
+      "id": "5341-6",
+      "name": "Fursuit Lounge",
+      "startDate": "2025-01-19T10:00:00-08:00",
+      "endDate": "2025-01-20T02:30:00-08:00",
+      "description": "Need a place to cool off? Come on in and hang up your head! We have water and fans available for you, so you can fursuit safely.",
+      "presenters": [],
+      "type": "Hours",
+      "location": {
+        "name": "SJCC: Fursuit Lounge / Photoshoot (220C)"
+      }
+    },
+    {
+      "id": "5352-3",
+      "name": "Dealer's Den Setup",
+      "startDate": "2025-01-19T10:00:00-08:00",
+      "endDate": "2025-01-19T11:00:00-08:00",
+      "description": "If you're a dealer, your dealer assistants and you may come into the Dealers Den to load in and set up.",
+      "presenters": [],
+      "type": "Hours",
+      "location": {
+        "name": "SJCC: Dealers Den (LL20BCD/LL21BCDEF)"
+      }
+    },
+    {
+      "id": "5359-3",
+      "name": "Registration",
+      "startDate": "2025-01-19T10:00:00-08:00",
+      "endDate": "2025-01-19T15:00:00-08:00",
+      "description": "Come to registration to get your attendee badge! We look forward to welcoming you to the con.",
+      "presenters": [],
+      "type": "Hours",
+      "location": {
+        "name": "SJCC: Registration (The Hub)"
+      }
+    },
+    {
+      "id": "5349-3",
+      "name": "Zookeepers",
+      "startDate": "2025-01-19T10:00:00-08:00",
+      "endDate": "2025-01-20T02:00:00-08:00",
+      "description": "",
+      "presenters": [],
+      "type": "Hours",
+      "location": {
+        "name": "SJCC: Con Ops / Zookeepers"
+      }
+    },
+    {
+      "id": "5337-2",
+      "name": "Gaming",
+      "startDate": "2025-01-19T10:00:00-08:00",
+      "endDate": "2025-01-20T02:00:00-08:00",
+      "description": "Gaming is open; come play with us! Featuring a generous selection of both tabletop and video games, provided by Games of Berkeley, MAGWest, and those that have lent us their games and systems for the convention. There's something here for everyone! Either to waste time between events or as a place to chill, we will be here. Bags will be checked at the door. Learn more: http://furcon.org/programming/gaming/",
+      "presenters": [],
+      "type": "Hours",
+      "location": {
+        "name": "Hilton: Gaming (Market)"
+      }
+    },
+    {
+      "id": "5212-0",
+      "name": "Makerfurs Panel",
+      "startDate": "2025-01-19T11:00:00-08:00",
+      "endDate": "2025-01-19T12:30:00-08:00",
+      "description": "Join Pawprint Prototyping's membership for a discussion of how cool it is to have a collaborative community working towards hacking things better! We'll present some projects we've built, meet other hackers, and generally hang out.",
+      "presenters": [
+        {
+          "name": "Rechner Fox"
+        }
+      ],
+      "type": "Science",
+      "location": {
+        "name": "Hilton: San Carlos"
+      }
+    },
+    {
+      "id": "5351-2",
+      "name": "Dealer's Den",
+      "startDate": "2025-01-19T11:00:00-08:00",
+      "endDate": "2025-01-19T18:00:00-08:00",
+      "description": "Our Dealer's Den is the place to find excellent artists and craftspeople selling their wares! Come take a look around; you never know what you might find!",
+      "presenters": [],
+      "type": "Hours",
+      "location": {
+        "name": "SJCC: Dealers Den (LL20BCD/LL21BCDEF)"
+      }
+    },
+    {
+      "id": "5143-0",
+      "name": "Fursuit Maker Show n' Tell",
+      "startDate": "2025-01-19T11:00:00-08:00",
+      "endDate": "2025-01-19T12:30:00-08:00",
+      "description": "A panel for fursuit makers to talk shop about their techniques and compare their work. Show off the ins and outs of your creations with your fellow suit makers!\r\n\r\nThis is intended for those who have created their own suits and are at a intermediate-advanced fursuit making skill level.",
+      "presenters": [
+        {
+          "name": "Kai the Raven"
+        }
+      ],
+      "type": "Costuming",
+      "location": {
+        "name": "Marriott: Blossom Hill"
+      }
+    },
+    {
+      "id": "5327-0",
+      "name": "AAE Annual Public Board Meeting",
+      "startDate": "2025-01-19T11:00:00-08:00",
+      "endDate": "2025-01-19T12:30:00-08:00",
+      "description": "This in the annual public meeting of the AAE Board of Directors. See behind the magic of what it takes to run a convention like Further Confusion. Talk directly with the Directors of Anthropomorphic Arts and Education, Inc. (AAE), the parent company of Further Confusion. Learn what we do and give us your questions, comments, and ideas!",
+      "presenters": [
+        {
+          "name": "Berg Polarbear"
+        },
+        {
+          "name": "Red XIX"
+        }
+      ],
+      "type": "Event",
+      "location": {
+        "name": "Marriott: Willow Glen III"
+      }
+    },
+    {
+      "id": "5341-7",
+      "name": "Fursuit Lounge",
+      "startDate": "2025-01-19T11:00:00-08:00",
+      "endDate": "2025-01-19T23:00:00-08:00",
+      "description": "Need a place to cool off? Come on in and hang up your head! We have water and fans available for you, so you can fursuit safely.",
+      "presenters": [],
+      "type": "Hours",
+      "location": {
+        "name": "Marriott: Fursuit Lounge (San Carlos)"
+      }
+    },
+    {
+      "id": "5259-0",
+      "name": "What the Perkele is a Moomin?",
+      "startDate": "2025-01-19T11:00:00-08:00",
+      "endDate": "2025-01-19T12:30:00-08:00",
+      "description": "Moomintroll and his little world, created by Finnish/Swedish artist Tove Jansson, has been delighting audiences all over the world since the 1940s, and recently has been growing in popularity in the furry community. This panel is for fans new and old, and anybody else who is interested in learning more about the whimsical and sometimes poignant world of Moominvalley. Your host, a longtime Moomin fan themself, takes you on a journey through the real-life history, the characters, the life of the authoress, and various media adaptations of Tove Jansson\u2019s most popular work.",
+      "presenters": [
+        {
+          "name": "Dag Spambone"
+        }
+      ],
+      "type": "Arts",
+      "location": {
+        "name": "Hilton: University"
+      }
+    },
+    {
+      "id": "5223-0",
+      "name": "Education Furs Meet and Greet",
+      "startDate": "2025-01-19T11:00:00-08:00",
+      "endDate": "2025-01-19T12:30:00-08:00",
+      "description": "Are you a fur working in the education system? ALL education folks are welcome, not just teachers. Come and hang out with your fellow professionals!",
+      "presenters": [
+        {
+          "name": "Nekona"
+        }
+      ],
+      "type": "Social",
+      "location": {
+        "name": "Marriott: Almaden"
+      }
+    },
+    {
+      "id": "5288-0",
+      "name": "Art Show: Pickup",
+      "startDate": "2025-01-19T11:00:00-08:00",
+      "endDate": "2025-01-19T18:00:00-08:00",
+      "description": "The Art Show is open for winning bidders and artists to pick up their pieces. The gallery is closed to general attendees.",
+      "presenters": [
+        {
+          "name": "binaryfox"
+        }
+      ],
+      "type": "Hours",
+      "location": {
+        "name": "Hilton: Art Show (Almaden Ballroom)"
+      }
+    },
+    {
+      "id": "5294-0",
+      "name": "Swap & Trade Meet",
+      "startDate": "2025-01-19T11:00:00-08:00",
+      "endDate": "2025-01-19T12:30:00-08:00",
+      "description": "Come gather to trade items, give away unwanted goods, or get some free trinkets! [No Sales!] i.e. stickers, pins, games, books, plushies, figures, etc",
+      "presenters": [
+        {
+          "name": "Ryshili"
+        }
+      ],
+      "type": "Social",
+      "location": {
+        "name": "Hilton: San Pedro"
+      }
+    },
+    {
+      "id": "5128-0",
+      "name": "Hop to It Origami",
+      "startDate": "2025-01-19T11:00:00-08:00",
+      "endDate": "2025-01-19T12:30:00-08:00",
+      "description": "Use the ancient Oriental art or origami to make a hopping frog.  Material is available for first 100 participants.",
+      "presenters": [
+        {
+          "name": "rich-online"
+        }
+      ],
+      "type": "Arts",
+      "location": {
+        "name": "Hilton: Plaza"
+      }
+    },
+    {
+      "id": "5245-0",
+      "name": "Lackadaisy Pilot and Shorts Showing + QnA and BTS",
+      "startDate": "2025-01-19T11:00:00-08:00",
+      "endDate": "2025-01-19T12:30:00-08:00",
+      "description": "A showing of the Lackadaisy Pilot and several shorts, behind the scenes footage, and a question and answer section featuring series creator Tracy Butler, showrunner Fable Siegel, plus additional cast and crew.",
+      "presenters": [
+        {
+          "name": "Fablepaint"
+        },
+        {
+          "name": "Tracy Butler"
+        }
+      ],
+      "type": "Arts",
+      "location": {
+        "name": "Marriott: Marriott Stage (Salon I to VI)"
+      }
+    },
+    {
+      "id": "5283-0",
+      "name": "When Rabbits Changed Us",
+      "startDate": "2025-01-19T11:30:00-08:00",
+      "endDate": "2025-01-19T13:00:00-08:00",
+      "description": "Humans have always used rabbits. Find out how that use in turn changed humans. There will be bunnies on hand to draw, photograph and pet, and to receive apologies.",
+      "presenters": [
+        {
+          "name": "Fireline Coyote"
+        },
+        {
+          "name": "Sharon Hom"
+        }
+      ],
+      "type": "Science",
+      "location": {
+        "name": "Hilton: Santa Clara"
+      }
+    },
+    {
+      "id": "5165-0",
+      "name": "Squeak N Greet",
+      "startDate": "2025-01-19T12:00:00-08:00",
+      "endDate": "2025-01-19T15:00:00-08:00",
+      "description": "Come hang out with inflatables and the people who collect them. Come show off your favorite toy or find out where to get your own. Panel is all ages but we request minors have a guardian with them at all times.",
+      "presenters": [
+        {
+          "name": "QuietFire"
+        }
+      ],
+      "type": "Social",
+      "location": {
+        "name": "SJCC: Rehearsal Area (220B)"
+      }
+    },
+    {
+      "id": "5267-0",
+      "name": "Return to Kooky Trails",
+      "startDate": "2025-01-19T12:00:00-08:00",
+      "endDate": "2025-01-19T13:30:00-08:00",
+      "description": "The cast and crew of Kooky Trails is back! Be the first to see the new short film, \"Kooky Trails Prologue\", and then join us for a special Q&A hosted by our \"virtual moderator\", Beni Galdo!",
+      "presenters": [
+        {
+          "name": "Max Everett"
+        }
+      ],
+      "type": "Arts",
+      "location": {
+        "name": "Marriott: Guadalupe"
+      }
+    },
+    {
+      "id": "5361-3",
+      "name": "VR Portal",
+      "startDate": "2025-01-19T12:00:00-08:00",
+      "endDate": "2025-01-19T18:00:00-08:00",
+      "description": "See your friends in VR! Located in the Santa Clara foyer of the Hilton.",
+      "presenters": [],
+      "type": "Hours",
+      "location": {
+        "name": "Hilton: Santa Clara Foyer"
+      }
+    },
+    {
+      "id": "5149-0",
+      "name": "Magic: The Gathering - Oathbreaker",
+      "startDate": "2025-01-19T12:00:00-08:00",
+      "endDate": "2025-01-19T16:00:00-08:00",
+      "description": "Let's get together for two rounds of Oathbreaker!\r\nPlayers will compete in four pods of four with the winner of each pod competing for the top spot!\r\nDon't have an Oathbreaker deck?  We'll have a few available that you can borrow.\r\n16 players max.  First come, first registered.  Registration opens one hour before the event begins.\r\nPrize support will be supplied.",
+      "presenters": [
+        {
+          "name": "Luxemburg Skunk"
+        }
+      ],
+      "type": "Gaming",
+      "location": {
+        "name": "Hilton: Gaming (Market)"
+      }
+    },
+    {
+      "id": "5357-4",
+      "name": "Photoshoot",
+      "startDate": "2025-01-19T13:00:00-08:00",
+      "endDate": "2025-01-19T17:30:00-08:00",
+      "description": "Strike a pose! Our expert convention photographers will make you look great. Stop by to get some professional photos taken, of you or your whole group!\r\n\r\nIf you are organizing a large group photo, please reserve a time on furcon.org/meetups.",
+      "presenters": [],
+      "type": "Hours",
+      "location": {
+        "name": "SJCC: Photoshoot (220C Hours Only)"
+      }
+    },
+    {
+      "id": "5159-0",
+      "name": "Ask A Marine Biologist",
+      "startDate": "2025-01-19T13:00:00-08:00",
+      "endDate": "2025-01-19T14:30:00-08:00",
+      "description": "Have any burning questions you'd like to ask to a marine biologist? A masters student is here to try to answer them all. What's really going on under the sea? Why are sea otters the nastiest little gremlins ever? Are sharks better than dolphins? The state is stealing my sand?!",
+      "presenters": [
+        {
+          "name": "Zed Shirogane"
+        }
+      ],
+      "type": "Science",
+      "location": {
+        "name": "Marriott: Almaden"
+      }
+    },
+    {
+      "id": "5132-0",
+      "name": "Art Show: Adult Voice Auction",
+      "startDate": "2025-01-19T13:00:00-08:00",
+      "endDate": "2025-01-19T14:00:00-08:00",
+      "description": "",
+      "presenters": [
+        {
+          "name": "binaryfox"
+        },
+        {
+          "name": "Kiteless Rexouium"
+        }
+      ],
+      "type": "Event",
+      "location": {
+        "name": "Marriott: Marriott Stage (Salon I to VI)"
+      },
+      "maturity": "18+"
+    },
+    {
+      "id": "5228-0",
+      "name": "Furry Figure Drawing for Fun!",
+      "startDate": "2025-01-19T13:00:00-08:00",
+      "endDate": "2025-01-19T14:30:00-08:00",
+      "description": "Come learn how to draw from life with an emphasis on storytelling and character! We\u2019ll start with a short lecture on the approach we\u2019ll be working with and then do some life drawing together. All experience levels are welcome, and please bring your own materials!",
+      "presenters": [
+        {
+          "name": "Greymyr"
+        },
+        {
+          "name": "Spikie"
+        }
+      ],
+      "type": "Arts",
+      "location": {
+        "name": "Hilton: San Pedro"
+      }
+    },
+    {
+      "id": "5162-0",
+      "name": "Wild High (Upcoming Furry Cartoon)",
+      "startDate": "2025-01-19T13:00:00-08:00",
+      "endDate": "2025-01-19T14:30:00-08:00",
+      "description": "Watch a 5 minute sneak peek of a new indie cartoon being released to YouTube next year, as well as meet some of the talented folks working on the project!",
+      "presenters": [
+        {
+          "name": "Buck the Deer"
+        }
+      ],
+      "type": "Arts",
+      "location": {
+        "name": "Marriott: Willow Glen III"
+      }
+    },
+    {
+      "id": "5284-0",
+      "name": "Bunny Social Time!",
+      "startDate": "2025-01-19T13:00:00-08:00",
+      "endDate": "2025-01-19T14:30:00-08:00",
+      "description": "Drop in and visit bunnies! They will be available for photos, drawing, pets, and general adoration.",
+      "presenters": [
+        {
+          "name": "Fireline Coyote"
+        },
+        {
+          "name": "Sharon Hom"
+        }
+      ],
+      "type": "Science",
+      "location": {
+        "name": "Hilton: Santa Clara"
+      }
+    },
+    {
+      "id": "5208-0",
+      "name": "Hacking Through the Ages: Internet Safety and Hygiene (Presented by DEFCON Furs)",
+      "startDate": "2025-01-19T13:00:00-08:00",
+      "endDate": "2025-01-19T14:30:00-08:00",
+      "description": "Since the birth of the internet in 1983, bad actors have been honing techniques to deceive you, steal from you, and harvest your data. Join a panel of infosec practitioners as they explore the evolution of the internet and hacking, share some common sense techniques that can keep you safe as you surf the web, and introduce you to the furry enclave within the world's largest information security conference.",
+      "presenters": [
+        {
+          "name": "Alofoxx"
+        },
+        {
+          "name": "Junaos"
+        },
+        {
+          "name": "Kyle Fox"
+        },
+        {
+          "name": "Scaeling"
+        },
+        {
+          "name": "Tanuski"
+        }
+      ],
+      "type": "Science",
+      "location": {
+        "name": "Hilton: San Carlos"
+      }
+    },
+    {
+      "id": "5191-0",
+      "name": "Dungeons and Definitely Dragons",
+      "startDate": "2025-01-19T13:00:00-08:00",
+      "endDate": "2025-01-19T14:30:00-08:00",
+      "description": "Join us for an interactive D&D panel where volunteers from the audience become heroes and villains. The performance is fursuit friendly and we'll have a giant plush D20 for you to roll!",
+      "presenters": [
+        {
+          "name": "Artemis"
+        }
+      ],
+      "type": "Performance",
+      "location": {
+        "name": "Marriott: Blossom Hill"
+      }
+    },
+    {
+      "id": "5221-0",
+      "name": "A Basic Intro to Hockey",
+      "startDate": "2025-01-19T13:00:00-08:00",
+      "endDate": "2025-01-19T14:00:00-08:00",
+      "description": "An introduction to the game of hockey and hockey fandom. Topics covered include, but not limited to, basic rules, choosing a favorite team, and ways to get involved.",
+      "presenters": [
+        {
+          "name": "Cure"
+        }
+      ],
+      "type": "Social",
+      "location": {
+        "name": "Hilton: University"
+      }
+    },
+    {
+      "id": "5316-0",
+      "name": "Ten Furward: Live Long and Pawsper!",
+      "startDate": "2025-01-19T13:00:00-08:00",
+      "endDate": "2025-01-19T14:30:00-08:00",
+      "description": "Do you partake in endless discussions about the best series, movie, captain? Philosophical debates about post-scarcity queer space utopia over root beer? Perhaps your fursona is a Caitian, Gorn, Aurelian? Or all that sounds like Klingon but you're intrigued? Everyone's welcome to beam up to this all-Trek meetup!",
+      "presenters": [
+        {
+          "name": "Teslacoil"
+        }
+      ],
+      "type": "Social",
+      "location": {
+        "name": "Hilton: Plaza"
+      }
+    },
+    {
+      "id": "5306-0",
+      "name": "Ask A Greymuzzle Anything",
+      "startDate": "2025-01-19T14:00:00-08:00",
+      "endDate": "2025-01-19T15:30:00-08:00",
+      "description": "We've been at this Furry Thing for a while -- seen its ups and downs, seen the good attention and the bad, and seen some of the Old Guard start to pass away. Where did all this come from, and where might it be going? Feel free to ask someone who's been there through much of it all.",
+      "presenters": [
+        {
+          "name": "Rod O'Riley"
+        }
+      ],
+      "type": "Social",
+      "location": {
+        "name": "Marriott: Guadalupe"
+      }
+    },
+    {
+      "id": "5131-0",
+      "name": "Art Show: General Voice Auction",
+      "startDate": "2025-01-19T14:00:00-08:00",
+      "endDate": "2025-01-19T15:00:00-08:00",
+      "description": "",
+      "presenters": [
+        {
+          "name": "binaryfox"
+        },
+        {
+          "name": "Kiteless Rexouium"
+        }
+      ],
+      "type": "Event",
+      "location": {
+        "name": "Marriott: Marriott Stage (Salon I to VI)"
+      }
+    },
+    {
+      "id": "5254-0",
+      "name": "FC: Unleashed Dress Rehearsal",
+      "startDate": "2025-01-19T14:30:00-08:00",
+      "endDate": "2025-01-19T17:00:00-08:00",
+      "description": "Dress Rehearsal for all FC: Unleashed participants.",
+      "presenters": [
+        {
+          "name": "wolfe_guardian"
+        }
+      ],
+      "type": "Event",
+      "location": {
+        "name": "SJCC: Main Stage (220A)"
+      }
+    },
+    {
+      "id": "5266-0",
+      "name": "Furry Ham Radio and Technology Get-together",
+      "startDate": "2025-01-19T14:30:00-08:00",
+      "endDate": "2025-01-19T16:00:00-08:00",
+      "description": "A large number of furries are also into amateur radio. Ham radio has evolved significantly in the last few years through digital modes and has seen a resurgence of traditional high frequency communications. Come gather with other furry hams and perspective hams to discuss radios, projects, and what ever technological topics we find funny and interesting.",
+      "presenters": [
+        {
+          "name": "Fireline Coyote"
+        }
+      ],
+      "type": "Science",
+      "location": {
+        "name": "Hilton: Santa Clara"
+      }
+    },
+    {
+      "id": "5142-0",
+      "name": "FUR-CAL: San Diego Fur Con",
+      "startDate": "2025-01-19T15:00:00-08:00",
+      "endDate": "2025-01-19T16:30:00-08:00",
+      "description": "Are you interested in meeting the board of directors for FUR-CAL the group behind San Diego Fur Con? Stop in while we host a public board meeting, where you can ask questions, get answers, and learn about the future of the next furry convention to take place in Southern California!",
+      "presenters": [
+        {
+          "name": "Ezriana Anmut"
+        }
+      ],
+      "type": "Social",
+      "location": {
+        "name": "Hilton: University"
+      }
+    },
+    {
+      "id": "5141-0",
+      "name": "Lagomorph Hop and Flop",
+      "startDate": "2025-01-19T15:00:00-08:00",
+      "endDate": "2025-01-19T16:30:00-08:00",
+      "description": "Come mingle and meet your fellow rabbits, hares, and yes, even pikas!\r\n\r\nJoin us for some lagomorph trivia (WITH PRIZES), followed by time for casual meet and greeting, wrapping up with a fursuit and group photo!",
+      "presenters": [
+        {
+          "name": "Russec"
+        }
+      ],
+      "type": "Species",
+      "location": {
+        "name": "Marriott: Almaden"
+      }
+    },
+    {
+      "id": "5176-0",
+      "name": "Custom Pup Hood Workshop",
+      "startDate": "2025-01-19T15:00:00-08:00",
+      "endDate": "2025-01-19T16:30:00-08:00",
+      "description": "Come learn how to design a Mr. S custom pup hood. Learn about resources for the process, and get hands on experience with the materials and color options available.",
+      "presenters": [
+        {
+          "name": "Pup Virgil"
+        }
+      ],
+      "type": "Costuming",
+      "location": {
+        "name": "Hilton: San Pedro"
+      },
+      "maturity": "18+"
+    },
+    {
+      "id": "5168-0",
+      "name": "Whiskers & Wit: Improv Games For All!",
+      "startDate": "2025-01-19T15:00:00-08:00",
+      "endDate": "2025-01-19T16:30:00-08:00",
+      "description": "Have you ever wanted to be a part of an improv show, but never knew where to start? This is the place for you! Here, you can learn the basics of improv, and even play some games if you\u2019re up for it, all family friendly! Fursuits encouraged, not required!",
+      "presenters": [
+        {
+          "name": "Sinine Coyote"
+        }
+      ],
+      "type": "Performance",
+      "location": {
+        "name": "Hilton: Plaza"
+      }
+    },
+    {
+      "id": "5297-0",
+      "name": "Furry Visual Novels Panel",
+      "startDate": "2025-01-19T15:00:00-08:00",
+      "endDate": "2025-01-19T16:30:00-08:00",
+      "description": "Are you only moving in circles after finishing Echo? Still upset Torahiko never got an official route in Morenatsu? Then head on over to discuss your favorite furry visual novels! You may find a new favorite! Adults only please!",
+      "presenters": [
+        {
+          "name": "Siggy Sea Otter"
+        }
+      ],
+      "type": "Social",
+      "location": {
+        "name": "Marriott: Willow Glen III"
+      },
+      "maturity": "18+"
+    },
+    {
+      "id": "5312-0",
+      "name": "Furry Studies: A Conversation",
+      "startDate": "2025-01-19T15:00:00-08:00",
+      "endDate": "2025-01-19T16:30:00-08:00",
+      "description": "After the convergence of furry scholars at Furry Studies 2024: \"Being Furry,\" hosted by Otterdam Furry Arts Festival, participants will reconvene to discuss their own experience with the conference and its impact on current and future studies on furry.",
+      "presenters": [
+        {
+          "name": "Auryn"
+        },
+        {
+          "name": "Dr. Nuka"
+        },
+        {
+          "name": "Hazel"
+        }
+      ],
+      "type": "Science",
+      "location": {
+        "name": "Marriott: Blossom Hill"
+      }
+    },
+    {
+      "id": "5321-0",
+      "name": "Zero to Cidery with Slightly Furry",
+      "startDate": "2025-01-19T15:00:00-08:00",
+      "endDate": "2025-01-19T16:30:00-08:00",
+      "description": "Come hear the story of the world's first licensed furry alcohol producers in Seattle, Washington. We'll cover how we started and now run Slightly Furry along with the basics of cider and beer making for you to try your paw at it too someday. Got questions about alcohol production? We'll try our best for answers.",
+      "presenters": [
+        {
+          "name": "Martini"
+        }
+      ],
+      "type": "Science",
+      "location": {
+        "name": "Hilton: San Carlos"
+      },
+      "maturity": "18+"
+    },
+    {
+      "id": "5369-0",
+      "name": "Charity Auction",
+      "startDate": "2025-01-19T15:30:00-08:00",
+      "endDate": "2025-01-19T17:00:00-08:00",
+      "description": "",
+      "presenters": [
+        {
+          "name": "FC Charity Team"
+        }
+      ],
+      "type": "Event",
+      "location": {
+        "name": "Marriott: Marriott Stage (Salon I to VI)"
+      }
+    },
+    {
+      "id": "5282-0",
+      "name": "Critterlympics",
+      "startDate": "2025-01-19T16:00:00-08:00",
+      "endDate": "2025-01-19T18:00:00-08:00",
+      "description": "Critterlympics, Further Confusion\u2019s signature fursuit games event, returns yet again. Because the business of *sports!* Is good Beezness and is teambuilding right? Up to Forty contestants will be chosen at the beginning of the event to compete in teams playing games for random points and imaginary prizes! Who will feel the thrill of victory? Who will face the agony of defeat?  Join us to find out.",
+      "presenters": [
+        {
+          "name": "Zoren"
+        }
+      ],
+      "type": "Event",
+      "location": {
+        "name": "SJCC: Rehearsal Area (220B)"
+      }
+    },
+    {
+      "id": "5243-0",
+      "name": "The Science of Photography",
+      "startDate": "2025-01-19T16:00:00-08:00",
+      "endDate": "2025-01-19T17:30:00-08:00",
+      "description": "A brief but detailed description of how photography works, from Daguerreotypes to DSLRs",
+      "presenters": [
+        {
+          "name": "Theodore C. Whitchambres"
+        }
+      ],
+      "type": "Science",
+      "location": {
+        "name": "Marriott: Guadalupe"
+      }
+    },
+    {
+      "id": "5249-0",
+      "name": "Taur & Chakat Meetup",
+      "startDate": "2025-01-19T17:00:00-08:00",
+      "endDate": "2025-01-19T18:30:00-08:00",
+      "description": "Curious about the four-legged lifestyle? Enjoy giving rides on your lower back or being a couch for your friends? Come meet and hang out with fellow taurs, including centaurs, chakats, and everything in between!",
+      "presenters": [
+        {
+          "name": "Blazi Wolf"
+        }
+      ],
+      "type": "Social",
+      "location": {
+        "name": "Marriott: Willow Glen III"
+      }
+    },
+    {
+      "id": "5272-0",
+      "name": "Karaoke Chaos",
+      "startDate": "2025-01-19T17:00:00-08:00",
+      "endDate": "2025-01-19T19:00:00-08:00",
+      "description": "Presented by The Fists of Improv:\r\nThe ultimate karaoke showdown where singing meets adventure! Choose your song and select your challenge level - easy, medium, or hard (you might be asked to dance, serenade, complete a task... etc) and see if you have what it takes to appease the Mic Overlords!",
+      "presenters": [
+        {
+          "name": "passLion"
+        }
+      ],
+      "type": "Music",
+      "location": {
+        "name": "Marriott: Blossom Hill"
+      }
+    },
+    {
+      "id": "5247-0",
+      "name": "Open Mic",
+      "startDate": "2025-01-19T17:00:00-08:00",
+      "endDate": "2025-01-19T18:00:00-08:00",
+      "description": "This panel will provide four minute time slots to anyone who has an act to present. Sing, play an instrument, stand-up, tap dance, whatever. Keep to PG-13 please.",
+      "presenters": [
+        {
+          "name": "Vox Fox and Pony For Hire"
+        }
+      ],
+      "type": "Performance",
+      "location": {
+        "name": "Marriott: Marriott Stage (Salon I to VI)"
+      }
+    },
+    {
+      "id": "5175-0",
+      "name": "Transit Fur Us",
+      "startDate": "2025-01-19T17:00:00-08:00",
+      "endDate": "2025-01-19T18:30:00-08:00",
+      "description": "In this panel, we will be talking about public transit, a broad history or the systems we have in California, and the amazing projects to come to connect California. Many of these projects include BART enhancements, LA Metro rail expansions, Brightline West High Speed Rail, and the California HSR project.",
+      "presenters": [
+        {
+          "name": "Ezra Lionheart"
+        }
+      ],
+      "type": "Science",
+      "location": {
+        "name": "Marriott: Almaden"
+      }
+    },
+    {
+      "id": "5317-0",
+      "name": "Pok\u00e9furs Meetup",
+      "startDate": "2025-01-19T17:00:00-08:00",
+      "endDate": "2025-01-19T18:30:00-08:00",
+      "description": "Calling all Pok\u00e9furs! Come to a \"business meeting\" with your fellow trainers/Pok\u00e9buddies!",
+      "presenters": [
+        {
+          "name": "Georninja"
+        }
+      ],
+      "type": "Social",
+      "location": {
+        "name": "Hilton: University"
+      }
+    },
+    {
+      "id": "5353-2",
+      "name": "Dealer's Den Closing",
+      "startDate": "2025-01-19T18:00:00-08:00",
+      "endDate": "2025-01-19T19:00:00-08:00",
+      "description": "Closing time! One last call to\u2026 make your final selections and leave.",
+      "presenters": [],
+      "type": "Hours",
+      "location": {
+        "name": "SJCC: Dealers Den (LL20BCD/LL21BCDEF)"
+      }
+    },
+    {
+      "id": "5354-0",
+      "name": "FC: Unleashed!",
+      "startDate": "2025-01-19T18:00:00-08:00",
+      "endDate": "2025-01-19T19:30:00-08:00",
+      "description": "FC: Unleashed is Further Confusion's variety show. Come watch a colorful cast of characters as they show off their special talents just for you. From comedy, to music, to poetry, this show has it all!",
+      "presenters": [
+        {
+          "name": "wolfe_guardian"
+        }
+      ],
+      "type": "Event",
+      "location": {
+        "name": "SJCC: Main Stage (220A)"
+      }
+    },
+    {
+      "id": "5246-0",
+      "name": "How to be off time",
+      "startDate": "2025-01-19T18:21:00-08:00",
+      "endDate": "2025-01-19T19:30:00-08:00",
+      "description": "Tired of being on time for everything? Wanting some excitement out of your schedule? Find out how to waste time like an expert.",
+      "presenters": [
+        {
+          "name": "Fawntilus"
+        },
+        {
+          "name": "Leaf"
+        }
+      ],
+      "type": "Social",
+      "location": {
+        "name": "Marriott: Guadalupe"
+      }
+    },
+    {
+      "id": "5355-0",
+      "name": "Dealer's Den Teardown",
+      "startDate": "2025-01-19T19:00:00-08:00",
+      "endDate": "2025-01-19T21:00:00-08:00",
+      "description": "Time for dealers to pack up their tables and mosey on out! Pick up your items, as there will be no access to the room on Monday. Dealers and assistants only, please.",
+      "presenters": [],
+      "type": "Hours",
+      "location": {
+        "name": "SJCC: Dealers Den (LL20BCD/LL21BCDEF)"
+      }
+    },
+    {
+      "id": "5251-0",
+      "name": "Husky meet and Howl",
+      "startDate": "2025-01-19T19:00:00-08:00",
+      "endDate": "2025-01-19T20:30:00-08:00",
+      "description": "Are you a Siberian Husky, Sakhalin Husky, MacKenzie River Husky, Labrador Husky or Alaskan Husky; then this is the panel for you. Come meet and howl with other huskies.",
+      "presenters": [
+        {
+          "name": "JJ Husk"
+        }
+      ],
+      "type": "Species",
+      "location": {
+        "name": "Marriott: Almaden"
+      }
+    },
+    {
+      "id": "5302-0",
+      "name": "Magic the Gathering Meet and Play",
+      "startDate": "2025-01-19T19:00:00-08:00",
+      "endDate": "2025-01-19T21:00:00-08:00",
+      "description": "Love MTG want to show off your decks, cards, and general love for the games come meet other furs who would love to see them",
+      "presenters": [
+        {
+          "name": "Kinta wolf"
+        }
+      ],
+      "type": "Gaming",
+      "location": {
+        "name": "Hilton: Gaming (Market)"
+      }
+    },
+    {
+      "id": "5328-0",
+      "name": "Furry Psychology with Furscience!",
+      "startDate": "2025-01-19T19:30:00-08:00",
+      "endDate": "2025-01-19T21:00:00-08:00",
+      "description": "Ever wonder what makes furries tick? Let Dr. Nuka and the Furscience team walk you through more than a decade of real psychological research on the furry fandom! Whether you're a veteran greymuzzle or a first-time attendee, you're sure to learn something new about our weird and wonderful community!",
+      "presenters": [
+        {
+          "name": "Dr. Nuka"
+        }
+      ],
+      "type": "Science",
+      "location": {
+        "name": "Marriott: Blossom Hill"
+      }
+    },
+    {
+      "id": "5367-0",
+      "name": "Closing Announcements",
+      "startDate": "2025-01-19T19:30:00-08:00",
+      "endDate": "2025-01-19T20:00:00-08:00",
+      "description": "As the weekend nears its end, come hear some statistics from this year and announcements for next year.",
+      "presenters": [
+        {
+          "name": "FurCon Executive Team"
+        }
+      ],
+      "type": "Event",
+      "location": {
+        "name": "SJCC: Main Stage (220A)"
+      }
+    },
+    {
+      "id": "5136-0",
+      "name": "Medical Furs Meet & Greet!",
+      "startDate": "2025-01-19T20:00:00-08:00",
+      "endDate": "2025-01-19T21:30:00-08:00",
+      "description": "Are you interested in meeting other furries that share your love of the medical field? Looking to know first hand what it's like to be: a Nurse, Medical Assistant, EMT, or a Doctor? Please come to the Medical Furs Meet & Greet! Meet some amazing furry healthcare professionals!",
+      "presenters": [
+        {
+          "name": "Ezriana Anmut"
+        }
+      ],
+      "type": "Social",
+      "location": {
+        "name": "Marriott: Willow Glen III"
+      }
+    },
+    {
+      "id": "5360-0",
+      "name": "Modern Jazz Lounge",
+      "startDate": "2025-01-19T20:00:00-08:00",
+      "endDate": "2025-01-19T21:00:00-08:00",
+      "description": "Patrick Talesfore, Jr. is a drum set artist from Sunnyvale, CA. his playing has been described as \u201c...cognizant, deliberate, musical...like facing a life or death moment. Passion personified.\u201d Patrick is most recognized for his work with Cerce, Space Devil Rest in Peace, and #FREEJAZZHOUSEPARTY. Patrick has made positive connections in the fandom through his music and it has been a dream of his to perform at Further Confusion. \r\n\r\n#FREEJAZZHOUSEPARTY, featuring Jackson Levin on trumpet and Jes\u00fas Ramos on synthesizers and electronics, plays an eclectic mix of music rooted in the jazz tradition with sets consisting of contemplative lo-fi, fiery free-jazz, ambient minimalism, and the avant-garde creating an atmospheric, soulful refuge for those willing to listen\u2026",
+      "presenters": [
+        {
+          "name": "Patrick Talesfore, Jr."
+        }
+      ],
+      "type": "Music",
+      "location": {
+        "name": "Marriott: Marriott Stage (Salon I to VI)"
+      }
+    },
+    {
+      "id": "5218-0",
+      "name": "Did you make Furrends?",
+      "startDate": "2025-01-19T20:00:00-08:00",
+      "endDate": "2025-01-19T21:30:00-08:00",
+      "description": "A continuation of \"How to make Furrends\". Help me make a better panel by telling me success stories and headaches in friendship making.",
+      "presenters": [
+        {
+          "name": "Pony for Hire"
+        }
+      ],
+      "type": "Social",
+      "location": {
+        "name": "Marriott: Guadalupe"
+      }
+    },
+    {
+      "id": "5397-0",
+      "name": "DJ Dance - Juno.T",
+      "startDate": "2025-01-19T21:00:00-08:00",
+      "endDate": "2025-01-19T22:00:00-08:00",
+      "description": "Genre: Nu-Disco // Funky Stuff\n\nMixcloud: https://www.mixcloud.com/TRASH_TANUKI/\nBluesky: https://bsky.app/profile/junot.bsky.social\nTwitter/X: https://x.com/TR4SH_TANUKI",
+      "presenters": [],
+      "type": "Performance",
+      "location": {
+        "name": "SJCC: Main Stage (220A)"
+      }
+    },
+    {
+      "id": "5230-0",
+      "name": "Standup Comediyeen",
+      "startDate": "2025-01-19T21:00:00-08:00",
+      "endDate": "2025-01-19T22:00:00-08:00",
+      "description": "Furry Standup Comedian Yammo The Yeen! From ABC/Hulu\u2019s THE PRANK PANEL! From growing up gay in Kentucky to finding my furry family in Los Angeles, Come laugh like a hyena with Yammo as he takes you on a hilarious, relatable journey! 18+ Adult Humor!",
+      "presenters": [
+        {
+          "name": "Yammo The Yeen"
+        }
+      ],
+      "type": "Performance",
+      "location": {
+        "name": "Marriott: Marriott Stage (Salon I to VI)"
+      },
+      "maturity": "18+"
+    },
+    {
+      "id": "5169-0",
+      "name": "Whiskers & Wit: AFTER DARK",
+      "startDate": "2025-01-19T21:30:00-08:00",
+      "endDate": "2025-01-19T23:00:00-08:00",
+      "description": "Looking for improv fun leaning more to the spicier side? This is an 18+ improv event, with less comical restrictions, and more mature themes! Fursuits are encouraged, but not required!",
+      "presenters": [
+        {
+          "name": "Sinine Coyote"
+        }
+      ],
+      "type": "Performance",
+      "location": {
+        "name": "Marriott: Almaden"
+      },
+      "maturity": "18+"
+    },
+    {
+      "id": "5291-0",
+      "name": "Rubberfurs at FC",
+      "startDate": "2025-01-19T21:30:00-08:00",
+      "endDate": "2025-01-19T23:30:00-08:00",
+      "description": "This is a guided multimedia presentation about latex costuming in tn the furry world.  After the presentation, a show and tell, and Q&A will be held with remaining time.\r\nTopics included: Safety, Care and maintenacne, Why? , Latex as a fetish, and Furry latex fetish.   If possible a referral to the Latex repair panel, Followed by a short Q&A and social meet and greet.  Attendeed are not required to wear latex but are encouraged to.",
+      "presenters": [
+        {
+          "name": "Scout Fox"
+        }
+      ],
+      "type": "Costuming",
+      "location": {
+        "name": "Marriott: Blossom Hill"
+      },
+      "maturity": "18+"
+    },
+    {
+      "id": "5398-0",
+      "name": "DJ Dance - LUTRA",
+      "startDate": "2025-01-19T22:00:00-08:00",
+      "endDate": "2025-01-19T23:00:00-08:00",
+      "description": "Genre: Electro // Speed House // Dubstep\n\nMixcloud: https://www.mixcloud.com/lutra/\nBluesky: https://bsky.app/profile/oven.ott.fish\nTwitter/X: https://x.com/ovenotter",
+      "presenters": [],
+      "type": "Performance",
+      "location": {
+        "name": "SJCC: Main Stage (220A)"
+      }
+    },
+    {
+      "id": "5271-0",
+      "name": "Kinky Improv Show: Munch Ado About Improv",
+      "startDate": "2025-01-19T22:00:00-08:00",
+      "endDate": "2025-01-19T23:30:00-08:00",
+      "description": "W\ufeffe are The Fists of Improv, a BIPOC-forward LGBTQ+ improv troupe!\r\nWe present Munch Ado About Improv, our Kinky Improvisational Theatre show with a Vegas-worthy grand finale! (as seen @ SF Eagle, FC24, and Fluid510)\r\n\r\n*This is not a munch but a performance.\r\n\r\nCheck us out on IG, YT and FB @ TheFistsofImprov",
+      "presenters": [
+        {
+          "name": "passLion"
+        }
+      ],
+      "type": "Performance",
+      "location": {
+        "name": "Marriott: Marriott Stage (Salon I to VI)"
+      },
+      "maturity": "18+"
+    },
+    {
+      "id": "5216-0",
+      "name": "Convention War Stories",
+      "startDate": "2025-01-19T22:00:00-08:00",
+      "endDate": "2025-01-19T23:30:00-08:00",
+      "description": "After 25 plus conventions I have some tea to spill and some time to kill. Wanna hear about that 4-chan pony con? How about LVFC year 1? Or the SwatCon incident of H.C... Ask about tracking down Garnika.\r\nI'll ask one audience member on stage- that has been to more cons than I.",
+      "presenters": [
+        {
+          "name": "Pony for Hire"
+        }
+      ],
+      "type": "Performance",
+      "location": {
+        "name": "Marriott: Guadalupe"
+      }
+    },
+    {
+      "id": "5399-0",
+      "name": "DJ Dance - Mikaela Sno",
+      "startDate": "2025-01-19T23:00:00-08:00",
+      "endDate": "2025-01-20T00:00:00-08:00",
+      "description": "Genre: Drum & Bass\n\nSoundcloud: https://soundcloud.com/snoshado\nBluesky: https://bsky.app/profile/mikaelasno.bsky.social",
+      "presenters": [],
+      "type": "Performance",
+      "location": {
+        "name": "SJCC: Main Stage (220A)"
+      }
+    },
+    {
+      "id": "5400-0",
+      "name": "DJ Dance - SQN",
+      "startDate": "2025-01-20T00:00:00-08:00",
+      "endDate": "2025-01-20T01:00:00-08:00",
+      "description": "Genre: PsyTrance\n\nMixcloud: https://www.mixcloud.com/ituwariurogamae/\nBluesky: https://bsky.app/profile/xxsqnxx.bsky.social\nTwitter/X: https://x.com/XxSQNxX",
+      "presenters": [],
+      "type": "Performance",
+      "location": {
+        "name": "SJCC: Main Stage (220A)"
+      }
+    },
+    {
+      "id": "5343-4",
+      "name": "Con Ops",
+      "startDate": "2025-01-20T09:00:00-08:00",
+      "endDate": "2025-01-20T14:00:00-08:00",
+      "description": "The center & home-base of Further Confusion operations. Come here to get information, check lost-and-found, and check in if you're a presenter or panelist. If you're looking to help out, sign up here as a gofur!",
+      "presenters": [],
+      "type": "Hours",
+      "location": {
+        "name": "SJCC: Con Ops / Zookeepers"
+      }
+    },
+    {
+      "id": "5335-4",
+      "name": "Recharge Room",
+      "startDate": "2025-01-20T10:00:00-08:00",
+      "endDate": "2025-01-20T17:00:00-08:00",
+      "description": "",
+      "presenters": [],
+      "type": "Hours",
+      "location": {
+        "name": "Hilton: Executive Boardroom"
+      }
+    },
+    {
+      "id": "5337-3",
+      "name": "Gaming",
+      "startDate": "2025-01-20T10:00:00-08:00",
+      "endDate": "2025-01-20T13:00:00-08:00",
+      "description": "Gaming is open; come play with us! Featuring a generous selection of both tabletop and video games, provided by Games of Berkeley, MAGWest, and those that have lent us their games and systems for the convention. There's something here for everyone! Either to waste time between events or as a place to chill, we will be here. Bags will be checked at the door. Learn more: http://furcon.org/programming/gaming/",
+      "presenters": [],
+      "type": "Hours",
+      "location": {
+        "name": "Hilton: Gaming (Market)"
+      }
+    },
+    {
+      "id": "5210-20",
+      "name": "Twisted Tails Escape",
+      "startDate": "2025-01-20T10:00:00-08:00",
+      "endDate": "2025-01-20T11:00:00-08:00",
+      "description": "Yarrrrrrr! Reckon ye\u2019ve got what it takes to discover the Secret of the Furbidden Treasure? Or perhaps you want to help Captain Cody Escape from Otter Space! \r\n\r\nTickets are $25 per person with a maximum of 10 players per group. Players by themselves or in a small group will be paired up with other like-minded adventurers to a maximum of 10 players per game. For private bookings, a minimum of 5 tickets must be purchased. Also, a portion of every ticket will go to the convention's charity! If you have any questions, please contact us directly at info@twistedtailsescape.com.",
+      "presenters": [
+        {
+          "name": "Thermo Dragon"
+        }
+      ],
+      "type": "Gaming",
+      "location": {
+        "name": "Hilton: Escape Room (Winchester 1)"
+      }
+    },
+    {
+      "id": "5349-4",
+      "name": "Zookeepers",
+      "startDate": "2025-01-20T10:00:00-08:00",
+      "endDate": "2025-01-20T21:00:00-08:00",
+      "description": "",
+      "presenters": [],
+      "type": "Hours",
+      "location": {
+        "name": "SJCC: Con Ops / Zookeepers"
+      }
+    },
+    {
+      "id": "5288-1",
+      "name": "Art Show: Pickup",
+      "startDate": "2025-01-20T10:00:00-08:00",
+      "endDate": "2025-01-20T13:00:00-08:00",
+      "description": "The Art Show is open for winning bidders and artists to pick up their pieces. The gallery is closed to general attendees.",
+      "presenters": [
+        {
+          "name": "binaryfox"
+        }
+      ],
+      "type": "Hours",
+      "location": {
+        "name": "Hilton: Art Show (Almaden Ballroom)"
+      }
+    },
+    {
+      "id": "5341-8",
+      "name": "Fursuit Lounge",
+      "startDate": "2025-01-20T11:00:00-08:00",
+      "endDate": "2025-01-20T23:00:00-08:00",
+      "description": "Need a place to cool off? Come on in and hang up your head! We have water and fans available for you, so you can fursuit safely.",
+      "presenters": [],
+      "type": "Hours",
+      "location": {
+        "name": "Marriott: Fursuit Lounge (San Carlos)"
+      }
+    },
+    {
+      "id": "5197-0",
+      "name": "Practicing Mindfulness and Taking Care of Ourselves",
+      "startDate": "2025-01-20T11:00:00-08:00",
+      "endDate": "2025-01-20T12:30:00-08:00",
+      "description": "There are moments at a con where things are stressful and times after the con where PCD(Post Con Depression) kicks in hard. I want to shed light on how we can take care of ourselves mentally at a con and how to take care of ourselves mentally after a con. I wand this to be a space were we can share some of our experiences and tips to help those who just need some tools to help them be mindful of themselves and to take care of themselves. This will be a space for all to find a moment of calm among the sea of stress and anxiety.",
+      "presenters": [
+        {
+          "name": "Ridian Sky"
+        }
+      ],
+      "type": "Science",
+      "location": {
+        "name": "Marriott: Guadalupe"
+      }
+    },
+    {
+      "id": "5258-0",
+      "name": "Coffee (for Closers!)",
+      "startDate": "2025-01-20T11:00:00-08:00",
+      "endDate": "2025-01-20T12:30:00-08:00",
+      "description": "Toss your office Keurig out a window, you deserve better! :) Latte will demonstrate a variety of pour-over coffee methods and gadgets, and break down the brewing process step by step.",
+      "presenters": [
+        {
+          "name": "Latte"
+        }
+      ],
+      "type": "Social",
+      "location": {
+        "name": "Marriott: Almaden"
+      }
+    },
+    {
+      "id": "5210-21",
+      "name": "Twisted Tails Escape",
+      "startDate": "2025-01-20T11:00:00-08:00",
+      "endDate": "2025-01-20T12:00:00-08:00",
+      "description": "Yarrrrrrr! Reckon ye\u2019ve got what it takes to discover the Secret of the Furbidden Treasure? Or perhaps you want to help Captain Cody Escape from Otter Space! \r\n\r\nTickets are $25 per person with a maximum of 10 players per group. Players by themselves or in a small group will be paired up with other like-minded adventurers to a maximum of 10 players per game. For private bookings, a minimum of 5 tickets must be purchased. Also, a portion of every ticket will go to the convention's charity! If you have any questions, please contact us directly at info@twistedtailsescape.com.",
+      "presenters": [
+        {
+          "name": "Thermo Dragon"
+        }
+      ],
+      "type": "Gaming",
+      "location": {
+        "name": "Hilton: Escape Room (Winchester 1)"
+      }
+    },
+    {
+      "id": "5210-22",
+      "name": "Twisted Tails Escape",
+      "startDate": "2025-01-20T12:00:00-08:00",
+      "endDate": "2025-01-20T13:00:00-08:00",
+      "description": "Yarrrrrrr! Reckon ye\u2019ve got what it takes to discover the Secret of the Furbidden Treasure? Or perhaps you want to help Captain Cody Escape from Otter Space! \r\n\r\nTickets are $25 per person with a maximum of 10 players per group. Players by themselves or in a small group will be paired up with other like-minded adventurers to a maximum of 10 players per game. For private bookings, a minimum of 5 tickets must be purchased. Also, a portion of every ticket will go to the convention's charity! If you have any questions, please contact us directly at info@twistedtailsescape.com.",
+      "presenters": [
+        {
+          "name": "Thermo Dragon"
+        }
+      ],
+      "type": "Gaming",
+      "location": {
+        "name": "Hilton: Escape Room (Winchester 1)"
+      }
+    },
+    {
+      "id": "5210-23",
+      "name": "Twisted Tails Escape",
+      "startDate": "2025-01-20T13:00:00-08:00",
+      "endDate": "2025-01-20T14:00:00-08:00",
+      "description": "Yarrrrrrr! Reckon ye\u2019ve got what it takes to discover the Secret of the Furbidden Treasure? Or perhaps you want to help Captain Cody Escape from Otter Space! \r\n\r\nTickets are $25 per person with a maximum of 10 players per group. Players by themselves or in a small group will be paired up with other like-minded adventurers to a maximum of 10 players per game. For private bookings, a minimum of 5 tickets must be purchased. Also, a portion of every ticket will go to the convention's charity! If you have any questions, please contact us directly at info@twistedtailsescape.com.",
+      "presenters": [
+        {
+          "name": "Thermo Dragon"
+        }
+      ],
+      "type": "Gaming",
+      "location": {
+        "name": "Hilton: Escape Room (Winchester 1)"
+      }
+    },
+    {
+      "id": "5280-0",
+      "name": "Being Furry in Second life",
+      "startDate": "2025-01-20T13:00:00-08:00",
+      "endDate": "2025-01-20T14:30:00-08:00",
+      "description": "Over recent years there have been quite a few panels around being furry in VR chat. However many people seem to forget there is a second, even older virtual platform furries have been hanging out in for decades. So if you've been around Second Life for a long time or are curious to hear what it's really all about stop by and let\u2019s talk about it.",
+      "presenters": [
+        {
+          "name": "Zoren"
+        }
+      ],
+      "type": "Social",
+      "location": {
+        "name": "Marriott: Guadalupe"
+      }
+    },
+    {
+      "id": "5192-0",
+      "name": "International Snack Exchange",
+      "startDate": "2025-01-20T13:00:00-08:00",
+      "endDate": "2025-01-20T14:30:00-08:00",
+      "description": "Got some cool snacks from your home country? Have tasty things left over from a room party? Come and share them Monday afternoon! Make a new friend over noms.",
+      "presenters": [
+        {
+          "name": "Aatheus"
+        },
+        {
+          "name": "Georninja"
+        }
+      ],
+      "type": "Social",
+      "location": {
+        "name": "Marriott: Blossom Hill"
+      }
+    },
+    {
+      "id": "5340-0",
+      "name": "Gaming Pickup & Inventory",
+      "startDate": "2025-01-20T13:00:00-08:00",
+      "endDate": "2025-01-20T15:00:00-08:00",
+      "description": "If you've lent the gaming room anything, thanks! This is your last chance to pick it up.",
+      "presenters": [],
+      "type": "Hours",
+      "location": {
+        "name": "Hilton: Gaming (Market)"
+      }
+    },
+    {
+      "id": "5155-0",
+      "name": "Furry Financial Fluency",
+      "startDate": "2025-01-20T13:00:00-08:00",
+      "endDate": "2025-01-20T14:30:00-08:00",
+      "description": "Let's face it, this fandom is a lot of fun, but can also be expensive! Which makes knowing how to manager your money essential for participating stress-free! In this panel, we'll go over all the basics of personal finances and how to manage your money both in and out of the furry fandom. From questions like \"should I put a fursuit on a credit card?\" to \"what's the difference between a checking and a savings account\", we'll layout all the groundwork needed for you to start being fluent the language of money!",
+      "presenters": [
+        {
+          "name": "Finn the Panther"
+        }
+      ],
+      "type": "Science",
+      "location": {
+        "name": "Marriott: Almaden"
+      }
+    },
+    {
+      "id": "5370-0",
+      "name": "Hiss and Purr",
+      "startDate": "2025-01-20T14:30:00-08:00",
+      "endDate": "2025-01-20T15:30:00-08:00",
+      "description": "Had a great time? Wish some things could have been different? Come let us know what you think! A panel of FurCon executives will be here to listen and are ready for your suggestions.\r\n\r\nYour feedback is greatly appreciated and can help make a difference! If you can't make it to this session, please email us at feedback@furtherconfusion.org",
+      "presenters": [
+        {
+          "name": "FurCon Executive Team"
+        }
+      ],
+      "type": "Event",
+      "location": {
+        "name": "Marriott: Marriott Stage (Salon I to VI)"
+      }
+    },
+    {
+      "id": "5319-0",
+      "name": "Furry Retrocomputing Show!",
+      "startDate": "2025-01-20T16:00:00-08:00",
+      "endDate": "2025-01-20T18:00:00-08:00",
+      "description": "Fan of chiptunes, pixel art, and everything 8-bit? You may not realize these old boring business machines and feeble home computers hold important places in the history of the fandom, and are foundational to its early art and online communities. Come watch a slice of all this through the Demoscene, an instantly recognized but rarely noticed subculture dedicated to producing live multimedia computer art, all rendered in realtime. Witness a live showing on an array of computers new and old, from Ataris and Amigas to modern PCs, while learning about the evolution of the Demoscene and some broader computing history.",
+      "presenters": [
+        {
+          "name": "Doktor Wulf"
+        }
+      ],
+      "type": "Performance",
+      "location": {
+        "name": "Marriott: Marriott Stage (Salon I to VI)"
+      }
+    },
+    {
+      "id": "5368-0",
+      "name": "Closing Ceremony",
+      "startDate": "2025-01-20T19:00:00-08:00",
+      "endDate": "2025-01-20T19:30:00-08:00",
+      "description": "Join us as we say our last good-byes to FC2025, then dance the night away.",
+      "presenters": [
+        {
+          "name": "FurCon Executive Team"
+        }
+      ],
+      "type": "Event",
+      "location": {
+        "name": "Marriott: Marriott Stage (Salon I to VI)"
+      }
+    },
+    {
+      "id": "5401-0",
+      "name": "Dead Dog Dance - kumo410",
+      "startDate": "2025-01-20T20:00:00-08:00",
+      "endDate": "2025-01-20T21:00:00-08:00",
+      "description": "Genre: Progressive House // Progressive Trance\n\nBluesky: https://bsky.app/profile/kumo410.bsky.social\nTwitter/X: https://x.com/kumo_410",
+      "presenters": [],
+      "type": "Performance",
+      "location": {
+        "name": "Marriott: Marriott Stage (Salon I to VI)"
+      }
+    },
+    {
+      "id": "5402-0",
+      "name": "Dead Dog Dance - Kima",
+      "startDate": "2025-01-20T21:00:00-08:00",
+      "endDate": "2025-01-20T22:00:00-08:00",
+      "description": "Genre: Trance Blend\n\nMixcloud: https://www.mixcloud.com/justkimathings/\nBluesky: https://bsky.app/profile/justkimathings.bsky.social\nTwitter/X: https://x.com/justkimathings",
+      "presenters": [],
+      "type": "Performance",
+      "location": {
+        "name": "Marriott: Marriott Stage (Salon I to VI)"
+      }
+    },
+    {
+      "id": "5403-0",
+      "name": "Dead Dog Dance - Virtual Vice",
+      "startDate": "2025-01-20T22:00:00-08:00",
+      "endDate": "2025-01-20T23:00:00-08:00",
+      "description": "Genre: Drum & Bass\n\nSoundcloud: https://soundcloud.com/virtual-vice\nBluesky: https://bsky.app/profile/calliecat.bsky.social\nTwitter/X: https://x.com/calliecatte",
+      "presenters": [],
+      "type": "Performance",
+      "location": {
+        "name": "Marriott: Marriott Stage (Salon I to VI)"
+      }
+    }
+  ]
+}

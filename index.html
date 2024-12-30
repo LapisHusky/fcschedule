@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="/src/style.css" rel="stylesheet" />
+    <title>Further Confusion Schedule</title>
+  </head>
+  <body>
+    <div id="app">
+      <div id="modalcontainer" style="display: none">
+        <div id="eventinfomodal" style="display: none">
+          <div id="eventinfoname"></div>
+          <br>
+          <div id="eventinfodescription"></div>
+          <br id="eventinfopresenterslinebreak">
+          <div id="eventinfopresenters"></div>
+          <br>
+          <div id="eventinfotimeplace"></div>
+          <br>
+          <div id="eventinfotype"></div>
+        </div>
+      </div>
+      <div id="schedulepanel">
+        <div id="blockpool" class="schedpool"></div>
+        <div id="gridpool" class="schedpool"></div>
+        <div id="scheduleyaxis"></div>
+        <div id="schedulexaxis"></div>
+      </div>
+    </div>
+    <script type="module" src="/src/index.js"></script>
+  </body>
+</html>
