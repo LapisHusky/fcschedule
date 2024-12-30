@@ -3,4 +3,5 @@ Schedule viewer for Further Confusion. Displays events in a chart in an attempt 
 
 ## Building
 This uses Vite
+
 install Vite, then `vite dev` to host locally or `vite build` to build a release version.
