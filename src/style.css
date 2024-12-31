@@ -187,3 +187,28 @@ body {
   width: 25px;
   height: 25px;
 }
+
+.currenttimeindicatormain {
+  position: absolute;
+  outline: 2px dashed #f005;
+  width: 0px;
+  height: 100%;
+  z-index: -3;
+}
+
+.currenttimeindicatorsecondary {
+  position: absolute;
+  outline: 2px dashed #f004;
+  width: 0px;
+  height: 100%;
+  z-index: 4;
+}
+
+.currenttimeindicatortop {
+  position: absolute;
+  outline: 2px dashed #f008;
+  width: 0px;
+  height: 36px;
+  top: 2px;
+  z-index: 12;
+}

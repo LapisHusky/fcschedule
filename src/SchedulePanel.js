@@ -84,8 +84,75 @@ class TimeGap {
     
     this.div = document.createElement("div")
     this.div.classList.add("timeblock")
-    this.div.style.backgroundColor = "#522"
-    this.div.innerText = "Get enough sleep!"
+    this.div.style.backgroundColor = "#666"
+    this.div.innerText = "Don't forget to sleep!"
+  }
+}
+
+class CurrentTimeIndicator {
+  constructor(schedule) {
+    this.mainDiv = document.createElement("div")
+    this.mainDiv.classList.add("currenttimeindicatormain")
+    schedule.scheduleDiv.appendChild(this.mainDiv)
+
+    this.secondaryDiv = document.createElement("div")
+    this.secondaryDiv.classList.add("currenttimeindicatorsecondary")
+    schedule.scheduleDiv.appendChild(this.secondaryDiv)
+
+    this.topDiv = document.createElement("div")
+    this.topDiv.classList.add("currenttimeindicatortop")
+    schedule.xAxisDiv.appendChild(this.topDiv)
+
+    this.schedule = schedule
+  }
+
+  updatePosition() {
+    let now = Date.now()
+    let firstTime = this.schedule.xAxisItems[0]
+    let lastTime = this.schedule.xAxisItems[this.schedule.xAxisItems.length - 1]
+    let barVisible = true
+    if (now < firstTime.date.getTime()) {
+      barVisible = false
+    } else if (now > lastTime.date.getTime() + 36e5) {
+      barVisible = false
+    }
+
+    if (barVisible) {
+      this.mainDiv.style.display = "block"
+      this.secondaryDiv.style.display = "block"
+      this.topDiv.style.display = "block"
+    } else {
+      this.mainDiv.style.display = "none"
+      this.secondaryDiv.style.display = "none"
+      this.topDiv.style.display = "none"
+      return false
+    }
+
+    let hourBlock = this.schedule.xAxisItems[0]
+    for (let item of this.schedule.xAxisItems) {
+      if (item.gap) continue
+      let itemTime = item.date.getTime()
+      if (itemTime < now) {
+        hourBlock = item
+      } else {
+        break
+      }
+    }
+    let timeOffset = now - hourBlock.date.getTime()
+    timeOffset /= 36e5
+    if (timeOffset < 0) {
+      timeOffset = 0
+    } else if (timeOffset > 1) {
+      timeOffset = 1
+    }
+    let xPosition = (hourBlock.index + timeOffset) * 200
+
+    let xAxisOffset = this.schedule.xAxisDiv.offsetLeft
+    this.mainDiv.style.left = xAxisOffset + xPosition + "px"
+    this.secondaryDiv.style.left = xAxisOffset + xPosition + "px"
+    this.topDiv.style.left = xPosition + "px"
+
+    return xPosition
   }
 }
 
@@ -122,7 +189,8 @@ export class SchedulePanel {
     this.xAxisDiv = document.getElementById("schedulexaxis")
     this.yAxisDiv = document.getElementById("scheduleyaxis")
 
-    this.yAxisDiv.appendChild(new LocationGap().div, 0)
+    this.timeIndicator = new CurrentTimeIndicator(this)
+    this.yAxisDiv.appendChild(new LocationGap().div)
 
     this.events = new Map()
     this.xAxisItems = []
@@ -270,5 +338,8 @@ export class SchedulePanel {
       line.style.width = wholeWidth + "px"
       this.gridPoolDiv.appendChild(line)
     }
+
+    //update time indicator
+    this.timeIndicator.updatePosition()
   }
 }
