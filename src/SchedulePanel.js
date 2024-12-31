@@ -147,9 +147,8 @@ class CurrentTimeIndicator {
     }
     let xPosition = (hourBlock.index + timeOffset) * 200
 
-    let xAxisOffset = this.schedule.xAxisDiv.offsetLeft
-    this.mainDiv.style.left = xAxisOffset + xPosition + "px"
-    this.secondaryDiv.style.left = xAxisOffset + xPosition + "px"
+    this.mainDiv.style.left = this.schedule.yAxisWidth + xPosition + "px"
+    this.secondaryDiv.style.left = this.schedule.yAxisWidth + xPosition + "px"
     this.topDiv.style.left = xPosition + "px"
 
     return xPosition
@@ -191,6 +190,7 @@ export class SchedulePanel {
 
     this.timeIndicator = new CurrentTimeIndicator(this)
     this.yAxisDiv.appendChild(new LocationGap().div)
+    this.yAxisWidth = 200
 
     this.events = new Map()
     this.xAxisItems = []
@@ -236,7 +236,8 @@ export class SchedulePanel {
 
   computeLayout() {
     //if mobile, shrink location bar a bit
-    this.yAxisDiv.style.width = innerWidth > 800 ? "200px" : "150px"
+    this.yAxisWidth = innerWidth > 800 ? 200 : 150
+    this.yAxisDiv.style.width = this.yAxisWidth + "px"
 
     //check what events should be visible
     for (let event of this.events.values()) {
@@ -268,9 +269,9 @@ export class SchedulePanel {
     }
 
     //resize container divs to ensure scrolling and background and stuff works properly
-    let wholeWidth = this.xAxisDiv.clientWidth + this.yAxisDiv.clientWidth
+    let wholeWidth = this.xAxisItems.length * 200 + this.yAxisWidth
     //min height of 800 makes it a little easier to view on mobile by zooming the page out a bit
-    let wholeHeight = this.yAxisDiv.clientHeight
+    let wholeHeight = (this.yAxisItems.length + 1) * 40
     let containerHeight = Math.max(wholeHeight + 100, 800)
     this.poolDiv.style.width = wholeWidth + "px"
     this.poolDiv.style.height = containerHeight + "px"
@@ -278,7 +279,6 @@ export class SchedulePanel {
     this.scheduleDiv.style.height = containerHeight + "px"
 
     //position event blocks within pool
-    let xAxisOffset = this.xAxisDiv.offsetLeft
     for (let event of this.events.values()) {
       if (!event.visible) {
         event.div.style.display = "none"
@@ -307,11 +307,11 @@ export class SchedulePanel {
         }
       }
       
-      let leftPos = xAxisOffset + hourBlock.index * 200
+      let leftPos = this.yAxisWidth + hourBlock.index * 200
       leftPos += 200 * ((startTimestamp - hourBlock.date.getTime()) / 36e5)
       event.div.style.left = leftPos + "px"
 
-      let rightPos = xAxisOffset + endHourBlock.index * 200
+      let rightPos = this.yAxisWidth + endHourBlock.index * 200
       rightPos += 200 * ((endTimestamp - endHourBlock.date.getTime()) / 36e5)
 
       let width = rightPos - leftPos
@@ -322,8 +322,8 @@ export class SchedulePanel {
     while (this.gridPoolDiv.firstChild) {
       this.gridPoolDiv.removeChild(this.gridPoolDiv.lastChild)
     }
-    for (let x = 1; x < this.xAxisDiv.children.length; x++) {
-      let linePos = x * 200 + xAxisOffset
+    for (let x = 1; x < this.xAxisDiv.children.length - 1; x++) {
+      let linePos = x * 200 + this.yAxisWidth
       let line = document.createElement("div")
       line.classList.add("vertgridline")
       line.style.left = linePos + "px"
