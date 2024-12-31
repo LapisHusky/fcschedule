@@ -133,7 +133,7 @@ body {
   min-height: max-content;
   min-height: 500px;
   max-height: 70vh;
-  overflow-y: scroll;
+  overflow-y: auto;
 }
 
 #eventinfoname {
