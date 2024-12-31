@@ -121,6 +121,7 @@ body {
   height: 100%;
   z-index: 20;
   color: #fff;
+  overflow: scroll;
 }
 
 #eventinfomodal {
@@ -132,6 +133,8 @@ body {
   border-radius: 10px;
   min-height: max-content;
   min-height: 500px;
+  max-height: 70vh;
+  overflow: scroll;
 }
 
 #eventinfoname {
