@@ -43,9 +43,9 @@ export const cohesiveLocationOrder = [
   "Marriott: Guadalupe",
   "Marriott: Willow Glen III",
   "SJCC: SJCC Courtyard",
+  "Hilton: Gaming (Market)",
   "SJCC: Registration (The Hub)",
   "SJCC: Dealers Den (LL20BCD/LL21BCDEF)",
   "Hilton: Art Show (Almaden Ballroom)",
-  "Hilton: Gaming (Market)",
   "SJCC: Con Ops / Zookeepers",
 ]
