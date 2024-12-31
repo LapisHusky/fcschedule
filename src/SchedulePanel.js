@@ -1,5 +1,6 @@
 import { eventTypeColors, shortLocationNames, cohesiveLocationOrder } from "./const.js"
 import { showEventModal } from "./modal.js"
+import { settings } from "./settings.js"
 
 class Event {
   constructor(data) {
@@ -23,7 +24,6 @@ class Event {
     this.div.classList.add("eventblock")
     this.div.style.backgroundColor = eventTypeColors[this.type] || "#444"
 
-    this.visible = this.type !== "Hours"
     this.visible = true
 
     this.div.addEventListener("click", () => {
@@ -32,6 +32,10 @@ class Event {
   }
 
   setWidth(width) {
+    while (this.div.firstChild) {
+      this.div.removeChild(this.div.lastChild)
+    }
+
     this.div.style.width = width + "px"
     this.div.innerHtml = ""
     let hoursWide = width / 200
@@ -166,9 +170,22 @@ export class SchedulePanel {
     //if mobile, shrink location bar a bit
     this.yAxisDiv.style.width = innerWidth > 800 ? "200px" : "150px"
 
+    //check what events should be visible
+    for (let event of this.events.values()) {
+      if (event.maturity === "18+" && !settings.show18Plus) {
+        event.visible = false
+        continue
+      }
+      if (settings.hiddenTracks.includes(event.type)) {
+        event.visible = false
+        continue
+      }
+      event.visible = true
+    }
+
     //setup locations list
-    for (let item of this.yAxisItems) {
-      this.removeLocation(item)
+    while (this.yAxisItems.length) {
+      this.removeLocation(this.yAxisItems[0])
     }
     let presentEventLocations = new Set()
     for (let event of this.events.values()) {
@@ -196,7 +213,7 @@ export class SchedulePanel {
     let xAxisOffset = this.xAxisDiv.offsetLeft
     for (let event of this.events.values()) {
       if (!event.visible) {
-        event.div.style.display = "hidden"
+        event.div.style.display = "none"
         continue
       }
       event.div.style.display = "block"
@@ -234,7 +251,9 @@ export class SchedulePanel {
     }
 
     //(re)create gridlines
-    this.gridPoolDiv.innerHtml = "" //delete all children
+    while (this.gridPoolDiv.firstChild) {
+      this.gridPoolDiv.removeChild(this.gridPoolDiv.lastChild)
+    }
     for (let x = 1; x < this.xAxisDiv.children.length; x++) {
       let linePos = x * 200 + xAxisOffset
       let line = document.createElement("div")

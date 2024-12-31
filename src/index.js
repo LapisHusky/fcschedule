@@ -1,7 +1,7 @@
 import { SchedulePanel } from "./SchedulePanel.js"
 import { getSchedule } from "./getSchedule.js"
 
-let schedule = new SchedulePanel()
+export let schedule = new SchedulePanel()
 
 async function setupSchedule() {
   let events = await getSchedule()

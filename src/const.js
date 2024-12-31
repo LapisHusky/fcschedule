@@ -11,6 +11,19 @@ export const eventTypeColors = {
   "Social": "#152"
 }
 
+export const eventTypeOrdering = [
+  "Hours",
+  "Event",
+  "Gaming",
+  "Performance",
+  "Music",
+  "Species",
+  "Arts",
+  "Costuming",
+  "Science",
+  "Social"
+]
+
 export const shortLocationNames = {
   "SJCC: Con Ops / Zookeepers": "Con Ops / Zookeepers",
   "SJCC: Dealers Den (LL20BCD/LL21BCDEF)": "SJCC: Lower Level",

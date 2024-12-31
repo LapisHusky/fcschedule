@@ -1,3 +1,6 @@
+import { eventTypeOrdering, eventTypeColors } from "./const.js"
+import { setShow18Plus, setTrackVisibility, settings } from "./settings.js"
+
 let container = document.getElementById("modalcontainer")
 
 let eventinfomodal = document.getElementById("eventinfomodal")
@@ -10,6 +13,8 @@ let eventinfotype = document.getElementById("eventinfotype")
 
 let settingsbutton = document.getElementById("settingsbutton")
 let settingsmodal = document.getElementById("settingsmodal")
+let settingsshowmature = document.getElementById("settingsshowmature")
+let settingsaftertracks = document.getElementById("settingsaftertracks")
 
 export function showEventModal(event) {
   container.style.display = "flex"
@@ -41,6 +46,10 @@ eventinfomodal.addEventListener("click", event => {
   //prevent it from bubbling up and closing the modal
   event.stopPropagation()
 })
+settingsmodal.addEventListener("click", event => {
+  //prevent it from bubbling up and closing the modal
+  event.stopPropagation()
+})
 container.addEventListener("click", hideModal)
 
 function hideModal() {
@@ -58,3 +67,36 @@ function showSettingsModal() {
 settingsbutton.addEventListener("click", () => {
   showSettingsModal()
 })
+
+settingsshowmature.checked = settings.show18Plus
+settingsshowmature.addEventListener("change", () => {
+  setShow18Plus(settingsshowmature.checked)
+})
+
+let isFirstTrack = true
+for (let track of eventTypeOrdering) {
+  if (isFirstTrack) {
+    isFirstTrack = false
+  } else {
+    settingsaftertracks.insertAdjacentElement("beforebegin", document.createElement("br"))
+  }
+
+  let name = "settingstracktoggle-" + track
+
+  let checkbox = document.createElement("input")
+  checkbox.type = "checkbox"
+  checkbox.name = name
+  checkbox.checked = !settings.hiddenTracks.includes(track)
+  checkbox.classList.add("settingscheckbox")
+  settingsaftertracks.insertAdjacentElement("beforebegin", checkbox)
+  let label = document.createElement("label")
+  label.for = name
+  label.innerText = track
+  label.classList.add("trackvisibilitytogglelabel")
+  label.style.backgroundColor = eventTypeColors[track]
+  settingsaftertracks.insertAdjacentElement("beforebegin", label)
+
+  checkbox.addEventListener("change", () => {
+    setTrackVisibility(track, checkbox.checked)
+  })
+}

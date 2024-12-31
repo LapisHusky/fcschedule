@@ -174,3 +174,16 @@ body {
   font-size: 150%;
   -webkit-text-size-adjust: 120%;
 }
+
+.trackvisibilitytogglelabel {
+  box-shadow: inset 0px 0px 0px 2px #777;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+}
+
+.settingscheckbox {
+  width: 25px;
+  height: 25px;
+}
