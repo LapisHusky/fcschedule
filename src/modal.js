@@ -9,7 +9,6 @@ let eventinfotimeplace = document.getElementById("eventinfotimeplace")
 let eventinfotype = document.getElementById("eventinfotype")
 
 export function showEventModal(event) {
-  console.log(event)
   container.style.display = "flex"
   eventinfomodal.style.display = "block"
   eventinfoname.innerText = event.name

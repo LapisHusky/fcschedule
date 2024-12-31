@@ -13,6 +13,11 @@ class Event {
     //console.log(this.type)
     this.presenters = data.presenters.map(thing => thing.name)
     this.maturity = data.maturity
+    if (this.maturity === "18+") {
+      //refine name to make consistent notice of maturity
+      this.name = this.name.replaceAll("(18+)", "").trim()
+      this.name = "(18+) " + this.name
+    }
 
     this.div = document.createElement("div")
     this.div.classList.add("eventblock")
