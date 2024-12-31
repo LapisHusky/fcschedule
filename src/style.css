@@ -125,13 +125,13 @@ body {
 
 #eventinfomodal {
   width: 600px;
-  height: 500px;
   position: relative;
   background-color: #444;
   padding: 10px;
   border: 10px solid #222;
   border-radius: 10px;
   min-height: max-content;
+  min-height: 500px;
 }
 
 #eventinfoname {
