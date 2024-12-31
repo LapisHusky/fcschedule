@@ -1,4 +1,4 @@
-import { weekdays, eventTypeColors, shortLocationNames, cohesiveLocationOrder } from "./const.js"
+import { eventTypeColors, shortLocationNames, cohesiveLocationOrder } from "./const.js"
 import { showEventModal } from "./modal.js"
 
 class Event {
@@ -61,7 +61,7 @@ class Time {
     this.div = document.createElement("div")
     this.div.classList.add("timeblock")
     
-    let displayText = weekdays[this.date.getDay()] + " "
+    let displayText = this.date.toLocaleString("en-US", {weekday: "long", timeZone: "America/Los_Angeles"}) + " "
     let hour = this.date.toLocaleString("en-US", {hour: "numeric", timeZone: "America/Los_Angeles"})
     if (hour === "12 PM") {
       hour = "Noon"

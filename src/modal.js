@@ -8,9 +8,13 @@ let eventinfopresenterslinebreak = document.getElementById("eventinfopresentersl
 let eventinfotimeplace = document.getElementById("eventinfotimeplace")
 let eventinfotype = document.getElementById("eventinfotype")
 
+let settingsbutton = document.getElementById("settingsbutton")
+let settingsmodal = document.getElementById("settingsmodal")
+
 export function showEventModal(event) {
   container.style.display = "flex"
   eventinfomodal.style.display = "block"
+  settingsmodal.style.display = "none"
   eventinfoname.innerText = event.name
   eventinfodescription.innerText = event.description
   if (event.presenters.length) {
@@ -42,4 +46,15 @@ container.addEventListener("click", hideModal)
 function hideModal() {
   container.style.display = "none"
   eventinfomodal.style.display = "none"
+  settingsmodal.style.display = "none"
 }
+
+function showSettingsModal() {
+  container.style.display = "flex"
+  eventinfomodal.style.display = "none"
+  settingsmodal.style.display = "block"
+}
+
+settingsbutton.addEventListener("click", () => {
+  showSettingsModal()
+})

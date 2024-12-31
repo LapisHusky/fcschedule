@@ -1,5 +1,3 @@
-export const weekdays = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"]
-
 export const eventTypeColors = {
   "Hours": "#448",
   "Science": "#484",
