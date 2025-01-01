@@ -190,7 +190,7 @@ body {
 
 .currenttimeindicatormain {
   position: absolute;
-  outline: 2px dashed #f005;
+  outline: 2px dashed #f006;
   width: 0px;
   height: 100%;
   z-index: -3;
@@ -198,7 +198,7 @@ body {
 
 .currenttimeindicatorsecondary {
   position: absolute;
-  outline: 2px dashed #f004;
+  outline: 2px dashed #f005;
   width: 0px;
   height: 100%;
   z-index: 4;
@@ -206,7 +206,7 @@ body {
 
 .currenttimeindicatortop {
   position: absolute;
-  outline: 2px dashed #f008;
+  outline: 2px dashed #f00a;
   width: 0px;
   height: 36px;
   top: 2px;

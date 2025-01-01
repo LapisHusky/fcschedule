@@ -30,11 +30,17 @@ async function setupSchedule() {
   schedule.addTimeRange("2025-01-20T09:00:00-08:00", "2025-01-21T00:00:00-08:00")
   
   schedule.computeLayout()
-
+  
   let nowPosition = schedule.timeIndicator.updatePosition()
   if (nowPosition !== false && nowPosition > 200) {
-    //seems like it's necessary to delay it a bit
-    requestAnimationFrame(() => scrollTo(nowPosition - 200, 0), 0)
+    //retry until success
+    let interval = setInterval(() => {
+      if (Math.abs(window.scrollX - (nowPosition - 200)) < 10) {
+        clearInterval(interval)
+        return
+      }
+      scrollTo(nowPosition - 200, 0)
+    })
   }
 
   setInterval(() => {
