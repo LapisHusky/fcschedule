@@ -34,13 +34,13 @@ async function setupSchedule() {
   let nowPosition = schedule.timeIndicator.updatePosition()
   if (nowPosition !== false && nowPosition > 200) {
     //retry until success
-    let interval = setInterval(() => {
-      if (Math.abs(window.scrollX - (nowPosition - 200)) < 10) {
-        clearInterval(interval)
-        return
+    function retrySetScroll() {
+      if (Math.abs(window.scrollX - (nowPosition - 200)) > 10) {
+        requestAnimationFrame(retrySetScroll)
       }
       scrollTo(nowPosition - 200, 0)
-    })
+    }
+    requestAnimationFrame(retrySetScroll)
   }
 
   setInterval(() => {
