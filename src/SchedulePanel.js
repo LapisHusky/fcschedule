@@ -270,13 +270,11 @@ export class SchedulePanel {
 
     //resize container divs to ensure scrolling and background and stuff works properly
     let wholeWidth = this.xAxisItems.length * 200 + this.yAxisWidth
-    //min height of 800 makes it a little easier to view on mobile by zooming the page out a bit
     let wholeHeight = (this.yAxisItems.length + 1) * 40
-    let containerHeight = Math.max(wholeHeight + 100, 800)
     this.poolDiv.style.width = wholeWidth + "px"
-    this.poolDiv.style.height = containerHeight + "px"
+    this.poolDiv.style.height = wholeHeight + "px"
     this.scheduleDiv.style.width = wholeWidth + "px"
-    this.scheduleDiv.style.height = containerHeight + "px"
+    this.scheduleDiv.style.height = wholeHeight + "px"
 
     //position event blocks within pool
     for (let event of this.events.values()) {
