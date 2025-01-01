@@ -195,6 +195,9 @@ export class SchedulePanel {
     this.events = new Map()
     this.xAxisItems = []
     this.yAxisItems = []
+
+    this.initialComputeResolve = null
+    this.initialComputePromise = new Promise(r => this.initialComputeResolve = r)
   }
 
   addEvent(data) {
@@ -339,5 +342,14 @@ export class SchedulePanel {
 
     //update time indicator
     this.timeIndicator.updatePosition()
+
+    if (this.initialComputeResolve) {
+      this.initialComputeResolve()
+      this.initialComputeResolve = null
+    }
+  }
+
+  getFullscreenZoom() {
+    return innerHeight / ((this.yAxisItems.length + 1) * 40)
   }
 }

@@ -15,6 +15,20 @@ if (settings === undefined) {
   }
 }
 
+async function awaitToSetDefaultZoom() {
+  await schedule.initialComputePromise
+  let value = schedule.getFullscreenZoom()
+  settings.zoom = value
+  document.body.style.zoom = value
+}
+if ("zoom" in settings) {
+  document.body.style.zoom = settings.zoom
+} else {
+  settings.zoom = 1
+  //if probably on desktop, set zoom to fill the screen by default
+  if (innerWidth > 1200) awaitToSetDefaultZoom()
+}
+
 export function setShow18Plus(value) {
   if (settings.show18Plus === value) return
   settings.show18Plus = value
@@ -31,6 +45,12 @@ export function setTrackVisibility(track, value) {
     settings.hiddenTracks.push(track)
   }
   schedule.computeLayout()
+  saveSettings()
+}
+
+export function setZoom(value) {
+  settings.zoom = value
+  document.body.style.zoom = value
   saveSettings()
 }
 

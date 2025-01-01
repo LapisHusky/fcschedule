@@ -212,3 +212,8 @@ body {
   top: 2px;
   z-index: 12;
 }
+
+.settingsbutton {
+  width: 35px;
+  height: 35px;
+}

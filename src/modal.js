@@ -1,5 +1,6 @@
 import { eventTypeOrdering, eventTypeColors } from "./const.js"
-import { setShow18Plus, setTrackVisibility, settings } from "./settings.js"
+import { setShow18Plus, setTrackVisibility, settings, setZoom } from "./settings.js"
+import { schedule } from "./index.js"
 
 let container = document.getElementById("modalcontainer")
 
@@ -15,6 +16,9 @@ let settingsbutton = document.getElementById("settingsbutton")
 let settingsmodal = document.getElementById("settingsmodal")
 let settingsshowmature = document.getElementById("settingsshowmature")
 let settingsaftertracks = document.getElementById("settingsaftertracks")
+let settingszoomnormal = document.getElementById("settingszoomnormal")
+let settingszoomplus = document.getElementById("settingszoomplus")
+let settingszoomminus = document.getElementById("settingszoomminus")
 
 export function showEventModal(event) {
   container.style.display = "flex"
@@ -100,3 +104,13 @@ for (let track of eventTypeOrdering) {
     setTrackVisibility(track, checkbox.checked)
   })
 }
+
+settingszoomnormal.addEventListener("click", () => {
+  setZoom(schedule.getFullscreenZoom())
+})
+settingszoomplus.addEventListener("click", () => {
+  setZoom(Math.min(settings.zoom * 1.1, 1.7))
+})
+settingszoomminus.addEventListener("click", () => {
+  setZoom(Math.max(settings.zoom * 0.9, 0.3))
+})
