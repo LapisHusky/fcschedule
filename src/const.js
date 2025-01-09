@@ -37,7 +37,8 @@ export const shortLocationNames = {
   "SJCC: Photoshoot (220C Hours Only)": "SJCC: 220C",
   "SJCC: Rehearsal Area (220B)": "SJCC: 220B",
   "SJCC: Main Stage (220A)": "Main Stage (SJCC 220A)",
-  "SJCC: SJCC Courtyard": "SJCC: Courtyard"
+  "SJCC: SJCC Courtyard": "SJCC: Courtyard",
+  "SJCC: Recharge Room (114)": "SJCC: 114"
 }
 
 export const cohesiveLocationOrder = [
