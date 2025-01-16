@@ -169,6 +169,9 @@
         },
         {
           "name": "Peppermint Deer"
+        },
+        {
+          "name": "Speckles Panda"
         }
       ],
       "type": "Science",
@@ -244,10 +247,10 @@
     },
     {
       "id": "5416-0",
-      "name": "Vibe Lounge: Pool Toy Party",
+      "name": "Pool Toy Party - Vibe Lounge",
       "startDate": "2025-01-16T21:00:00-08:00",
       "endDate": "2025-01-17T01:00:00-08:00",
-      "description": "Enjoy a quiet, chill all-ages Pool Party experience with inflatables and balloons!",
+      "description": "Enjoy a quiet, chill after-hours Pool Party experience with inflatables and balloons!",
       "presenters": [
         {
           "name": "Phenod"
@@ -831,7 +834,13 @@
           "name": "Aerobun"
         },
         {
+          "name": "Hazel B.B."
+        },
+        {
           "name": "Kakurady"
+        },
+        {
+          "name": "Mori"
         }
       ],
       "type": "Social",
@@ -1274,6 +1283,18 @@
           "name": "Carbon"
         },
         {
+          "name": "Convlexity"
+        },
+        {
+          "name": "Richard Burch"
+        },
+        {
+          "name": "Snaggle"
+        },
+        {
+          "name": "Winter Owl"
+        },
+        {
           "name": "Zed Shirogane"
         }
       ],
@@ -1547,10 +1568,10 @@
     },
     {
       "id": "5416-1",
-      "name": "Vibe Lounge: Pool Toy Party",
+      "name": "Pool Toy Party - Vibe Lounge",
       "startDate": "2025-01-17T20:00:00-08:00",
       "endDate": "2025-01-18T01:00:00-08:00",
-      "description": "Enjoy a quiet, chill all-ages Pool Party experience with inflatables and balloons!",
+      "description": "Enjoy a quiet, chill after-hours Pool Party experience with inflatables and balloons!",
       "presenters": [
         {
           "name": "Phenod"
@@ -1630,6 +1651,9 @@
         },
         {
           "name": "passLion"
+        },
+        {
+          "name": "Rose Buddy Woof"
         }
       ],
       "type": "Performance",
@@ -1674,6 +1698,9 @@
       "presenters": [
         {
           "name": "Anzi Doodlebug"
+        },
+        {
+          "name": "Elian Drachen"
         },
         {
           "name": "Siggy Sea Otter"
@@ -1848,6 +1875,9 @@
       "endDate": "2025-01-17T22:30:00-08:00",
       "description": "An 18+ only panel for Wings of Fire fans who love the adult side of the fandom. Expect to see a group reading of popular fan works, plenty of shipping, and lots of fun!",
       "presenters": [
+        {
+          "name": "Kye"
+        },
         {
           "name": "Siggy Sea Otter"
         }
@@ -2396,10 +2426,10 @@
     },
     {
       "id": "5371-0",
-      "name": "Fursuit Photo/Parade Gathering",
+      "name": "Fursuit Photo Gathering",
       "startDate": "2025-01-18T12:30:00-08:00",
       "endDate": "2025-01-18T13:45:00-08:00",
-      "description": "Fursuiters! Gather here before the parade at the start of the parade route for the group photo.",
+      "description": "Fursuiters! Gather here for our annual group photo!",
       "presenters": [],
       "type": "Event",
       "location": {
@@ -2424,7 +2454,7 @@
     },
     {
       "id": "5372-0",
-      "name": "Fursuit Group Photo",
+      "name": "Annual Employee Photoshoot (Fursuit Group Photo)",
       "startDate": "2025-01-18T13:45:00-08:00",
       "endDate": "2025-01-18T14:00:00-08:00",
       "description": "Fursuiters! We will be taking a group photo right before the parade. Photo will take place in the SJCC courtyard, near the Idea Tree.\r\n\r\nLine up early to guarantee you don\u2019t miss it! We will try to take the picture at 1:55 PM.",
@@ -2448,10 +2478,10 @@
     },
     {
       "id": "5373-0",
-      "name": "Fursuit Parade",
+      "name": "Annual Wear-Your-Suit-to-Work Meeting",
       "startDate": "2025-01-18T14:00:00-08:00",
       "endDate": "2025-01-18T15:00:00-08:00",
-      "description": "Animals on Parade! Our costumed attendees will parade through the convention center. Gather along the route to catch a glimpse! We will take a photo of the gathered suiters just before the parade. For the latest parade route, visit: http://furcon.org/programming/parade/",
+      "description": "Good afternoon fellow animals, corporate would like you to wear your most expensive \"suit\" to this very important meeting. After the Annual Employee Photoshoot, stay in the office to mingle with other valued members of the corporation!\r\n\r\n\r\nFor the latest updates as we navigate a dynamic and heightened security presence, see http://furcon.org/parade/.",
       "presenters": [],
       "type": "Event",
       "location": {
@@ -2537,6 +2567,9 @@
         },
         {
           "name": "passLion"
+        },
+        {
+          "name": "Rose Buddy Woof"
         }
       ],
       "type": "Performance",
@@ -2664,6 +2697,9 @@
         },
         {
           "name": "Michael Thomas"
+        },
+        {
+          "name": "Stormy Kittyhawk"
         },
         {
           "name": "Tanuski (Steve)"
@@ -3036,7 +3072,7 @@
     },
     {
       "id": "5345-0",
-      "name": "Adult Swim: Pool Toy Party After Dark",
+      "name": "Pool Toy Party After Dark - Adult Swim",
       "startDate": "2025-01-18T20:00:00-08:00",
       "endDate": "2025-01-19T02:00:00-08:00",
       "description": "Come vibe and chill talk with friends and bop balloons in this sensory decompression space!",
@@ -3197,7 +3233,13 @@
           "name": "Galexy Bramblepelt"
         },
         {
+          "name": "meowhiss"
+        },
+        {
           "name": "passLion"
+        },
+        {
+          "name": "Rose Buddy Woof"
         }
       ],
       "type": "Performance",
@@ -4243,6 +4285,9 @@
       "description": "A brief but detailed description of how photography works, from Daguerreotypes to DSLRs",
       "presenters": [
         {
+          "name": "Streak"
+        },
+        {
           "name": "Theodore C. Whitchambres"
         }
       ],
@@ -4375,6 +4420,9 @@
         },
         {
           "name": "passLion"
+        },
+        {
+          "name": "Rose Buddy Woof"
         }
       ],
       "type": "Music",
@@ -4523,10 +4571,10 @@
     },
     {
       "id": "5416-2",
-      "name": "Vibe Lounge: Pool Toy Party",
+      "name": "Pool Toy Party - Vibe Lounge",
       "startDate": "2025-01-19T20:00:00-08:00",
       "endDate": "2025-01-20T01:00:00-08:00",
-      "description": "Enjoy a quiet, chill all-ages Pool Party experience with inflatables and balloons!",
+      "description": "Enjoy a quiet, chill after-hours Pool Party experience with inflatables and balloons!",
       "presenters": [
         {
           "name": "Phenod"
@@ -4673,7 +4721,16 @@
           "name": "makeusmil3"
         },
         {
+          "name": "Nish"
+        },
+        {
           "name": "passLion"
+        },
+        {
+          "name": "Rose Buddy Woof"
+        },
+        {
+          "name": "trrrrr"
         }
       ],
       "type": "Performance",
@@ -4866,8 +4923,8 @@
       "id": "5418-0",
       "name": "Exit: Portable Escape Room",
       "startDate": "2025-01-20T11:00:00-08:00",
-      "endDate": "2025-01-20T12:30:00-08:00",
-      "description": "Exit: The Game brings the thrill of an escape room to your home! Solve clever riddles, crack tricky codes, and unravel mysteries to escape an imaginary scenario. Perfect for 1-4 players, it\u2019s a race against the clock that tests your wits, teamwork, and problem-solving skills. Can you escape in time?",
+      "endDate": "2025-01-20T13:00:00-08:00",
+      "description": "Exit: The Game brings the thrill of an escape room to your home! Solve clever riddles, crack tricky codes, and unravel mysteries to escape an imaginary scenario. Perfect for groups of 1-4 players, it\u2019s a race against the clock that tests your wits, teamwork, and problem-solving skills. Can you escape in time?",
       "presenters": [
         {
           "name": "Pup Deuce"
