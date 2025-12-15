@@ -1,5 +1,5 @@
 import { eventTypeOrdering, eventTypeColors } from "./const.js"
-import { setShow18Plus, setTrackVisibility, settings, setZoom } from "./settings.js"
+import { setTrackVisibility, settings, setZoom, setShowMaturity } from "./settings.js"
 import { schedule } from "./index.js"
 
 let container = document.getElementById("modalcontainer")
@@ -14,7 +14,11 @@ let eventinfotype = document.getElementById("eventinfotype")
 
 let settingsbutton = document.getElementById("settingsbutton")
 let settingsmodal = document.getElementById("settingsmodal")
-let settingsshowmature = document.getElementById("settingsshowmature")
+
+let settingsshow18plus = document.getElementById("settingsshow18plus");
+let settingsshowgeneral = document.getElementById("settingsshowgeneral");
+let settingsshowfamily = document.getElementById("settingsshowfamily");
+
 let settingsaftertracks = document.getElementById("settingsaftertracks")
 let settingszoomnormal = document.getElementById("settingszoomnormal")
 let settingszoomplus = document.getElementById("settingszoomplus")
@@ -72,10 +76,18 @@ settingsbutton.addEventListener("click", () => {
   showSettingsModal()
 })
 
-settingsshowmature.checked = settings.show18Plus
-settingsshowmature.addEventListener("change", () => {
-  setShow18Plus(settingsshowmature.checked)
-})
+settingsshow18plus.checked = settings.shownMaturity.adult;
+settingsshow18plus.addEventListener("change", () => {
+  setShowMaturity("adult", settingsshow18plus.checked);
+});
+settingsshowgeneral.checked = settings.shownMaturity.general;
+settingsshowgeneral.addEventListener("change", () => {
+  setShowMaturity("general", settingsshowgeneral.checked);
+});
+settingsshowfamily.checked = settings.shownMaturity.family;
+settingsshowfamily.addEventListener("change", () => {
+  setShowMaturity("family", settingsshowfamily.checked);
+});
 
 let isFirstTrack = true
 for (let track of eventTypeOrdering) {

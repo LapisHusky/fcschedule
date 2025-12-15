@@ -1,6 +1,6 @@
 export const eventTypeColors = {
   "Hours": "#448",
-  "Science": "#484",
+  "Education": "#484",
   "Arts": "#884",
   "Performance": "#844",
   "Costuming": "#488",
@@ -8,7 +8,9 @@ export const eventTypeColors = {
   "Gaming": "#646",
   "Music": "#848",
   "Species": "#a79",
-  "Social": "#152"
+  "Social": "#152",
+  "Writing": "#860",
+  "Rehearsal": "#62a"
 }
 
 export const eventTypeOrdering = [
@@ -20,8 +22,10 @@ export const eventTypeOrdering = [
   "Species",
   "Arts",
   "Costuming",
-  "Science",
-  "Social"
+  "Education",
+  "Social",
+  "Writing",
+  "Rehearsal"
 ]
 
 export const shortLocationNames = {
@@ -33,12 +37,14 @@ export const shortLocationNames = {
   "Marriott: Marriott Stage (Salon I to VI)": "Marriott Stage",
   "Hilton: Escape Room (Winchester 1)": "Hilton: Winchester 1",
   "Hilton: Gaming (Market)": "Hilton: Market",
-  "SJCC: Fursuit Lounge / Photoshoot (220C)": "SJCC: 220C",
-  "SJCC: Photoshoot (220C Hours Only)": "SJCC: 220C",
   "SJCC: Rehearsal Area (220B)": "SJCC: 220B",
   "SJCC: Main Stage (220A)": "Main Stage (SJCC 220A)",
   "SJCC: SJCC Courtyard": "SJCC: Courtyard",
-  "SJCC: Recharge Room (114)": "SJCC: 114"
+  "SJCC: Recharge Room (114)": "SJCC: 114",
+  "SJCC: Third Stage (211CD)": "SJCC: 211CD",
+  "SJCC: 220C (Fursuit Lounge)": "SJCC: 220C",
+  "Hilton: Escape Room (Winchester I)": "Hilton: Winchester I",
+  "SJCC: 211B (Photoshoot)": "SJCC: 211B"
 }
 
 export const cohesiveLocationOrder = [
@@ -54,10 +60,19 @@ export const cohesiveLocationOrder = [
   "Marriott: Blossom Hill",
   "Marriott: Guadalupe",
   "Marriott: Willow Glen III",
-  "SJCC: SJCC Courtyard",
+  "SJCC: 211A",
+  "SJCC: Third Stage (211CD)",
+  "SJCC: Parade Plans",
+  //"SJCC: SJCC Courtyard",
   "Hilton: Gaming (Market)",
   "SJCC: Registration (The Hub)",
   "SJCC: Dealers Den (LL20BCD/LL21BCDEF)",
   "Hilton: Art Show (Almaden Ballroom)",
+  "Hilton: Escape Room (Winchester I)",
+  "SJCC: 220C (Fursuit Lounge)",
+  "Marriott: Fursuit Lounge (San Carlos)",
+  "SJCC: 114",
+  "SJCC: 211B (Photoshoot)",
+  "Hilton: Executive Boardroom",
   "SJCC: Con Ops / Zookeepers",
 ]

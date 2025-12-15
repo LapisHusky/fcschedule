@@ -4,13 +4,20 @@ export let settings = localStorage.fcscheduledata
 if (settings !== undefined) {
   try {
     settings = JSON.parse(settings)
+    if (!settings.shownMaturity) {
+      throw new Error("old settings, reset");
+    }
   } catch (error) {
     settings = undefined
   }
 }
 if (settings === undefined) {
   settings = {
-    show18Plus: true,
+    shownMaturity: {
+      adult: true,
+      general: true,
+      family: true
+    },
     hiddenTracks: []
   }
 }
@@ -29,9 +36,9 @@ if ("zoom" in settings) {
   if (innerWidth > 1200) awaitToSetDefaultZoom()
 }
 
-export function setShow18Plus(value) {
-  if (settings.show18Plus === value) return
-  settings.show18Plus = value
+export function setShowMaturity(key, value) {
+  if (settings.shownMaturity[key] === value) return
+  settings.shownMaturity[key] = value
   schedule.computeLayout()
   saveSettings()
 }

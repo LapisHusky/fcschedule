@@ -174,7 +174,7 @@ class LocationGap {
 
     this.div = document.createElement("div")
     this.div.classList.add("locationblock")
-    this.div.innerText = "FC 2025"
+    this.div.innerText = "FC 2026"
     this.div.style.fontSize = "30px"
   }
 }
@@ -244,7 +244,13 @@ export class SchedulePanel {
 
     //check what events should be visible
     for (let event of this.events.values()) {
-      if (event.maturity === "18+" && !settings.show18Plus) {
+      if (event.maturity === "18+" && !settings.shownMaturity.adult) {
+        event.visible = false
+        continue
+      } else if (event.maturity === "Fam" && !settings.shownMaturity.family) {
+        event.visible = false
+        continue
+      } else if (!event.maturity && !settings.shownMaturity.general) {
         event.visible = false
         continue
       }

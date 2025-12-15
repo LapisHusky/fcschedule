@@ -7,6 +7,7 @@ async function setupSchedule() {
   let events = await getSchedule()
 
   for (event of events) {
+    if (event.type === "Unavailability") continue;
     schedule.addEvent(event)
   }
   
@@ -23,11 +24,11 @@ async function setupSchedule() {
   console.log(locations)
   */
   
-  schedule.addTimeRange("2025-01-16T09:00:00-08:00", "2025-01-17T03:00:00-08:00")
-  schedule.addTimeRange("2025-01-17T08:00:00-08:00", "2025-01-18T03:00:00-08:00")
-  schedule.addTimeRange("2025-01-18T08:00:00-08:00", "2025-01-19T03:00:00-08:00")
-  schedule.addTimeRange("2025-01-19T08:00:00-08:00", "2025-01-20T03:00:00-08:00")
-  schedule.addTimeRange("2025-01-20T09:00:00-08:00", "2025-01-21T00:00:00-08:00")
+  schedule.addTimeRange("2026-01-15T09:00:00-08:00", "2026-01-16T03:00:00-08:00")
+  schedule.addTimeRange("2026-01-16T08:00:00-08:00", "2026-01-17T03:00:00-08:00")
+  schedule.addTimeRange("2026-01-17T08:00:00-08:00", "2026-01-18T03:00:00-08:00")
+  schedule.addTimeRange("2026-01-18T08:00:00-08:00", "2026-01-19T03:00:00-08:00")
+  schedule.addTimeRange("2026-01-19T09:00:00-08:00", "2026-01-20T00:00:00-08:00")
   
   schedule.computeLayout()
   
