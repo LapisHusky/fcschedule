@@ -7,7 +7,6 @@ async function setupSchedule() {
   let events = await getSchedule()
 
   for (event of events) {
-    if (event.type === "Unavailability") continue;
     schedule.addEvent(event)
   }
   
