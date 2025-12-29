@@ -47,6 +47,7 @@ export const shortLocationNames = {
   "SJCC: 211B (Photoshoot)": "SJCC: 211B",
   "SJCC: Zookeepers (SR4)": "SJCC: SR4",
   "SJCC: AD Dealer's Den (212)": "SJCC: 212",
+  "SJCC: 113 (Pop-Up Fursuit Lounge)": "SJCC: 113"
 }
 
 export const cohesiveLocationOrder = [
@@ -75,6 +76,7 @@ export const cohesiveLocationOrder = [
   "Hilton: Escape Room (Winchester I)",
   "SJCC: 220C (Fursuit Lounge)",
   "Marriott: Fursuit Lounge (San Carlos)",
+  "SJCC: 113 (Pop-Up Fursuit Lounge)",
   "SJCC: 211B (Photoshoot)",
   "Hilton: Santa Clara Foyer",
   "SJCC: Recharge Room (114)",
