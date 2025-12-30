@@ -26,8 +26,34 @@
   -webkit-box-orient: vertical;
 }
 
-.schedpool {
-  position: absolute;
+#schedulecontent {
+  position: relative;
+}
+
+#schedulegridlayout {
+  display: grid;
+  grid-template-columns: 200px auto;
+  grid-template-rows: 40px auto;
+  min-width: max-content;
+  min-height: max-content;
+}
+
+#schedulecorner {
+  position: sticky;
+  width: 200px;
+  height: 40px;
+  z-index: 11;
+  background-color: #333;
+  color: #fff;
+  left: 0px;
+  float: left;
+  font-size: 30px;
+  box-shadow: inset 0px 0px 0px 2px #777;
+  padding-left: 3px;
+  padding-right: 3px;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  box-sizing: border-box;
 }
 
 #schedulexaxis {
@@ -58,13 +84,14 @@
   padding-right: 3px;
   padding-top: 1px;
   padding-bottom: 1px;
-  height: 38px;
+  height: 40px;
   overflow: hidden;
   text-overflow: ellipsis;
   display: -webkit-box;
   line-clamp: 2;
   -webkit-line-clamp: 2;
   -webkit-box-orient: vertical;
+  box-sizing: border-box;
 }
 
 .timeblock {
@@ -75,27 +102,32 @@
   padding-right: 3px;
   padding-top: 1px;
   padding-bottom: 1px;
-  height: 38px;
-  width: 194px;
+  height: 40px;
+  width: 200px;
   overflow: hidden;
   text-overflow: ellipsis;
   display: -webkit-box;
   line-clamp: 2;
   -webkit-line-clamp: 2;
   -webkit-box-orient: vertical;
+  box-sizing: border-box;
 }
 
 body {
   margin: 0px;
   background-color: #000;
   font-family: sans-serif;
+  overflow: hidden;
 }
 
-#schedulepanel {
-  min-width: max-content;
+#schedulearea {
+  overflow: auto;
+  width: 100%;
+  height: 100%;
   position: absolute;
   top: 0px;
   left: 0px;
+  overscroll-behavior: contain;
 }
 
 .vertgridline {
@@ -105,7 +137,7 @@ body {
   z-index: -1;
 }
 
-.horlinegrid {
+.horgridline {
   position: absolute;
   outline: 1px dashed #444;
   height: 0px;
@@ -190,23 +222,21 @@ body {
 
 .currenttimeindicatormain {
   position: absolute;
-  outline: 2px dashed #f006;
+  outline: 2px solid #f006;
   width: 0px;
-  height: 100%;
   z-index: -3;
 }
 
 .currenttimeindicatorsecondary {
   position: absolute;
-  outline: 2px dashed #f005;
+  outline: 2px solid #f004;
   width: 0px;
-  height: 100%;
   z-index: 4;
 }
 
 .currenttimeindicatortop {
   position: absolute;
-  outline: 2px dashed #f00a;
+  outline: 2px solid #f004;
   width: 0px;
   height: 36px;
   top: 2px;

@@ -91,19 +91,16 @@ class TimeGap {
 
 class CurrentTimeIndicator {
   constructor(schedule) {
-    this.mainDiv = document.createElement("div")
-    this.mainDiv.classList.add("currenttimeindicatormain")
-    schedule.scheduleDiv.appendChild(this.mainDiv)
+    this.mainDiv = document.createElement("div");
+    this.mainDiv.classList.add("currenttimeindicatormain");
 
-    this.secondaryDiv = document.createElement("div")
-    this.secondaryDiv.classList.add("currenttimeindicatorsecondary")
-    schedule.scheduleDiv.appendChild(this.secondaryDiv)
+    this.secondaryDiv = document.createElement("div");
+    this.secondaryDiv.classList.add("currenttimeindicatorsecondary");
 
-    this.topDiv = document.createElement("div")
-    this.topDiv.classList.add("currenttimeindicatortop")
-    schedule.xAxisDiv.appendChild(this.topDiv)
+    this.topDiv = document.createElement("div");
+    this.topDiv.classList.add("currenttimeindicatortop");
 
-    this.schedule = schedule
+    this.schedule = schedule;
   }
 
   updatePosition() {
@@ -118,14 +115,14 @@ class CurrentTimeIndicator {
     }
 
     if (barVisible) {
-      this.mainDiv.style.display = "block"
-      this.secondaryDiv.style.display = "block"
-      this.topDiv.style.display = "block"
+      if (!this.mainDiv.parentNode) this.schedule.poolDiv.appendChild(this.mainDiv);
+      if (!this.secondaryDiv.parentNode) this.schedule.poolDiv.appendChild(this.secondaryDiv);
+      if (!this.topDiv.parentNode) this.schedule.xAxisDiv.appendChild(this.topDiv);
     } else {
-      this.mainDiv.style.display = "none"
-      this.secondaryDiv.style.display = "none"
-      this.topDiv.style.display = "none"
-      return false
+      if (this.mainDiv.parentNode) this.schedule.poolDiv.removeChild(this.mainDiv);
+      if (this.secondaryDiv.parentNode) this.schedule.poolDiv.removeChild(this.secondaryDiv);
+      if (this.topDiv.parentNode) this.schedule.xAxisDiv.removeChild(this.topDiv);
+      return false;
     }
 
     let hourBlock = this.schedule.xAxisItems[0]
@@ -147,9 +144,11 @@ class CurrentTimeIndicator {
     }
     let xPosition = (hourBlock.index + timeOffset) * 200
 
-    this.mainDiv.style.left = this.schedule.yAxisWidth + xPosition + "px"
-    this.secondaryDiv.style.left = this.schedule.yAxisWidth + xPosition + "px"
+    this.mainDiv.style.left = xPosition + "px"
+    this.secondaryDiv.style.left = xPosition + "px"
     this.topDiv.style.left = xPosition + "px"
+    this.mainDiv.style.height = this.schedule.yAxisItems.length * 40 + "px";
+    this.secondaryDiv.style.height = this.schedule.yAxisItems.length * 40 + "px";
 
     return xPosition
   }
@@ -167,29 +166,17 @@ class Location {
   }
 }
 
-class LocationGap {
-  constructor(index) {
-    this.gap = true
-    this.index = index
-
-    this.div = document.createElement("div")
-    this.div.classList.add("locationblock")
-    this.div.innerText = "FC 2026"
-    this.div.style.fontSize = "30px"
-  }
-}
-
-export class SchedulePanel {
+export class ScheduleArea {
   constructor() {
-    this.poolDiv = document.getElementById("blockpool")
-    this.gridPoolDiv = document.getElementById("gridpool")
-    this.scheduleDiv = document.getElementById("schedulepanel")
+    this.poolDiv = document.getElementById("schedulecontent");
+    this.scheduleDiv = document.getElementById("schedulearea");
+    this.scheduleGridLayoutDiv = document.getElementById("schedulegridlayout");
 
-    this.xAxisDiv = document.getElementById("schedulexaxis")
-    this.yAxisDiv = document.getElementById("scheduleyaxis")
+    this.xAxisDiv = document.getElementById("schedulexaxis");
+    this.yAxisDiv = document.getElementById("scheduleyaxis");
+    this.cornerDiv = document.getElementById("schedulecorner");
 
     this.timeIndicator = new CurrentTimeIndicator(this)
-    this.yAxisDiv.appendChild(new LocationGap().div)
     this.yAxisWidth = 200
 
     this.events = new Map()
@@ -197,17 +184,16 @@ export class SchedulePanel {
     this.yAxisItems = []
 
     this.initialComputeResolve = null
-    this.initialComputePromise = new Promise(r => this.initialComputeResolve = r)
+    this.initialComputePromise = new Promise(r => this.initialComputeResolve = r);
   }
 
   addEvent(data) {
-    let event = new Event(data)
-    this.events.set(event.id, event)
-    this.poolDiv.appendChild(event.div)
+    let event = new Event(data);
+    this.events.set(event.id, event);
   }
 
   addLocation(data) {
-    let location = new Location(data, this.yAxisItems.length + 1) //+1 because the gap at the top isn't in array
+    let location = new Location(data, this.yAxisItems.length)
     this.yAxisItems.push(location)
     this.yAxisDiv.appendChild(location.div)
   }
@@ -241,6 +227,8 @@ export class SchedulePanel {
     //if mobile, shrink location bar a bit
     this.yAxisWidth = innerWidth > 800 ? 200 : 150
     this.yAxisDiv.style.width = this.yAxisWidth + "px"
+    this.scheduleGridLayoutDiv.style["grid-template-columns"] = `${this.yAxisWidth}px auto`;
+    this.cornerDiv.style.width = this.yAxisWidth + "px";
 
     //check what events should be visible
     for (let event of this.events.values()) {
@@ -278,20 +266,17 @@ export class SchedulePanel {
     }
 
     //resize container divs to ensure scrolling and background and stuff works properly
-    let wholeWidth = this.xAxisItems.length * 200 + this.yAxisWidth
-    let wholeHeight = (this.yAxisItems.length + 1) * 40
+    let wholeWidth = this.xAxisItems.length * 200
+    let wholeHeight = this.yAxisItems.length * 40
     this.poolDiv.style.width = wholeWidth + "px"
     this.poolDiv.style.height = wholeHeight + "px"
-    this.scheduleDiv.style.width = wholeWidth + "px"
-    this.scheduleDiv.style.height = wholeHeight + "px"
+    this.poolDiv.replaceChildren(); //remove all children
 
     //position event blocks within pool
     for (let event of this.events.values()) {
       if (!event.visible) {
-        event.div.style.display = "none"
-        continue
+        continue;
       }
-      event.div.style.display = "block"
 
       let locationBlock = null
       for (let location of this.yAxisItems) {
@@ -314,36 +299,35 @@ export class SchedulePanel {
         }
       }
       
-      let leftPos = this.yAxisWidth + hourBlock.index * 200
+      let leftPos = hourBlock.index * 200
       leftPos += 200 * ((startTimestamp - hourBlock.date.getTime()) / 36e5)
       event.div.style.left = leftPos + "px"
 
-      let rightPos = this.yAxisWidth + endHourBlock.index * 200
+      let rightPos = endHourBlock.index * 200
       rightPos += 200 * ((endTimestamp - endHourBlock.date.getTime()) / 36e5)
 
       let width = rightPos - leftPos
       event.setWidth(width)
+
+      this.poolDiv.appendChild(event.div);
     }
 
-    //(re)create gridlines
-    while (this.gridPoolDiv.firstChild) {
-      this.gridPoolDiv.removeChild(this.gridPoolDiv.lastChild)
-    }
-    for (let x = 1; x < this.xAxisDiv.children.length - 1; x++) {
-      let linePos = x * 200 + this.yAxisWidth
+    //create gridlines
+    for (let x = 1; x < this.xAxisDiv.children.length; x++) {
+      let linePos = x * 200
       let line = document.createElement("div")
       line.classList.add("vertgridline")
       line.style.left = linePos + "px"
       line.style.height = wholeHeight + "px"
-      this.gridPoolDiv.appendChild(line)
+      this.poolDiv.appendChild(line)
     }
-    for (let y = 2; y < this.yAxisDiv.children.length; y++) {
+    for (let y = 1; y < this.yAxisDiv.children.length; y++) {
       let linePos = y * 40
       let line = document.createElement("div")
-      line.classList.add("vertgridline")
+      line.classList.add("horgridline")
       line.style.top = linePos + "px"
       line.style.width = wholeWidth + "px"
-      this.gridPoolDiv.appendChild(line)
+      this.poolDiv.appendChild(line)
     }
 
     //update time indicator

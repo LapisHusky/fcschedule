@@ -1,7 +1,7 @@
-import { SchedulePanel } from "./SchedulePanel.js"
-import { getSchedule } from "./getSchedule.js"
+export let schedule = new ScheduleArea();
 
-export let schedule = new SchedulePanel()
+import { ScheduleArea } from "./ScheduleArea.js"
+import { getSchedule } from "./getSchedule.js"
 
 async function setupSchedule() {
   let events = await getSchedule()
@@ -33,12 +33,13 @@ async function setupSchedule() {
   
   let nowPosition = schedule.timeIndicator.updatePosition()
   if (nowPosition !== false && nowPosition > 200) {
+    let scrollPosition = nowPosition - 200;
     //retry until success
     function retrySetScroll() {
-      if (Math.abs(window.scrollX - (nowPosition - 200)) > 10) {
+      if (Math.abs(schedule.scheduleDiv.scrollLeft - scrollPosition) > 10) {
         requestAnimationFrame(retrySetScroll)
       }
-      scrollTo(nowPosition - 200, 0)
+      schedule.scheduleDiv.scrollTo(scrollPosition, 0);
     }
     requestAnimationFrame(retrySetScroll)
   }
