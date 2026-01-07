@@ -10,7 +10,7 @@ export const eventTypeColors = {
   "Species": "#a79",
   "Social": "#152",
   "Writing": "#860",
-  "Rehearsal": "#62a"
+  "Unknown": "#62a"
 }
 
 export const eventTypeOrdering = [
@@ -25,7 +25,7 @@ export const eventTypeOrdering = [
   "Education",
   "Social",
   "Writing",
-  "Rehearsal"
+  "Unknown"
 ]
 
 export const shortLocationNames = {
