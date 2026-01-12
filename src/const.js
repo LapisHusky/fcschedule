@@ -47,7 +47,8 @@ export const shortLocationNames = {
   "SJCC: 211B (Photoshoot)": "SJCC: 211B",
   "SJCC: Zookeepers (SR4)": "SJCC: SR4",
   "SJCC: AD Dealer's Den (212)": "SJCC: 212",
-  "SJCC: 113 (Pop-Up Fursuit Lounge)": "SJCC: 113"
+  "SJCC: 113 (Pop-Up Fursuit Lounge)": "SJCC: 113",
+  "SJCC: 220B'C' (Arcade)": "SJCC: 220B'C'"
 }
 
 export const cohesiveLocationOrder = [
@@ -69,10 +70,12 @@ export const cohesiveLocationOrder = [
   "SJCC: Parade Plans",
   "Tech: Exhibit Hall",
   "Hilton: Gaming (Market)",
+  "SJCC: 220B'C' (Arcade)",
   "SJCC: Registration (The Hub)",
   "SJCC: Dealers Den (LL20BCD/LL21BCDEF)",
   "SJCC: AD Dealer's Den (212)",
   "Hilton: Art Show (Almaden Ballroom)",
+  "Marriott: Willow Glen I-II",
   "Hilton: Escape Room (Winchester I)",
   "SJCC: 220C (Fursuit Lounge)",
   "Marriott: Fursuit Lounge (San Carlos)",
