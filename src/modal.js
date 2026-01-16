@@ -2,27 +2,27 @@ import { eventTypeOrdering, eventTypeColors } from "./const.js"
 import { setTrackVisibility, settings, setZoom, setShowMaturity } from "./settings.js"
 import { schedule } from "./index.js"
 
-let container = document.getElementById("modalcontainer")
+const container = document.getElementById("modalcontainer")
 
-let eventinfomodal = document.getElementById("eventinfomodal")
-let eventinfoname = document.getElementById("eventinfoname")
-let eventinfodescription = document.getElementById("eventinfodescription")
-let eventinfopresenters = document.getElementById("eventinfopresenters")
-let eventinfopresenterslinebreak = document.getElementById("eventinfopresenterslinebreak")
-let eventinfotimeplace = document.getElementById("eventinfotimeplace")
-let eventinfotype = document.getElementById("eventinfotype")
+const eventinfomodal = document.getElementById("eventinfomodal")
+const eventinfoname = document.getElementById("eventinfoname")
+const eventinfodescription = document.getElementById("eventinfodescription")
+const eventinfopresenters = document.getElementById("eventinfopresenters")
+const eventinfopresenterslinebreak = document.getElementById("eventinfopresenterslinebreak")
+const eventinfotimeplace = document.getElementById("eventinfotimeplace")
+const eventinfotype = document.getElementById("eventinfotype")
 
-let settingsbutton = document.getElementById("settingsbutton")
-let settingsmodal = document.getElementById("settingsmodal")
+const settingsbutton = document.getElementById("settingsbutton")
+const settingsmodal = document.getElementById("settingsmodal")
 
-let settingsshow18plus = document.getElementById("settingsshow18plus");
-let settingsshowgeneral = document.getElementById("settingsshowgeneral");
-let settingsshowfamily = document.getElementById("settingsshowfamily");
+const settingsshow18plus = document.getElementById("settingsshow18plus");
+const settingsshowgeneral = document.getElementById("settingsshowgeneral");
+const settingsshowfamily = document.getElementById("settingsshowfamily");
 
-let settingsaftertracks = document.getElementById("settingsaftertracks")
-let settingszoomnormal = document.getElementById("settingszoomnormal")
-let settingszoomplus = document.getElementById("settingszoomplus")
-let settingszoomminus = document.getElementById("settingszoomminus")
+const settingsaftertracks = document.getElementById("settingsaftertracks")
+const settingszoomnormal = document.getElementById("settingszoomnormal")
+const settingszoomplus = document.getElementById("settingszoomplus")
+const settingszoomminus = document.getElementById("settingszoomminus")
 
 export function showEventModal(event) {
   container.style.display = "flex"
@@ -37,10 +37,10 @@ export function showEventModal(event) {
     eventinfopresenters.innerText = ""
     eventinfopresenterslinebreak.style.display = "none"
   }
-  let startTime = event.start.toLocaleString("en-US", {hour: "numeric", minute: "numeric", timeZone: "America/Los_Angeles"})
-  let endTime = event.end.toLocaleString("en-US", {hour: "numeric", minute: "numeric", timeZone: "America/Los_Angeles"})
-  let startDay = event.start.toLocaleString("en-US", {weekday: "long", timeZone: "America/Los_Angeles"})
-  let endDay = event.end.toLocaleString("en-US", {weekday: "long", timeZone: "America/Los_Angeles"})
+  const startTime = event.start.toLocaleString("en-US", {hour: "numeric", minute: "numeric", timeZone: "America/Los_Angeles"})
+  const endTime = event.end.toLocaleString("en-US", {hour: "numeric", minute: "numeric", timeZone: "America/Los_Angeles"})
+  const startDay = event.start.toLocaleString("en-US", {weekday: "long", timeZone: "America/Los_Angeles"})
+  const endDay = event.end.toLocaleString("en-US", {weekday: "long", timeZone: "America/Los_Angeles"})
   eventinfotimeplace.innerText = event.location
   if (startDay === endDay) {
     eventinfotimeplace.innerText += " - " + startDay + ", " + startTime + " to " + endTime
@@ -90,22 +90,22 @@ settingsshowfamily.addEventListener("change", () => {
 });
 
 let isFirstTrack = true
-for (let track of eventTypeOrdering) {
+for (const track of eventTypeOrdering) {
   if (isFirstTrack) {
     isFirstTrack = false
   } else {
     settingsaftertracks.insertAdjacentElement("beforebegin", document.createElement("br"))
   }
 
-  let name = "settingstracktoggle-" + track
+  const name = "settingstracktoggle-" + track
 
-  let checkbox = document.createElement("input")
+  const checkbox = document.createElement("input")
   checkbox.type = "checkbox"
   checkbox.name = name
   checkbox.checked = !settings.hiddenTracks.includes(track)
   checkbox.classList.add("settingscheckbox")
   settingsaftertracks.insertAdjacentElement("beforebegin", checkbox)
-  let label = document.createElement("label")
+  const label = document.createElement("label")
   label.for = name
   label.innerText = track
   label.classList.add("trackvisibilitytogglelabel")

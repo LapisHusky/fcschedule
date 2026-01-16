@@ -24,7 +24,7 @@ if (settings === undefined) {
 
 async function awaitToSetDefaultZoom() {
   await schedule.initialComputePromise
-  let value = schedule.getFullscreenZoom()
+  const value = schedule.getFullscreenZoom()
   settings.zoom = value
   document.body.style.zoom = value
 }

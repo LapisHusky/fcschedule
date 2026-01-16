@@ -38,15 +38,15 @@ class Event {
 
     this.div.style.width = width + "px"
     this.div.innerHtml = ""
-    let hoursWide = width / 200
+    const hoursWide = width / 200
     if (hoursWide < 4) {
-      let textDiv = document.createElement("div")
+      const textDiv = document.createElement("div")
       textDiv.innerText = this.name
       textDiv.classList.add("eventtextblock")
       this.div.appendChild(textDiv)
     } else {
       for (let i = 0; i <= hoursWide - 2; i += 2) {
-        let textDiv = document.createElement("div")
+        const textDiv = document.createElement("div")
         textDiv.innerText = this.name
         textDiv.classList.add("eventtextblock")
         textDiv.style.left = i * 200 + "px"
@@ -64,7 +64,7 @@ class Time {
 
     this.div = document.createElement("div")
     this.div.classList.add("timeblock")
-    
+
     let displayText = this.date.toLocaleString("en-US", {weekday: "long", timeZone: "America/Los_Angeles"}) + " "
     let hour = this.date.toLocaleString("en-US", {hour: "numeric", timeZone: "America/Los_Angeles"})
     if (hour === "12 PM") {
@@ -81,7 +81,7 @@ class TimeGap {
   constructor(index) {
     this.gap = true
     this.index = index
-    
+
     this.div = document.createElement("div")
     this.div.classList.add("timeblock")
     this.div.style.backgroundColor = "#666"
@@ -104,9 +104,9 @@ class CurrentTimeIndicator {
   }
 
   updatePosition() {
-    let now = Date.now()
-    let firstTime = this.schedule.xAxisItems[0]
-    let lastTime = this.schedule.xAxisItems[this.schedule.xAxisItems.length - 1]
+    const now = Date.now()
+    const firstTime = this.schedule.xAxisItems[0]
+    const lastTime = this.schedule.xAxisItems[this.schedule.xAxisItems.length - 1]
     let barVisible = true
     if (now < firstTime.date.getTime()) {
       barVisible = false
@@ -126,9 +126,9 @@ class CurrentTimeIndicator {
     }
 
     let hourBlock = this.schedule.xAxisItems[0]
-    for (let item of this.schedule.xAxisItems) {
+    for (const item of this.schedule.xAxisItems) {
       if (item.gap) continue
-      let itemTime = item.date.getTime()
+      const itemTime = item.date.getTime()
       if (itemTime < now) {
         hourBlock = item
       } else {
@@ -142,7 +142,7 @@ class CurrentTimeIndicator {
     } else if (timeOffset > 1) {
       timeOffset = 1
     }
-    let xPosition = (hourBlock.index + timeOffset) * 200
+    const xPosition = (hourBlock.index + timeOffset) * 200
 
     this.mainDiv.style.left = xPosition + "px"
     this.secondaryDiv.style.left = xPosition + "px"
@@ -188,12 +188,12 @@ export class ScheduleArea {
   }
 
   addEvent(data) {
-    let event = new Event(data);
+    const event = new Event(data);
     this.events.set(event.id, event);
   }
 
   addLocation(data) {
-    let location = new Location(data, this.yAxisItems.length)
+    const location = new Location(data, this.yAxisItems.length)
     this.yAxisItems.push(location)
     this.yAxisDiv.appendChild(location.div)
   }
@@ -205,14 +205,14 @@ export class ScheduleArea {
 
   addTimeRange(start, end) {
     if (this.xAxisItems.length) {
-      let divider = new TimeGap(this.xAxisItems.length)
+      const divider = new TimeGap(this.xAxisItems.length)
       this.xAxisItems.push(divider)
       this.xAxisDiv.appendChild(divider.div)
     }
 
     start = new Date(start).getTime()
     end = new Date(end).getTime()
-    
+
     let value = start
     while (value < end) {
       let time = new Time(value, this.xAxisItems.length)
@@ -231,7 +231,7 @@ export class ScheduleArea {
     this.cornerDiv.style.width = this.yAxisWidth + "px";
 
     //check what events should be visible
-    for (let event of this.events.values()) {
+    for (const event of this.events.values()) {
       if (event.maturity === "18+" && !settings.shownMaturity.adult) {
         event.visible = false
         continue
@@ -253,27 +253,27 @@ export class ScheduleArea {
     while (this.yAxisItems.length) {
       this.removeLocation(this.yAxisItems[0])
     }
-    let presentEventLocations = new Set()
-    for (let event of this.events.values()) {
+    const presentEventLocations = new Set()
+    for (const event of this.events.values()) {
       if (!event.visible) continue
       presentEventLocations.add(event.location)
     }
-    for (let location of cohesiveLocationOrder) {
+    for (const location of cohesiveLocationOrder) {
       if (presentEventLocations.has(location)) this.addLocation(location)
     }
-    for (let location of presentEventLocations.values()) {
+    for (const location of presentEventLocations.values()) {
       if (!cohesiveLocationOrder.includes(location)) this.addLocation(location)
     }
 
     //resize container divs to ensure scrolling and background and stuff works properly
-    let wholeWidth = this.xAxisItems.length * 200
-    let wholeHeight = this.yAxisItems.length * 40
+    const wholeWidth = this.xAxisItems.length * 200
+    const wholeHeight = this.yAxisItems.length * 40
     this.poolDiv.style.width = wholeWidth + "px"
     this.poolDiv.style.height = wholeHeight + "px"
     this.poolDiv.replaceChildren(); //remove all children
 
     //position event blocks within pool
-    for (let event of this.events.values()) {
+    for (const event of this.events.values()) {
       if (!event.visible) {
         continue;
       }
@@ -284,8 +284,8 @@ export class ScheduleArea {
       }
       event.div.style.top = locationBlock.index * 40 + "px"
 
-      let startTimestamp = event.start.getTime()
-      let endTimestamp = event.end.getTime()
+      const startTimestamp = event.start.getTime()
+      const endTimestamp = event.end.getTime()
       let hourBlock = this.xAxisItems[0]
       let endHourBlock = hourBlock
       for (let item of this.xAxisItems) {
@@ -298,7 +298,7 @@ export class ScheduleArea {
           endHourBlock = item
         }
       }
-      
+
       let leftPos = hourBlock.index * 200
       leftPos += 200 * ((startTimestamp - hourBlock.date.getTime()) / 36e5)
       event.div.style.left = leftPos + "px"
@@ -314,16 +314,16 @@ export class ScheduleArea {
 
     //create gridlines
     for (let x = 1; x < this.xAxisDiv.children.length; x++) {
-      let linePos = x * 200
-      let line = document.createElement("div")
+      const linePos = x * 200
+      const line = document.createElement("div")
       line.classList.add("vertgridline")
       line.style.left = linePos + "px"
       line.style.height = wholeHeight + "px"
       this.poolDiv.appendChild(line)
     }
     for (let y = 1; y < this.yAxisDiv.children.length; y++) {
-      let linePos = y * 40
-      let line = document.createElement("div")
+      const linePos = y * 40
+      const line = document.createElement("div")
       line.classList.add("horgridline")
       line.style.top = linePos + "px"
       line.style.width = wholeWidth + "px"
